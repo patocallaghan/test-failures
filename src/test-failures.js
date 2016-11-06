@@ -60,7 +60,7 @@ const fs = require('fs');
 const generateOutput = require('./generate-output.js');
 
 var TestFailures = {
-  run(directory) {
+  run(directory = 'seeds') {
     let output = {};
     let filenames = fs.readdirSync(directory);
     filenames.forEach(function(filename) {

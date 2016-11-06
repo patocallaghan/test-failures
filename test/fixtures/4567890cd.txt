@@ -27,3 +27,4 @@ not ok 42 Chrome 54.0 - Exam Partition #4 - Team Acquire | Integration: Show pag
 ok 43 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/apps/app/messages/partials/editor/-minimized-message-goal-editor.hbs: should pass TemplateLint
 ok 44 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: displays the correct text for chat
 ok 45 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Directly loading the replied stats page
+not ok 46 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Unit: Controller – Apps / App / Settings / Messenger: parsed domains returns correct string

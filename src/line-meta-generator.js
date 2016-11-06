@@ -3,7 +3,11 @@ const PARTITION_REGEX = /Exam Partition #(\d+)/;
 const TEST_TITLE_REGEX = /Exam Partition #\d+ - (.*?)$/m;
 
 function getTeam(line) {
-  return TEAM_REGEX.exec(line)[0].toLowerCase().replace('team ', '');
+  let match = TEAM_REGEX.exec(line);
+  if (!match && line.includes('model:selection-state')) {
+    return 'observe';
+  }
+  return match[0].toLowerCase().replace('team ', '');
 }
 
 function getPartition(line) {

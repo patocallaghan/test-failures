@@ -18,9 +18,12 @@ function processTestsMeta(testsMeta, finalOutput) {
       let team = finalOutput[meta.team];
       if (!team.failingTests.includes(meta.testName)) {
         team.failingTests.push(meta.testName);
+        team.failingTests.sort();
+        testSeedInfo[meta.seed] = meta.partition;
+        team.testMeta[meta.testName] = testSeedInfo;
+      } else {
+        team.testMeta[meta.testName][meta.seed] = meta.partition;
       }
-      testSeedInfo[meta.seed] = meta.partition;
-      team.testMeta[meta.testName] = testSeedInfo;
     }
   });
   return finalOutput;

@@ -1,0 +1,1799 @@
+{
+  "observe": {
+    "failingTests": [
+      "Team Observe | Integration: Admin Profile: Admin Profile loads activity stream data",
+      "Team Observe | Integration: Admin Profile: Admin Profile loads admin and associated details",
+      "Team Observe | Integration: Admin Profile: Admin Profile loads conversations route",
+      "Team Observe | Integration: Admin Profile: You can edit the admin intro",
+      "Team Observe | Integration: Admin Profile: You can edit the admin job",
+      "Team Observe | Integration: Admin Profile: You can edit the admin name",
+      "Team Observe | Integration: Company List: The company list table should have a consistent number of columns",
+      "Team Observe | Integration: User List - Bulk Actions - Delete: The delete modal closes when dismissed",
+      "Team Observe | Integration: User List - Bulk Actions - Delete: The delete modal opens on click",
+      "Team Observe | Integration: User List - Selection: Pressing x on a highlighted user selects them",
+      "Team Observe | Integration: User List - Selection: Selecting and deselecting a user changes the selected users counter",
+      "Team Observe | Integration: User List - Selection: The user changes state when deselected",
+      "Team Observe | Integration: User List - Selection: The user changes state when selected",
+      "Team Observe | Integration: User Profile: Clicking add tag opens the modal",
+      "Team Observe | Unit: Component Segment Search Component: the onDown functionality works as expected",
+      "Team Observe | Unit: Component Segment Search Component: the onEnter functionality works as expected",
+      "Team Observe | Unit: Component Segment Search Component: the onUp functionality works as expected",
+      "model:selection-state - company selection state to user selection state: Converting company selection ids to user selection predicates",
+      "model:selection-state - company selection state to user selection state: Converting company selection to user selection with a search term and deselected ids",
+      "model:selection-state - company selection state to user selection state: Converting company selection to user selection with a select all and deselected ids",
+      "segment-filter/tag-predicate-component | Integration | Component | Team Observe | Integration: Component - Segment Filter Tag Predicate: The \"All\" segment isnt displayed when isAudienceEditor=true",
+      "segment-filter/tag-predicate-component | Integration | Component | Team Observe | Integration: Component - Segment Filter Tag Predicate: clicking \"is\" option shows a select",
+      "segment-filter/tag-predicate-component | Integration | Component | Team Observe | Integration: Component - Segment Filter Tag Predicate: clicking \"is-not\" option shows a select"
+    ],
+    "testMeta": {
+      "Team Observe | Integration: Admin Profile: You can edit the admin intro": {
+        "c1kofdt06d4f4jg439xoe0zfr": "1",
+        "f08y9w0a7x6uipsniostuo9a4i": "1",
+        "kvqfssr23c5zpt4n3114z33di": "1",
+        "kzpu90r87l1gc1s3dachm2t9": "1",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "1",
+        "thorf58arj24ek4trlll680k9": "1"
+      },
+      "Team Observe | Integration: Admin Profile: You can edit the admin name": {
+        "c1kofdt06d4f4jg439xoe0zfr": "1",
+        "f08y9w0a7x6uipsniostuo9a4i": "1",
+        "kvqfssr23c5zpt4n3114z33di": "1",
+        "kzpu90r87l1gc1s3dachm2t9": "1",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "1",
+        "thorf58arj24ek4trlll680k9": "1"
+      },
+      "Team Observe | Integration: Admin Profile: You can edit the admin job": {
+        "c1kofdt06d4f4jg439xoe0zfr": "1",
+        "f08y9w0a7x6uipsniostuo9a4i": "1",
+        "kvqfssr23c5zpt4n3114z33di": "1",
+        "kzpu90r87l1gc1s3dachm2t9": "1",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "1",
+        "thorf58arj24ek4trlll680k9": "1"
+      },
+      "Team Observe | Integration: Company List: The company list table should have a consistent number of columns": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "segment-filter/tag-predicate-component | Integration | Component | Team Observe | Integration: Component - Segment Filter Tag Predicate: The \"All\" segment isnt displayed when isAudienceEditor=true": {
+        "c1kofdt06d4f4jg439xoe0zfr": "17",
+        "f08y9w0a7x6uipsniostuo9a4i": "17",
+        "kvqfssr23c5zpt4n3114z33di": "17",
+        "kzpu90r87l1gc1s3dachm2t9": "17",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "17",
+        "thorf58arj24ek4trlll680k9": "17"
+      },
+      "segment-filter/tag-predicate-component | Integration | Component | Team Observe | Integration: Component - Segment Filter Tag Predicate: clicking \"is-not\" option shows a select": {
+        "c1kofdt06d4f4jg439xoe0zfr": "17",
+        "kvqfssr23c5zpt4n3114z33di": "17",
+        "kzpu90r87l1gc1s3dachm2t9": "17",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "17",
+        "thorf58arj24ek4trlll680k9": "17"
+      },
+      "segment-filter/tag-predicate-component | Integration | Component | Team Observe | Integration: Component - Segment Filter Tag Predicate: clicking \"is\" option shows a select": {
+        "c1kofdt06d4f4jg439xoe0zfr": "17",
+        "f08y9w0a7x6uipsniostuo9a4i": "17",
+        "kvqfssr23c5zpt4n3114z33di": "17",
+        "kzpu90r87l1gc1s3dachm2t9": "17",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "17",
+        "thorf58arj24ek4trlll680k9": "17"
+      },
+      "Team Observe | Integration: User List - Bulk Actions - Delete: The delete modal closes when dismissed": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kzpu90r87l1gc1s3dachm2t9": "18",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "18",
+        "thorf58arj24ek4trlll680k9": "18"
+      },
+      "Team Observe | Integration: User List - Bulk Actions - Delete: The delete modal opens on click": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "kvqfssr23c5zpt4n3114z33di": "18",
+        "kzpu90r87l1gc1s3dachm2t9": "18",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "18",
+        "thorf58arj24ek4trlll680k9": "18"
+      },
+      "Team Observe | Integration: User Profile: Clicking add tag opens the modal": {
+        "c1kofdt06d4f4jg439xoe0zfr": "24",
+        "f08y9w0a7x6uipsniostuo9a4i": "24",
+        "kvqfssr23c5zpt4n3114z33di": "24",
+        "kzpu90r87l1gc1s3dachm2t9": "24",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "24",
+        "thorf58arj24ek4trlll680k9": "24"
+      },
+      "Team Observe | Integration: User List - Selection: Selecting and deselecting a user changes the selected users counter": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kzpu90r87l1gc1s3dachm2t9": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Observe | Integration: User List - Selection: The user changes state when selected": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Observe | Unit: Component Segment Search Component: the onUp functionality works as expected": {
+        "c1kofdt06d4f4jg439xoe0zfr": "41"
+      },
+      "Team Observe | Unit: Component Segment Search Component: the onDown functionality works as expected": {
+        "c1kofdt06d4f4jg439xoe0zfr": "41",
+        "kvqfssr23c5zpt4n3114z33di": "41"
+      },
+      "model:selection-state - company selection state to user selection state: Converting company selection to user selection with a search term and deselected ids": {
+        "c1kofdt06d4f4jg439xoe0zfr": "48",
+        "f08y9w0a7x6uipsniostuo9a4i": "48",
+        "kvqfssr23c5zpt4n3114z33di": "48",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "48",
+        "thorf58arj24ek4trlll680k9": "48"
+      },
+      "model:selection-state - company selection state to user selection state: Converting company selection to user selection with a select all and deselected ids": {
+        "c1kofdt06d4f4jg439xoe0zfr": "48",
+        "f08y9w0a7x6uipsniostuo9a4i": "48",
+        "kvqfssr23c5zpt4n3114z33di": "48",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "48",
+        "thorf58arj24ek4trlll680k9": "48"
+      },
+      "model:selection-state - company selection state to user selection state: Converting company selection ids to user selection predicates": {
+        "c1kofdt06d4f4jg439xoe0zfr": "48",
+        "f08y9w0a7x6uipsniostuo9a4i": "48",
+        "kvqfssr23c5zpt4n3114z33di": "48",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "48",
+        "thorf58arj24ek4trlll680k9": "48"
+      },
+      "Team Observe | Integration: Admin Profile: Admin Profile loads admin and associated details": {
+        "kvqfssr23c5zpt4n3114z33di": "1",
+        "kzpu90r87l1gc1s3dachm2t9": "1"
+      },
+      "Team Observe | Integration: User List - Selection: Pressing x on a highlighted user selects them": {
+        "kvqfssr23c5zpt4n3114z33di": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Observe | Integration: User List - Selection: The user changes state when deselected": {
+        "kvqfssr23c5zpt4n3114z33di": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Observe | Unit: Component Segment Search Component: the onEnter functionality works as expected": {
+        "kvqfssr23c5zpt4n3114z33di": "41"
+      },
+      "Team Observe | Integration: Admin Profile: Admin Profile loads activity stream data": {
+        "kzpu90r87l1gc1s3dachm2t9": "1"
+      },
+      "Team Observe | Integration: Admin Profile: Admin Profile loads conversations route": {
+        "kzpu90r87l1gc1s3dachm2t9": "1"
+      }
+    }
+  },
+  "acquire": {
+    "failingTests": [
+      "Team Acquire | Acceptance | Teammate Settings: Changing permissions for an invite",
+      "Team Acquire | Acceptance | Teammate Settings: Inviting a member to the app",
+      "Team Acquire | Integration: Component - Team - Member Component: clicking on remove a teammate should open the delete teammate modal",
+      "Team Acquire | Integration: Component - Team - Member Component: should display avatars of all teams that the admin belongs to",
+      "Team Acquire | Integration: Component - Team - Team Member Component: clicking on remove a teammate should call removeMember action",
+      "Team Acquire | Integration: Messages - Visitor Auto Message List V2: Acquire Standard customers can see the visitor auto message list and do not see the paywall icon for new messages",
+      "Team Acquire | Integration: Messages - Visitor Auto Message List V2: Loading auto messages in the live message list",
+      "Team Acquire | Integration: Messages - Visitor Auto Message List V2: Loading auto messages in the paused message list",
+      "Team Acquire | Integration: Messages - Visitor Auto Message List V2: Searching messages",
+      "Team Acquire | Integration: Show page for visitor auto messages: Can update live/paused state",
+      "Team Acquire | Integration: Show page for visitor auto messages: correct buttons are visible",
+      "Team Acquire | Unit: Component - Team - Pending Invite Component: clicking on resend invitation button should call resend on admin model",
+      "Team Acquire | Unit: Component - Team - Pending Invite Component: clicking on revoke invitation button and confirming the modal should call deleteRecord on admin model"
+    ],
+    "testMeta": {
+      "Team Acquire | Integration: Messages - Visitor Auto Message List V2: Searching messages": {
+        "c1kofdt06d4f4jg439xoe0zfr": "1",
+        "f08y9w0a7x6uipsniostuo9a4i": "1",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "1",
+        "kvqfssr23c5zpt4n3114z33di": "1",
+        "kzpu90r87l1gc1s3dachm2t9": "1",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "1",
+        "thorf58arj24ek4trlll680k9": "1"
+      },
+      "Team Acquire | Integration: Messages - Visitor Auto Message List V2: Acquire Standard customers can see the visitor auto message list and do not see the paywall icon for new messages": {
+        "c1kofdt06d4f4jg439xoe0zfr": "1",
+        "f08y9w0a7x6uipsniostuo9a4i": "1",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "1",
+        "kvqfssr23c5zpt4n3114z33di": "1",
+        "kzpu90r87l1gc1s3dachm2t9": "1",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "1",
+        "thorf58arj24ek4trlll680k9": "1"
+      },
+      "Team Acquire | Integration: Messages - Visitor Auto Message List V2: Loading auto messages in the paused message list": {
+        "c1kofdt06d4f4jg439xoe0zfr": "1",
+        "f08y9w0a7x6uipsniostuo9a4i": "1",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "1",
+        "kvqfssr23c5zpt4n3114z33di": "1",
+        "kzpu90r87l1gc1s3dachm2t9": "1",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "1",
+        "thorf58arj24ek4trlll680k9": "1"
+      },
+      "Team Acquire | Integration: Messages - Visitor Auto Message List V2: Loading auto messages in the live message list": {
+        "c1kofdt06d4f4jg439xoe0zfr": "1",
+        "f08y9w0a7x6uipsniostuo9a4i": "1",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "1",
+        "kvqfssr23c5zpt4n3114z33di": "1",
+        "kzpu90r87l1gc1s3dachm2t9": "1",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "1",
+        "thorf58arj24ek4trlll680k9": "1"
+      },
+      "Team Acquire | Integration: Show page for visitor auto messages: correct buttons are visible": {
+        "c1kofdt06d4f4jg439xoe0zfr": "4",
+        "f08y9w0a7x6uipsniostuo9a4i": "4",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "4",
+        "kvqfssr23c5zpt4n3114z33di": "4",
+        "kzpu90r87l1gc1s3dachm2t9": "4",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "4",
+        "thorf58arj24ek4trlll680k9": "4"
+      },
+      "Team Acquire | Integration: Show page for visitor auto messages: Can update live/paused state": {
+        "c1kofdt06d4f4jg439xoe0zfr": "4",
+        "f08y9w0a7x6uipsniostuo9a4i": "4",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "4",
+        "kvqfssr23c5zpt4n3114z33di": "4",
+        "kzpu90r87l1gc1s3dachm2t9": "4",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "4",
+        "thorf58arj24ek4trlll680k9": "4"
+      },
+      "Team Acquire | Integration: Component - Team - Member Component: should display avatars of all teams that the admin belongs to": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Acquire | Integration: Component - Team - Team Member Component: clicking on remove a teammate should call removeMember action": {
+        "c1kofdt06d4f4jg439xoe0zfr": "17",
+        "f08y9w0a7x6uipsniostuo9a4i": "17",
+        "kvqfssr23c5zpt4n3114z33di": "17",
+        "kzpu90r87l1gc1s3dachm2t9": "17",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "17",
+        "thorf58arj24ek4trlll680k9": "17"
+      },
+      "Team Acquire | Acceptance | Teammate Settings: Changing permissions for an invite": {
+        "c1kofdt06d4f4jg439xoe0zfr": "38",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "38",
+        "thorf58arj24ek4trlll680k9": "38"
+      },
+      "Team Acquire | Acceptance | Teammate Settings: Inviting a member to the app": {
+        "c1kofdt06d4f4jg439xoe0zfr": "38",
+        "kvqfssr23c5zpt4n3114z33di": "38",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "38",
+        "thorf58arj24ek4trlll680k9": "38"
+      },
+      "Team Acquire | Unit: Component - Team - Pending Invite Component: clicking on revoke invitation button and confirming the modal should call deleteRecord on admin model": {
+        "kvqfssr23c5zpt4n3114z33di": "50",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "50"
+      },
+      "Team Acquire | Unit: Component - Team - Pending Invite Component: clicking on resend invitation button should call resend on admin model": {
+        "kvqfssr23c5zpt4n3114z33di": "50",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "50"
+      },
+      "Team Acquire | Integration: Component - Team - Member Component: clicking on remove a teammate should open the delete teammate modal": {
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      }
+    }
+  },
+  "support": {
+    "failingTests": [
+      "Team Support 1 | Integration: Component - Controls Component | Integration | Component | conversation/controls/controls-component: creating a part",
+      "Team Support 1 | Integration: Inbox - Assignee Selector Bar: The team selector displays the correct team when you deeplink to a teams inbox and team members inboxes are shown",
+      "Team Support 1 | Integration: Inbox - Conversation Controls: Implicit assignment should show an auto-assign message",
+      "Team Support 2 | Acceptance: Assignment Rules: Changing state shows notification",
+      "Team Support 2 | Acceptance: Assignment Rules: Collapsing a rule card updates the URL",
+      "Team Support 2 | Acceptance: Assignment Rules: Creating a rule adds a new rule card to the page which is removed when cancelled",
+      "Team Support 2 | Acceptance: Assignment Rules: Editing a rule displays a confirmation modal on cancel whent the rule is dirty",
+      "Team Support 2 | Acceptance: Assignment Rules: Expanding a rule card updates the URL",
+      "Team Support 2 | Acceptance: Assignment Rules: Rules page displays the correct elements when there are rules",
+      "Team Support 2 | Acceptance: Assignment Rules: Save and set live shows notification",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Clearing the search query",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Clicking the create link in the saved replies popover opens the modal in create mode",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Clicking the manage link in the saved replies popover opens the modal",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Creating a new saved reply",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Editing an existing saved reply",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Inserting a saved reply with attributes",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Saving a reply validates that name and body are not empty",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Saving a reply validates that name doesnt exceed maximum length",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Saving a reply with an attribute that has REPLACE_THIS in the fallback",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Searching for a saved reply that doesnt exist",
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Searching for a saved reply that exists",
+      "Team Support 2 | Integration: Inbox - Search: Doing a search causes a search with params",
+      "Team Support 2 | Integration: Inbox - Search: Doing a tag search causes a search with params",
+      "Team Support 2 | Integration: Inbox - Search: Executing the same search a second time does not re-run the search",
+      "Team Support 2 | Integration: Inbox - Single Conversation View: A part is added when we recieve a thread_assigned event",
+      "Team Support 2 | Integration: Inbox - Single Conversation View: A part is added when we recieve a thread_closed event",
+      "Team Support 2 | Integration: Inbox - Single Conversation View: A part is added when we recieve a thread_reopened event",
+      "Team Support 2 | Integration: Inbox - Single Conversation View: A part is added when we recieve a thread_updated event",
+      "Team Support 2 | Unit: Component - Camera Popover: It should request a MediaStream on open",
+      "Team Support 2 | Unit: Component - Conversation Summary: Admin comment with name"
+    ],
+    "testMeta": {
+      "Team Support 2 | Unit: Component - Camera Popover: It should request a MediaStream on open": {
+        "c1kofdt06d4f4jg439xoe0zfr": "3",
+        "f08y9w0a7x6uipsniostuo9a4i": "3",
+        "kvqfssr23c5zpt4n3114z33di": "3",
+        "kzpu90r87l1gc1s3dachm2t9": "3",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "3"
+      },
+      "Team Support 2 | Acceptance: Assignment Rules: Rules page displays the correct elements when there are rules": {
+        "c1kofdt06d4f4jg439xoe0zfr": "21",
+        "f08y9w0a7x6uipsniostuo9a4i": "21",
+        "kzpu90r87l1gc1s3dachm2t9": "21",
+        "thorf58arj24ek4trlll680k9": "21"
+      },
+      "Team Support 2 | Acceptance: Assignment Rules: Changing state shows notification": {
+        "c1kofdt06d4f4jg439xoe0zfr": "21",
+        "f08y9w0a7x6uipsniostuo9a4i": "21",
+        "kzpu90r87l1gc1s3dachm2t9": "21"
+      },
+      "Team Support 2 | Acceptance: Assignment Rules: Collapsing a rule card updates the URL": {
+        "c1kofdt06d4f4jg439xoe0zfr": "21",
+        "f08y9w0a7x6uipsniostuo9a4i": "21",
+        "kzpu90r87l1gc1s3dachm2t9": "21",
+        "thorf58arj24ek4trlll680k9": "21"
+      },
+      "Team Support 2 | Acceptance: Assignment Rules: Save and set live shows notification": {
+        "c1kofdt06d4f4jg439xoe0zfr": "21",
+        "f08y9w0a7x6uipsniostuo9a4i": "21",
+        "thorf58arj24ek4trlll680k9": "21"
+      },
+      "Team Support 1 | Integration: Inbox - Conversation Controls: Implicit assignment should show an auto-assign message": {
+        "c1kofdt06d4f4jg439xoe0zfr": "24",
+        "f08y9w0a7x6uipsniostuo9a4i": "24",
+        "kvqfssr23c5zpt4n3114z33di": "24",
+        "kzpu90r87l1gc1s3dachm2t9": "24",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "24",
+        "thorf58arj24ek4trlll680k9": "24"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Clearing the search query": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kzpu90r87l1gc1s3dachm2t9": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Saving a reply validates that name and body are not empty": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kvqfssr23c5zpt4n3114z33di": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Inserting a saved reply with attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kvqfssr23c5zpt4n3114z33di": "28",
+        "kzpu90r87l1gc1s3dachm2t9": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Searching for a saved reply that exists": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kvqfssr23c5zpt4n3114z33di": "28",
+        "kzpu90r87l1gc1s3dachm2t9": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Searching for a saved reply that doesnt exist": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Saving a reply with an attribute that has REPLACE_THIS in the fallback": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kzpu90r87l1gc1s3dachm2t9": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Clicking the manage link in the saved replies popover opens the modal": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kzpu90r87l1gc1s3dachm2t9": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Editing an existing saved reply": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kzpu90r87l1gc1s3dachm2t9": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Saving a reply validates that name doesnt exceed maximum length": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kvqfssr23c5zpt4n3114z33di": "28",
+        "kzpu90r87l1gc1s3dachm2t9": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Clicking the create link in the saved replies popover opens the modal in create mode": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "f08y9w0a7x6uipsniostuo9a4i": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Saved Replies Modal: Creating a new saved reply": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kvqfssr23c5zpt4n3114z33di": "28",
+        "kzpu90r87l1gc1s3dachm2t9": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28"
+      },
+      "Team Support 2 | Integration: Inbox - Single Conversation View: A part is added when we recieve a thread_assigned event": {
+        "c1kofdt06d4f4jg439xoe0zfr": "30",
+        "f08y9w0a7x6uipsniostuo9a4i": "30",
+        "kvqfssr23c5zpt4n3114z33di": "30",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "30",
+        "thorf58arj24ek4trlll680k9": "30"
+      },
+      "Team Support 2 | Integration: Inbox - Single Conversation View: A part is added when we recieve a thread_reopened event": {
+        "c1kofdt06d4f4jg439xoe0zfr": "30",
+        "f08y9w0a7x6uipsniostuo9a4i": "30",
+        "kvqfssr23c5zpt4n3114z33di": "30",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "30",
+        "thorf58arj24ek4trlll680k9": "30"
+      },
+      "Team Support 2 | Integration: Inbox - Single Conversation View: A part is added when we recieve a thread_updated event": {
+        "c1kofdt06d4f4jg439xoe0zfr": "30",
+        "f08y9w0a7x6uipsniostuo9a4i": "30",
+        "kvqfssr23c5zpt4n3114z33di": "30",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "30",
+        "thorf58arj24ek4trlll680k9": "30"
+      },
+      "Team Support 2 | Integration: Inbox - Single Conversation View: A part is added when we recieve a thread_closed event": {
+        "c1kofdt06d4f4jg439xoe0zfr": "30",
+        "f08y9w0a7x6uipsniostuo9a4i": "30",
+        "kvqfssr23c5zpt4n3114z33di": "30",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "30",
+        "thorf58arj24ek4trlll680k9": "30"
+      },
+      "Team Support 2 | Acceptance: Assignment Rules: Expanding a rule card updates the URL": {
+        "f08y9w0a7x6uipsniostuo9a4i": "21",
+        "kzpu90r87l1gc1s3dachm2t9": "21",
+        "thorf58arj24ek4trlll680k9": "21"
+      },
+      "Team Support 2 | Acceptance: Assignment Rules: Editing a rule displays a confirmation modal on cancel whent the rule is dirty": {
+        "f08y9w0a7x6uipsniostuo9a4i": "21",
+        "kzpu90r87l1gc1s3dachm2t9": "21",
+        "thorf58arj24ek4trlll680k9": "21"
+      },
+      "Team Support 2 | Acceptance: Assignment Rules: Creating a rule adds a new rule card to the page which is removed when cancelled": {
+        "f08y9w0a7x6uipsniostuo9a4i": "21",
+        "kzpu90r87l1gc1s3dachm2t9": "21"
+      },
+      "Team Support 2 | Unit: Component - Conversation Summary: Admin comment with name": {
+        "kvqfssr23c5zpt4n3114z33di": "14"
+      },
+      "Team Support 1 | Integration: Inbox - Assignee Selector Bar: The team selector displays the correct team when you deeplink to a teams inbox and team members inboxes are shown": {
+        "thorf58arj24ek4trlll680k9": "22"
+      },
+      "Team Support 1 | Integration: Component - Controls Component | Integration | Component | conversation/controls/controls-component: creating a part": {
+        "thorf58arj24ek4trlll680k9": "25"
+      },
+      "Team Support 2 | Integration: Inbox - Search: Doing a search causes a search with params": {
+        "thorf58arj24ek4trlll680k9": "29"
+      },
+      "Team Support 2 | Integration: Inbox - Search: Executing the same search a second time does not re-run the search": {
+        "thorf58arj24ek4trlll680k9": "29"
+      },
+      "Team Support 2 | Integration: Inbox - Search: Doing a tag search causes a search with params": {
+        "thorf58arj24ek4trlll680k9": "29"
+      }
+    }
+  },
+  "engage": {
+    "failingTests": [
+      "Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: is in draft editing mode",
+      "Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: is in live mode",
+      "Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: is in stopped mode",
+      "Team Engage 1 | Integration: Component - Message Audience Editor Component | Integration | Component | message-audience-editor-component: It shows the correct text when it's a limited response",
+      "Team Engage 1 | Integration: Component - Message Audience Editor Component | Integration | Component | message-audience-editor-component: It shows the correct text when it's not a limited response",
+      "Team Engage 1 | Integration: Component - Message Content Editor | Integration | Component | messages/editor/message-content-editor: the company attributes explanation shows if the message contents contains company attributes",
+      "Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: renders the component",
+      "Team Engage 1 | Integration: Component - Message Editor Stats Bulk Actions | Integration | Component | message-editor/stats/bulk-actions: Clicking the button does not fire the actions when disabled",
+      "Team Engage 1 | Integration: Component - Message Editor Stats Bulk Actions | Integration | Component | message-editor/stats/bulk-actions: Clicking the button fires the actions",
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct options",
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct options for conversations",
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct options for failed",
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct options for replied",
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct options for replied on a visitor auto message",
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct selected state when open",
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct selected state when statistic is bounced",
+      "Team Engage 1 | Integration: Component - Message Editor Stats Pre Send Info | Integration | Component | message-editor/stats/pre-send-info: With a manual in-app message selection state that has a count and targets users",
+      "Team Engage 1 | Integration: Component - Message In-App Sidebar | Integration | Component | messages/editor/message-in-app-sidebar: Selecting reactions sets a default reaction set of four reactions",
+      "Team Engage 1 | Integration: Component - Message In-App Sidebar | Integration | Component | messages/editor/message-in-app-sidebar: it renders the replyType toggle for post and note but not for chat",
+      "Team Engage 1 | Integration: Component - Message In-App Sidebar | Integration | Component | messages/editor/message-in-app-sidebar: switching between note (or post) with reactions to chat (which cant have reactions) and back restores the reactions",
+      "Team Engage 1 | Integration: Component - Messages Editor In-App Reply Type Toggle | Integration | Component | messages/editor/controls/in-app-reply-type-toggle: the reactions button behaves correctly when clicked",
+      "Team Engage 1 | Integration: Messages - Message Editor - Content: Deleting reactions from a draft message doesn't show a warning modal",
+      "Team Engage 1 | Integration: Messages - Message Editor - Content: Deleting reactions from a live message shows a warning modal on the first edit only",
+      "Team Engage 1 | Integration: Messages - Message Editor - Content: Editing reactions from a live message shows a warning modal on the first edit only",
+      "Team Engage 1 | Integration: Messages - Message Editor - Stop Date: Stop date panel is not visible for manual messages",
+      "Team Engage 1 | Integration: Messages - Message Editor Save and Revert: Auto save does not trigger on opening a draft and opening each of the panels",
+      "Team Engage 1 | Integration: Messages - Message Editor Save and Revert: Auto save does not trigger on opening a draft and opening each of the panels with ember_engage_messenger_v3 enabled",
+      "Team Engage 1 | Integration: Messages - Message Editor Save and Revert: Auto save should trigger on editing a variation attribute",
+      "Team Engage 1 | Integration: Messages - Message Editor Save and Revert: Auto save should trigger on editing a variation attribute with ember_engage_messenger_v3 enabled",
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading live manual messges show sending badge",
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading manual messages in the draft message list",
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading manual messages in the scheduled message list",
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading manual messages in the sent message list",
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading manual messages in the sent message list does not show failed stats",
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading manual messages in the sent message list shows failed stats",
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Searching messages",
+      "Team Engage 1 | Integration: Messages - Message Scheduling: Channel editor opens a modal if switching a message with a message delivery window from email to in-app",
+      "Team Engage 1 | Integration: Messages - Message Scheduling: Message Scheduling Form schedule/cancel behaviour",
+      "Team Engage 1 | Integration: Messages - Message Scheduling: Removing Message Scheduling works correctly",
+      "Team Engage 1 | Integration: Messages Editor - Folders & Campaigns: Assigning a campaign message to a folder and visa versa",
+      "Team Engage 1 | Integration: Messages Editor - Folders & Campaigns: Editing the campaign in the Title Editing section",
+      "Team Engage 1 | Integration: Messages Editor - Folders & Campaigns: Editing the folder in the Title Editing section",
+      "Team Engage 1 | Unit: Component - Campaigns - Campaign Spacing Editor: Changing the spacing value works",
+      "Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with a campaign",
+      "Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with a folder",
+      "Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with no folder or campaign",
+      "Team Engage 1 | Unit: NewMessage Model: saving does not clobber the local copy of the message - Really a test of RestAdapter(WithReload)",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Acquire show page",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Acquire show page direct url",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Engage Auto show page",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Engage Auto show page direct url",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Engage Manual show page",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Engage Manual show page direct url",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Acquire show page",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Acquire show page direct url",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Engage Auto show page",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Engage Auto show page direct url",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Engage Manual show page",
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Engage Manual show page direct url",
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Acquire message from index",
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Always reroute to acquire beckett housing for visitor auto messages",
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Always reroute to engage beckett housing for auto messages",
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Always reroute to engage beckett housing for manual messages",
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Engage auto message from index",
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Engage manual message from index",
+      "Team Engage 2 | Integration: Component | Marketo Unsubscribe | Integration | Component | integrations-hub/marketo-unsubscribe: Button after entering API details",
+      "Team Engage 2 | Integration: Component | Marketo Unsubscribe | Integration | Component | integrations-hub/marketo-unsubscribe: Button before entering API details",
+      "Team Engage 2 | Integration: Component | Marketo Unsubscribe | Integration | Component | integrations-hub/marketo-unsubscribe: Disabling integration",
+      "Team Engage 2 | Integration: Component | Marketo Unsubscribe | Integration | Component | integrations-hub/marketo-unsubscribe: Enabling integration",
+      "Team Engage 2 | Integration: Component | Marketo Unsubscribe | Integration | Component | integrations-hub/marketo-unsubscribe: Offer to remove other active unsubscribe integration",
+      "Team Engage 2 | Integration: Messages - Message Show Page: Message Show page shows the delivery window panel and pending users count",
+      "Team Engage 2 | Integration: Messages - Message Show Page: Show auto message stats page filters have correct paths",
+      "Team Engage 2 | Integration: Messages - Message Show Page: Show manual message stats page filters have correct paths",
+      "Team Engage 2 | Integration: Messages - Mobile Push: Enabling and editing a Mobile Push message triggers a modal if the content panel has been opened",
+      "Team Engage 2 | Integration: Messages - Mobile Push: Enabling and editing a Mobile Push message triggers a modal if the content panel has been opened with ember_engage_messenger_v3 enabled",
+      "Team Engage 2 | Integration: Messages - Mobile Push: Mobile Push message A/B switching with ember_engage_messenger_v3 enabled",
+      "Team Engage 2 | Unit: Model - Messages / Audience Preview: It loads correctly",
+      "Team Engage 2 | Unit: Model - Messages / Goal: goal is valid if it contains an empty predicate list",
+      "Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Moving a message to a campaign",
+      "Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Moving a message to a folder",
+      "Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Removing a message from a campaign",
+      "Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Removing a message from a folder",
+      "Team Engage 3 | Acceptance | message-view-and-edit/message-actions: You cannot move a campaign with dependencies",
+      "Team Engage 3 | Acceptance | message-view-and-edit/route-error-handling: Opening a message",
+      "Team Engage 3 | Acceptance | message-view-and-edit/route-error-handling: Visiting the message route populates the store with the default email templates",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Acquire: Switching to opened stat should not work",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work with reactions",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work with reactions",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Engage Auto: Switching to the inverse of a stat works",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Engage Manual: Switching to the inverse of a stat works",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Paging works",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Switching between conversations and replied should work",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Switching to different reactions stats should work",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: clicking a stat tab should not have the stat inverted by default",
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: clicking between variations should always default to the content tab",
+      "Team Engage 3 | Integration: Copy message to parent app: Messages do not have copy button on test apps if feature is disabled",
+      "Team Engage 3 | Integration: Copy message to parent app: Messages have copy button on tests apps if feature is enabled",
+      "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for Emails",
+      "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for in apps",
+      "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for in apps with ember_engage_messenger_v3 enabled",
+      "Team Engage 3 | Integration: Messages - Message Editor: A manual message without an audience is invalid",
+      "Team Engage 3 | Integration: Messages - Message Editor: Activate auto message success text",
+      "Team Engage 3 | Integration: Messages - Message Editor: Activate manual message success text",
+      "Team Engage 3 | Integration: Messages - Message Editor: Audience anonymous predicates work",
+      "Team Engage 3 | Integration: Messages - Message Editor: Audience editor works correctly",
+      "Team Engage 3 | Integration: Messages - Message Editor: Campaign behaviour predicates work correctly",
+      "Team Engage 3 | Integration: Messages - Message Editor: Event predicates in the audience editor work correctly",
+      "Team Engage 3 | Integration: Messages - Message Editor: Leads option is disabled if audience editor when message is in-app",
+      "Team Engage 3 | Integration: Messages - Message Editor: Modal fires when selecting email as a team sender",
+      "Team Engage 3 | Integration: Messages - Message Editor: Sender resets from team to currentAdmin when selecting push-message as team sender",
+      "Team Engage 3 | Integration: Messages - Message Goals: Shows errors for invalid error goals",
+      "Team Engage 3 | Integration: Messages - Message Goals: Stops goal step from closing if another step is opened and goal is invalid",
+      "Team Engage 3 | Integration: Messages - Message Goals: Stops goal step from closing if step is closed and goal is invalid",
+      "Team Engage 3 | Integration: Messages - Message Goals: Switching to a predicate which has no value hides the input validation error"
+    ],
+    "testMeta": {
+      "Team Engage 2 | Integration: Messages - Message Show Page: Show auto message stats page filters have correct paths": {
+        "c1kofdt06d4f4jg439xoe0zfr": "4",
+        "f08y9w0a7x6uipsniostuo9a4i": "4",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "4",
+        "kvqfssr23c5zpt4n3114z33di": "4",
+        "kzpu90r87l1gc1s3dachm2t9": "4",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "4",
+        "thorf58arj24ek4trlll680k9": "4"
+      },
+      "Team Engage 2 | Integration: Messages - Message Show Page: Show manual message stats page filters have correct paths": {
+        "c1kofdt06d4f4jg439xoe0zfr": "4",
+        "f08y9w0a7x6uipsniostuo9a4i": "4",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "4",
+        "kvqfssr23c5zpt4n3114z33di": "4",
+        "kzpu90r87l1gc1s3dachm2t9": "4",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "4",
+        "thorf58arj24ek4trlll680k9": "4"
+      },
+      "Team Engage 2 | Integration: Messages - Message Show Page: Message Show page shows the delivery window panel and pending users count": {
+        "c1kofdt06d4f4jg439xoe0zfr": "4",
+        "f08y9w0a7x6uipsniostuo9a4i": "4",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "4",
+        "kvqfssr23c5zpt4n3114z33di": "4",
+        "kzpu90r87l1gc1s3dachm2t9": "4",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "4",
+        "thorf58arj24ek4trlll680k9": "4"
+      },
+      "Team Engage 3 | Integration: Copy message to parent app: Messages have copy button on tests apps if feature is enabled": {
+        "c1kofdt06d4f4jg439xoe0zfr": "4",
+        "f08y9w0a7x6uipsniostuo9a4i": "4",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "4",
+        "kvqfssr23c5zpt4n3114z33di": "4",
+        "kzpu90r87l1gc1s3dachm2t9": "4",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "4",
+        "thorf58arj24ek4trlll680k9": "4"
+      },
+      "Team Engage 3 | Integration: Copy message to parent app: Messages do not have copy button on test apps if feature is disabled": {
+        "c1kofdt06d4f4jg439xoe0zfr": "4",
+        "f08y9w0a7x6uipsniostuo9a4i": "4",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "4",
+        "kvqfssr23c5zpt4n3114z33di": "4",
+        "kzpu90r87l1gc1s3dachm2t9": "4",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "4",
+        "thorf58arj24ek4trlll680k9": "4"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Removing a message from a folder": {
+        "c1kofdt06d4f4jg439xoe0zfr": "11",
+        "f08y9w0a7x6uipsniostuo9a4i": "11",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "11",
+        "kvqfssr23c5zpt4n3114z33di": "11",
+        "kzpu90r87l1gc1s3dachm2t9": "11",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "11",
+        "thorf58arj24ek4trlll680k9": "11"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Removing a message from a campaign": {
+        "c1kofdt06d4f4jg439xoe0zfr": "11",
+        "f08y9w0a7x6uipsniostuo9a4i": "11",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "11",
+        "kvqfssr23c5zpt4n3114z33di": "11",
+        "kzpu90r87l1gc1s3dachm2t9": "11",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "11",
+        "thorf58arj24ek4trlll680k9": "11"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/message-actions: You cannot move a campaign with dependencies": {
+        "c1kofdt06d4f4jg439xoe0zfr": "11",
+        "f08y9w0a7x6uipsniostuo9a4i": "11",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "11",
+        "kvqfssr23c5zpt4n3114z33di": "11",
+        "kzpu90r87l1gc1s3dachm2t9": "11",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "11",
+        "thorf58arj24ek4trlll680k9": "11"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Moving a message to a folder": {
+        "c1kofdt06d4f4jg439xoe0zfr": "11",
+        "f08y9w0a7x6uipsniostuo9a4i": "11",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "11",
+        "kvqfssr23c5zpt4n3114z33di": "11",
+        "kzpu90r87l1gc1s3dachm2t9": "11",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "11",
+        "thorf58arj24ek4trlll680k9": "11"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Moving a message to a campaign": {
+        "c1kofdt06d4f4jg439xoe0zfr": "11",
+        "f08y9w0a7x6uipsniostuo9a4i": "11",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "11",
+        "kvqfssr23c5zpt4n3114z33di": "11",
+        "kzpu90r87l1gc1s3dachm2t9": "11",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "11",
+        "thorf58arj24ek4trlll680k9": "11"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work with reactions": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "kvqfssr23c5zpt4n3114z33di": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13",
+        "thorf58arj24ek4trlll680k9": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Switching between conversations and replied should work": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: clicking between variations should always default to the content tab": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "f08y9w0a7x6uipsniostuo9a4i": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "13",
+        "kvqfssr23c5zpt4n3114z33di": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Engage Manual: Switching to the inverse of a stat works": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work with reactions": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "f08y9w0a7x6uipsniostuo9a4i": "13",
+        "kvqfssr23c5zpt4n3114z33di": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "13",
+        "thorf58arj24ek4trlll680k9": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "f08y9w0a7x6uipsniostuo9a4i": "13",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Engage Auto: Switching to the inverse of a stat works": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "f08y9w0a7x6uipsniostuo9a4i": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Acquire: Switching to opened stat should not work": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13",
+        "thorf58arj24ek4trlll680k9": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Switching to different reactions stats should work": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Paging works": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "f08y9w0a7x6uipsniostuo9a4i": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13",
+        "thorf58arj24ek4trlll680k9": "13"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Acquire show page direct url": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Engage Manual show page direct url": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Engage Auto show page direct url": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Engage Auto show page": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Engage Auto show page direct url": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Engage Manual show page": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Acquire show page direct url": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Acquire show page": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Engage Auto show page": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Acquire show page": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v2: the Engage Manual show page direct url": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 2 | Acceptance | Legacy Message Show page Messenger v3: the Engage Manual show page": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kvqfssr23c5zpt4n3114z33di": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: is in stopped mode": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Stats Bulk Actions | Integration | Component | message-editor/stats/bulk-actions: Clicking the button does not fire the actions when disabled": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "f08y9w0a7x6uipsniostuo9a4i": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16"
+      },
+      "Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: is in live mode": {
+        "c1kofdt06d4f4jg439xoe0zfr": "16",
+        "kzpu90r87l1gc1s3dachm2t9": "16"
+      },
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Always reroute to acquire beckett housing for visitor auto messages": {
+        "c1kofdt06d4f4jg439xoe0zfr": "17",
+        "f08y9w0a7x6uipsniostuo9a4i": "17",
+        "kvqfssr23c5zpt4n3114z33di": "17",
+        "kzpu90r87l1gc1s3dachm2t9": "17",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "17",
+        "thorf58arj24ek4trlll680k9": "17"
+      },
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Always reroute to engage beckett housing for auto messages": {
+        "c1kofdt06d4f4jg439xoe0zfr": "17",
+        "f08y9w0a7x6uipsniostuo9a4i": "17",
+        "kvqfssr23c5zpt4n3114z33di": "17",
+        "kzpu90r87l1gc1s3dachm2t9": "17",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "17",
+        "thorf58arj24ek4trlll680k9": "17"
+      },
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Engage manual message from index": {
+        "c1kofdt06d4f4jg439xoe0zfr": "17",
+        "f08y9w0a7x6uipsniostuo9a4i": "17",
+        "kvqfssr23c5zpt4n3114z33di": "17",
+        "kzpu90r87l1gc1s3dachm2t9": "17",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "17",
+        "thorf58arj24ek4trlll680k9": "17"
+      },
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Engage auto message from index": {
+        "c1kofdt06d4f4jg439xoe0zfr": "17",
+        "f08y9w0a7x6uipsniostuo9a4i": "17",
+        "kvqfssr23c5zpt4n3114z33di": "17",
+        "kzpu90r87l1gc1s3dachm2t9": "17",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "17",
+        "thorf58arj24ek4trlll680k9": "17"
+      },
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Acquire message from index": {
+        "c1kofdt06d4f4jg439xoe0zfr": "17",
+        "f08y9w0a7x6uipsniostuo9a4i": "17",
+        "kvqfssr23c5zpt4n3114z33di": "17",
+        "kzpu90r87l1gc1s3dachm2t9": "17",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "17",
+        "thorf58arj24ek4trlll680k9": "17"
+      },
+      "Team Engage 2 | Acceptance | Message Summary Page Rerouting: Always reroute to engage beckett housing for manual messages": {
+        "c1kofdt06d4f4jg439xoe0zfr": "17",
+        "f08y9w0a7x6uipsniostuo9a4i": "17",
+        "kvqfssr23c5zpt4n3114z33di": "17",
+        "kzpu90r87l1gc1s3dachm2t9": "17",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "17",
+        "thorf58arj24ek4trlll680k9": "17"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct options for conversations": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kvqfssr23c5zpt4n3114z33di": "18",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "18"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct options for replied on a visitor auto message": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kvqfssr23c5zpt4n3114z33di": "18",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "18",
+        "thorf58arj24ek4trlll680k9": "18"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct selected state when statistic is bounced": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kvqfssr23c5zpt4n3114z33di": "18",
+        "kzpu90r87l1gc1s3dachm2t9": "18",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "18",
+        "thorf58arj24ek4trlll680k9": "18"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct options for replied": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kvqfssr23c5zpt4n3114z33di": "18",
+        "thorf58arj24ek4trlll680k9": "18"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct options": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kvqfssr23c5zpt4n3114z33di": "18",
+        "kzpu90r87l1gc1s3dachm2t9": "18",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "18",
+        "thorf58arj24ek4trlll680k9": "18"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct options for failed": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kvqfssr23c5zpt4n3114z33di": "18",
+        "kzpu90r87l1gc1s3dachm2t9": "18",
+        "thorf58arj24ek4trlll680k9": "18"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Stats Inverse Switcher | Integration | Component | message-editor/stats/inverse-switcher: It shows the correct selected state when open": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kvqfssr23c5zpt4n3114z33di": "18",
+        "kzpu90r87l1gc1s3dachm2t9": "18",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "18",
+        "thorf58arj24ek4trlll680k9": "18"
+      },
+      "Team Engage 1 | Integration: Messages - Message Editor - Content: Deleting reactions from a draft message doesn't show a warning modal": {
+        "c1kofdt06d4f4jg439xoe0zfr": "34",
+        "f08y9w0a7x6uipsniostuo9a4i": "34",
+        "kvqfssr23c5zpt4n3114z33di": "34",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "34",
+        "thorf58arj24ek4trlll680k9": "34"
+      },
+      "Team Engage 1 | Integration: Messages - Message Editor - Content: Editing reactions from a live message shows a warning modal on the first edit only": {
+        "c1kofdt06d4f4jg439xoe0zfr": "34",
+        "f08y9w0a7x6uipsniostuo9a4i": "34",
+        "kvqfssr23c5zpt4n3114z33di": "34",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "34",
+        "thorf58arj24ek4trlll680k9": "34"
+      },
+      "Team Engage 1 | Integration: Messages - Message Editor - Content: Deleting reactions from a live message shows a warning modal on the first edit only": {
+        "c1kofdt06d4f4jg439xoe0zfr": "34",
+        "f08y9w0a7x6uipsniostuo9a4i": "34",
+        "kvqfssr23c5zpt4n3114z33di": "34",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "34",
+        "thorf58arj24ek4trlll680k9": "34"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: Leads option is disabled if audience editor when message is in-app": {
+        "c1kofdt06d4f4jg439xoe0zfr": "37",
+        "f08y9w0a7x6uipsniostuo9a4i": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for in apps": {
+        "c1kofdt06d4f4jg439xoe0zfr": "37",
+        "f08y9w0a7x6uipsniostuo9a4i": "37",
+        "kvqfssr23c5zpt4n3114z33di": "37"
+      },
+      "Team Engage 1 | Integration: Messages Editor - Folders & Campaigns: Editing the folder in the Title Editing section": {
+        "c1kofdt06d4f4jg439xoe0zfr": "38",
+        "f08y9w0a7x6uipsniostuo9a4i": "38",
+        "kvqfssr23c5zpt4n3114z33di": "38",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "38",
+        "thorf58arj24ek4trlll680k9": "38"
+      },
+      "Team Engage 1 | Integration: Messages Editor - Folders & Campaigns: Assigning a campaign message to a folder and visa versa": {
+        "c1kofdt06d4f4jg439xoe0zfr": "38",
+        "f08y9w0a7x6uipsniostuo9a4i": "38",
+        "kvqfssr23c5zpt4n3114z33di": "38",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "38",
+        "thorf58arj24ek4trlll680k9": "38"
+      },
+      "Team Engage 1 | Integration: Messages Editor - Folders & Campaigns: Editing the campaign in the Title Editing section": {
+        "c1kofdt06d4f4jg439xoe0zfr": "38",
+        "f08y9w0a7x6uipsniostuo9a4i": "38",
+        "kvqfssr23c5zpt4n3114z33di": "38",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "38",
+        "thorf58arj24ek4trlll680k9": "38"
+      },
+      "Team Engage 1 | Integration: Component - Messages Editor In-App Reply Type Toggle | Integration | Component | messages/editor/controls/in-app-reply-type-toggle: the reactions button behaves correctly when clicked": {
+        "c1kofdt06d4f4jg439xoe0zfr": "39",
+        "kvqfssr23c5zpt4n3114z33di": "39",
+        "thorf58arj24ek4trlll680k9": "39"
+      },
+      "Team Engage 3 | Integration: Messages - Message Goals: Stops goal step from closing if step is closed and goal is invalid": {
+        "c1kofdt06d4f4jg439xoe0zfr": "39",
+        "kvqfssr23c5zpt4n3114z33di": "39",
+        "thorf58arj24ek4trlll680k9": "39"
+      },
+      "Team Engage 3 | Integration: Messages - Message Goals: Shows errors for invalid error goals": {
+        "c1kofdt06d4f4jg439xoe0zfr": "39",
+        "thorf58arj24ek4trlll680k9": "39"
+      },
+      "Team Engage 1 | Unit: NewMessage Model: saving does not clobber the local copy of the message - Really a test of RestAdapter(WithReload)": {
+        "c1kofdt06d4f4jg439xoe0zfr": "40",
+        "f08y9w0a7x6uipsniostuo9a4i": "40",
+        "kvqfssr23c5zpt4n3114z33di": "40",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "40",
+        "thorf58arj24ek4trlll680k9": "40"
+      },
+      "Team Engage 2 | Integration: Component | Marketo Unsubscribe | Integration | Component | integrations-hub/marketo-unsubscribe: Disabling integration": {
+        "c1kofdt06d4f4jg439xoe0zfr": "41",
+        "kvqfssr23c5zpt4n3114z33di": "41"
+      },
+      "Team Engage 2 | Integration: Component | Marketo Unsubscribe | Integration | Component | integrations-hub/marketo-unsubscribe: Button before entering API details": {
+        "c1kofdt06d4f4jg439xoe0zfr": "41",
+        "kvqfssr23c5zpt4n3114z33di": "41"
+      },
+      "Team Engage 2 | Integration: Component | Marketo Unsubscribe | Integration | Component | integrations-hub/marketo-unsubscribe: Offer to remove other active unsubscribe integration": {
+        "c1kofdt06d4f4jg439xoe0zfr": "41"
+      },
+      "Team Engage 2 | Integration: Messages - Mobile Push: Enabling and editing a Mobile Push message triggers a modal if the content panel has been opened": {
+        "c1kofdt06d4f4jg439xoe0zfr": "41",
+        "f08y9w0a7x6uipsniostuo9a4i": "41",
+        "kvqfssr23c5zpt4n3114z33di": "41",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "41",
+        "thorf58arj24ek4trlll680k9": "41"
+      },
+      "Team Engage 2 | Integration: Component | Marketo Unsubscribe | Integration | Component | integrations-hub/marketo-unsubscribe: Button after entering API details": {
+        "c1kofdt06d4f4jg439xoe0zfr": "41",
+        "kvqfssr23c5zpt4n3114z33di": "41"
+      },
+      "Team Engage 1 | Integration: Component - Message Content Editor | Integration | Component | messages/editor/message-content-editor: the company attributes explanation shows if the message contents contains company attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "41",
+        "kvqfssr23c5zpt4n3114z33di": "41"
+      },
+      "Team Engage 2 | Integration: Component | Marketo Unsubscribe | Integration | Component | integrations-hub/marketo-unsubscribe: Enabling integration": {
+        "c1kofdt06d4f4jg439xoe0zfr": "41",
+        "kvqfssr23c5zpt4n3114z33di": "41"
+      },
+      "Team Engage 2 | Integration: Messages - Mobile Push: Enabling and editing a Mobile Push message triggers a modal if the content panel has been opened with ember_engage_messenger_v3 enabled": {
+        "c1kofdt06d4f4jg439xoe0zfr": "41",
+        "f08y9w0a7x6uipsniostuo9a4i": "41",
+        "kvqfssr23c5zpt4n3114z33di": "41",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "41",
+        "thorf58arj24ek4trlll680k9": "41"
+      },
+      "Team Engage 1 | Integration: Messages - Message Scheduling: Channel editor opens a modal if switching a message with a message delivery window from email to in-app": {
+        "c1kofdt06d4f4jg439xoe0zfr": "42",
+        "f08y9w0a7x6uipsniostuo9a4i": "42",
+        "kvqfssr23c5zpt4n3114z33di": "42",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "42",
+        "thorf58arj24ek4trlll680k9": "42"
+      },
+      "Team Engage 1 | Integration: Messages - Message Editor Save and Revert: Auto save should trigger on editing a variation attribute": {
+        "c1kofdt06d4f4jg439xoe0zfr": "43",
+        "f08y9w0a7x6uipsniostuo9a4i": "43",
+        "kvqfssr23c5zpt4n3114z33di": "43",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "43",
+        "thorf58arj24ek4trlll680k9": "43"
+      },
+      "Team Engage 1 | Integration: Messages - Message Editor Save and Revert: Auto save does not trigger on opening a draft and opening each of the panels with ember_engage_messenger_v3 enabled": {
+        "c1kofdt06d4f4jg439xoe0zfr": "43",
+        "f08y9w0a7x6uipsniostuo9a4i": "43",
+        "kvqfssr23c5zpt4n3114z33di": "43",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "43",
+        "thorf58arj24ek4trlll680k9": "43"
+      },
+      "Team Engage 1 | Integration: Messages - Message Editor Save and Revert: Auto save does not trigger on opening a draft and opening each of the panels": {
+        "c1kofdt06d4f4jg439xoe0zfr": "43",
+        "f08y9w0a7x6uipsniostuo9a4i": "43",
+        "kvqfssr23c5zpt4n3114z33di": "43",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "43",
+        "thorf58arj24ek4trlll680k9": "43"
+      },
+      "Team Engage 1 | Integration: Messages - Message Editor Save and Revert: Auto save should trigger on editing a variation attribute with ember_engage_messenger_v3 enabled": {
+        "c1kofdt06d4f4jg439xoe0zfr": "43",
+        "f08y9w0a7x6uipsniostuo9a4i": "43",
+        "kvqfssr23c5zpt4n3114z33di": "43",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "43",
+        "thorf58arj24ek4trlll680k9": "43"
+      },
+      "Team Engage 1 | Integration: Messages - Message Editor - Stop Date: Stop date panel is not visible for manual messages": {
+        "c1kofdt06d4f4jg439xoe0zfr": "44"
+      },
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading live manual messges show sending badge": {
+        "c1kofdt06d4f4jg439xoe0zfr": "50",
+        "f08y9w0a7x6uipsniostuo9a4i": "50",
+        "kvqfssr23c5zpt4n3114z33di": "50",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "50",
+        "thorf58arj24ek4trlll680k9": "50"
+      },
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading manual messages in the draft message list": {
+        "c1kofdt06d4f4jg439xoe0zfr": "50",
+        "f08y9w0a7x6uipsniostuo9a4i": "50",
+        "kvqfssr23c5zpt4n3114z33di": "50",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "50",
+        "thorf58arj24ek4trlll680k9": "50"
+      },
+      "Team Engage 1 | Unit: Component - Campaigns - Campaign Spacing Editor: Changing the spacing value works": {
+        "c1kofdt06d4f4jg439xoe0zfr": "50",
+        "kvqfssr23c5zpt4n3114z33di": "50",
+        "thorf58arj24ek4trlll680k9": "50"
+      },
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Searching messages": {
+        "c1kofdt06d4f4jg439xoe0zfr": "50",
+        "f08y9w0a7x6uipsniostuo9a4i": "50",
+        "kvqfssr23c5zpt4n3114z33di": "50",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "50",
+        "thorf58arj24ek4trlll680k9": "50"
+      },
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading manual messages in the sent message list shows failed stats": {
+        "c1kofdt06d4f4jg439xoe0zfr": "50",
+        "f08y9w0a7x6uipsniostuo9a4i": "50",
+        "kvqfssr23c5zpt4n3114z33di": "50",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "50",
+        "thorf58arj24ek4trlll680k9": "50"
+      },
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading manual messages in the scheduled message list": {
+        "c1kofdt06d4f4jg439xoe0zfr": "50",
+        "f08y9w0a7x6uipsniostuo9a4i": "50",
+        "kvqfssr23c5zpt4n3114z33di": "50",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "50",
+        "thorf58arj24ek4trlll680k9": "50"
+      },
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading manual messages in the sent message list": {
+        "c1kofdt06d4f4jg439xoe0zfr": "50",
+        "f08y9w0a7x6uipsniostuo9a4i": "50",
+        "kvqfssr23c5zpt4n3114z33di": "50",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "50",
+        "thorf58arj24ek4trlll680k9": "50"
+      },
+      "Team Engage 1 | Integration: Messages - Message List - Manual Messages: Loading manual messages in the sent message list does not show failed stats": {
+        "c1kofdt06d4f4jg439xoe0zfr": "50",
+        "f08y9w0a7x6uipsniostuo9a4i": "50",
+        "kvqfssr23c5zpt4n3114z33di": "50",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "50",
+        "thorf58arj24ek4trlll680k9": "50"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: clicking a stat tab should not have the stat inverted by default": {
+        "f08y9w0a7x6uipsniostuo9a4i": "13",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/route-error-handling: Opening a message": {
+        "f08y9w0a7x6uipsniostuo9a4i": "15"
+      },
+      "Team Engage 3 | Acceptance | message-view-and-edit/route-error-handling: Visiting the message route populates the store with the default email templates": {
+        "f08y9w0a7x6uipsniostuo9a4i": "15"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for in apps with ember_engage_messenger_v3 enabled": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: Sender resets from team to currentAdmin when selecting push-message as team sender": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for Emails": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37",
+        "kvqfssr23c5zpt4n3114z33di": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: Audience editor works correctly": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37",
+        "kvqfssr23c5zpt4n3114z33di": "37",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: Activate manual message success text": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: Campaign behaviour predicates work correctly": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: Activate auto message success text": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37",
+        "kvqfssr23c5zpt4n3114z33di": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: Modal fires when selecting email as a team sender": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37",
+        "kvqfssr23c5zpt4n3114z33di": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: A manual message without an audience is invalid": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: Event predicates in the audience editor work correctly": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37",
+        "kvqfssr23c5zpt4n3114z33di": "37"
+      },
+      "Team Engage 3 | Integration: Messages - Message Editor: Audience anonymous predicates work": {
+        "f08y9w0a7x6uipsniostuo9a4i": "37",
+        "kvqfssr23c5zpt4n3114z33di": "37"
+      },
+      "Team Engage 1 | Integration: Component - Message Audience Editor Component | Integration | Component | message-audience-editor-component: It shows the correct text when it's not a limited response": {
+        "f08y9w0a7x6uipsniostuo9a4i": "42",
+        "kvqfssr23c5zpt4n3114z33di": "42"
+      },
+      "Team Engage 1 | Integration: Messages - Message Scheduling: Message Scheduling Form schedule/cancel behaviour": {
+        "f08y9w0a7x6uipsniostuo9a4i": "42",
+        "kvqfssr23c5zpt4n3114z33di": "42"
+      },
+      "Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with a folder": {
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "6",
+        "kvqfssr23c5zpt4n3114z33di": "6",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "6"
+      },
+      "Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with no folder or campaign": {
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "6",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "6"
+      },
+      "Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with a campaign": {
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "6",
+        "kvqfssr23c5zpt4n3114z33di": "6"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: renders the component": {
+        "kvqfssr23c5zpt4n3114z33di": "1",
+        "kzpu90r87l1gc1s3dachm2t9": "1",
+        "thorf58arj24ek4trlll680k9": "1"
+      },
+      "Team Engage 3 | Integration: Messages - Message Goals: Stops goal step from closing if another step is opened and goal is invalid": {
+        "kvqfssr23c5zpt4n3114z33di": "39",
+        "thorf58arj24ek4trlll680k9": "39"
+      },
+      "Team Engage 3 | Integration: Messages - Message Goals: Switching to a predicate which has no value hides the input validation error": {
+        "kvqfssr23c5zpt4n3114z33di": "39"
+      },
+      "Team Engage 2 | Integration: Messages - Mobile Push: Mobile Push message A/B switching with ember_engage_messenger_v3 enabled": {
+        "kvqfssr23c5zpt4n3114z33di": "41"
+      },
+      "Team Engage 1 | Integration: Component - Message In-App Sidebar | Integration | Component | messages/editor/message-in-app-sidebar: it renders the replyType toggle for post and note but not for chat": {
+        "kvqfssr23c5zpt4n3114z33di": "42",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "42",
+        "thorf58arj24ek4trlll680k9": "42"
+      },
+      "Team Engage 1 | Integration: Component - Message Audience Editor Component | Integration | Component | message-audience-editor-component: It shows the correct text when it's a limited response": {
+        "kvqfssr23c5zpt4n3114z33di": "42",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "42",
+        "thorf58arj24ek4trlll680k9": "42"
+      },
+      "Team Engage 1 | Integration: Component - Message In-App Sidebar | Integration | Component | messages/editor/message-in-app-sidebar: switching between note (or post) with reactions to chat (which cant have reactions) and back restores the reactions": {
+        "kvqfssr23c5zpt4n3114z33di": "42"
+      },
+      "Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: is in draft editing mode": {
+        "kzpu90r87l1gc1s3dachm2t9": "16"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Stats Bulk Actions | Integration | Component | message-editor/stats/bulk-actions: Clicking the button fires the actions": {
+        "kzpu90r87l1gc1s3dachm2t9": "16",
+        "thorf58arj24ek4trlll680k9": "16"
+      },
+      "Team Engage 1 | Integration: Component - Message Editor Stats Pre Send Info | Integration | Component | message-editor/stats/pre-send-info: With a manual in-app message selection state that has a count and targets users": {
+        "kzpu90r87l1gc1s3dachm2t9": "19"
+      },
+      "Team Engage 2 | Unit: Model - Messages / Audience Preview: It loads correctly": {
+        "q27yx7lb4cdkp5mrl6tdfgvi": "34"
+      },
+      "Team Engage 2 | Unit: Model - Messages / Goal: goal is valid if it contains an empty predicate list": {
+        "q27yx7lb4cdkp5mrl6tdfgvi": "36"
+      },
+      "Team Engage 1 | Integration: Component - Message In-App Sidebar | Integration | Component | messages/editor/message-in-app-sidebar: Selecting reactions sets a default reaction set of four reactions": {
+        "q27yx7lb4cdkp5mrl6tdfgvi": "42"
+      },
+      "Team Engage 1 | Integration: Messages - Message Scheduling: Removing Message Scheduling works correctly": {
+        "q27yx7lb4cdkp5mrl6tdfgvi": "42",
+        "thorf58arj24ek4trlll680k9": "42"
+      }
+    }
+  },
+  "general": {
+    "failingTests": [
+      "General | Integration | Component | pagination-component: when the content is smaller than the viewport",
+      "General | Integration: Account - Conversation Preferences: Admins can change their conversation assignment settings successfully",
+      "General | Integration: Changes Pages: Loading the Changes page",
+      "General | Integration: Component - App Switcher: it should show the add a new app button",
+      "General | Integration: Component - App Switcher: it should show the list of available apps",
+      "General | Integration: Settings - Company Segments: displays segment name",
+      "General | Integration: Settings - Company Segments: does not allow deletions of segments with dependent objects",
+      "General | Integration: Settings - Email Template Editor: Deleting the template shows a warning and then removes the template from the list",
+      "General | Integration: Settings - Email Template Editor: Making changes and navigating away discards the changes after modal confirmation",
+      "General | Integration: Settings - Email Templates: Check default template is correctly persisted on change and save",
+      "General | Integration: Settings - Email Templates: Custom templates should be listed with previews and be clickable to edit",
+      "General | Integration: Settings - General App: Company features are enabled and disabled on save of form",
+      "General | Integration: Settings - General App: If user cancels an app deletion, the app is not deleted",
+      "General | Integration: Settings - General App: If user has two apps, deleting an app brings them to another app via a hard URL change",
+      "General | Integration: Settings - General App: Test app ID is not shown on toggle if a test app is not present",
+      "General | Integration: Settings - General App: Test app ID is shown on toggle if a test app is present",
+      "General | Integration: Settings - People Segments: displays segment name",
+      "General | Integration: Settings - People Segments: does not allow deletions of segments with dependent objects",
+      "General | Integration: Settings - Tags: Shows message counts",
+      "General | Integration: Settings - Tags: does not allow deletions of tags with dependent objects",
+      "General | Library: User Agent Detector: Edge Detection",
+      "General | Unit: Component – Color Edit Component: #isInvalidKeyCodePressed should return true when any letter other than [0-9][a-f][#][cut,copy,paste,delete] is pressed",
+      "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup does not nest anonymous predicate when isAnonymousPredicateRestrictedToAndJoin is true",
+      "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup does not nest role predicate when isAnonymousPredicateRestrictedToAndJoin is true",
+      "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup nests AND predicates correctly"
+    ],
+    "testMeta": {
+      "General | Integration: Changes Pages: Loading the Changes page": {
+        "c1kofdt06d4f4jg439xoe0zfr": "6",
+        "kvqfssr23c5zpt4n3114z33di": "6",
+        "kzpu90r87l1gc1s3dachm2t9": "6",
+        "thorf58arj24ek4trlll680k9": "6"
+      },
+      "General | Integration: Settings - Company Segments: does not allow deletions of segments with dependent objects": {
+        "c1kofdt06d4f4jg439xoe0zfr": "8",
+        "f08y9w0a7x6uipsniostuo9a4i": "8",
+        "kvqfssr23c5zpt4n3114z33di": "8",
+        "kzpu90r87l1gc1s3dachm2t9": "8"
+      },
+      "General | Integration: Settings - Email Template Editor: Making changes and navigating away discards the changes after modal confirmation": {
+        "c1kofdt06d4f4jg439xoe0zfr": "10",
+        "f08y9w0a7x6uipsniostuo9a4i": "10",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "10",
+        "kvqfssr23c5zpt4n3114z33di": "10",
+        "kzpu90r87l1gc1s3dachm2t9": "10",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "10",
+        "thorf58arj24ek4trlll680k9": "10"
+      },
+      "General | Integration: Settings - Email Template Editor: Deleting the template shows a warning and then removes the template from the list": {
+        "c1kofdt06d4f4jg439xoe0zfr": "10",
+        "f08y9w0a7x6uipsniostuo9a4i": "10",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "10",
+        "kvqfssr23c5zpt4n3114z33di": "10",
+        "kzpu90r87l1gc1s3dachm2t9": "10",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "10",
+        "thorf58arj24ek4trlll680k9": "10"
+      },
+      "General | Integration: Settings - Email Templates: Custom templates should be listed with previews and be clickable to edit": {
+        "c1kofdt06d4f4jg439xoe0zfr": "11",
+        "f08y9w0a7x6uipsniostuo9a4i": "11",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "11",
+        "kvqfssr23c5zpt4n3114z33di": "11",
+        "kzpu90r87l1gc1s3dachm2t9": "11",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "11",
+        "thorf58arj24ek4trlll680k9": "11"
+      },
+      "General | Integration: Settings - Email Templates: Check default template is correctly persisted on change and save": {
+        "c1kofdt06d4f4jg439xoe0zfr": "11",
+        "f08y9w0a7x6uipsniostuo9a4i": "11",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "11",
+        "kvqfssr23c5zpt4n3114z33di": "11",
+        "kzpu90r87l1gc1s3dachm2t9": "11",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "11",
+        "thorf58arj24ek4trlll680k9": "11"
+      },
+      "General | Integration: Settings - General App: Test app ID is not shown on toggle if a test app is not present": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "13"
+      },
+      "General | Integration: Settings - General App: Test app ID is shown on toggle if a test app is present": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "f08y9w0a7x6uipsniostuo9a4i": "13",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "13",
+        "kvqfssr23c5zpt4n3114z33di": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "13"
+      },
+      "General | Integration: Settings - General App: If user cancels an app deletion, the app is not deleted": {
+        "c1kofdt06d4f4jg439xoe0zfr": "13",
+        "f08y9w0a7x6uipsniostuo9a4i": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13"
+      },
+      "General | Integration: Settings - People Segments: displays segment name": {
+        "c1kofdt06d4f4jg439xoe0zfr": "14",
+        "kvqfssr23c5zpt4n3114z33di": "14",
+        "thorf58arj24ek4trlll680k9": "14"
+      },
+      "General | Integration: Settings - People Segments: does not allow deletions of segments with dependent objects": {
+        "c1kofdt06d4f4jg439xoe0zfr": "14",
+        "kvqfssr23c5zpt4n3114z33di": "14",
+        "thorf58arj24ek4trlll680k9": "14"
+      },
+      "General | Integration: Settings - Tags: does not allow deletions of tags with dependent objects": {
+        "c1kofdt06d4f4jg439xoe0zfr": "15",
+        "f08y9w0a7x6uipsniostuo9a4i": "15",
+        "kzpu90r87l1gc1s3dachm2t9": "15",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "15"
+      },
+      "General | Integration: Settings - Tags: Shows message counts": {
+        "c1kofdt06d4f4jg439xoe0zfr": "15"
+      },
+      "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup nests AND predicates correctly": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kzpu90r87l1gc1s3dachm2t9": "18",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "18"
+      },
+      "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup does not nest role predicate when isAnonymousPredicateRestrictedToAndJoin is true": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kzpu90r87l1gc1s3dachm2t9": "18"
+      },
+      "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup does not nest anonymous predicate when isAnonymousPredicateRestrictedToAndJoin is true": {
+        "c1kofdt06d4f4jg439xoe0zfr": "18",
+        "f08y9w0a7x6uipsniostuo9a4i": "18",
+        "kvqfssr23c5zpt4n3114z33di": "18",
+        "kzpu90r87l1gc1s3dachm2t9": "18"
+      },
+      "General | Integration: Account - Conversation Preferences: Admins can change their conversation assignment settings successfully": {
+        "c1kofdt06d4f4jg439xoe0zfr": "49",
+        "f08y9w0a7x6uipsniostuo9a4i": "49",
+        "kvqfssr23c5zpt4n3114z33di": "49",
+        "thorf58arj24ek4trlll680k9": "49"
+      },
+      "General | Library: User Agent Detector: Edge Detection": {
+        "c1kofdt06d4f4jg439xoe0zfr": "50"
+      },
+      "General | Integration: Settings - Company Segments: displays segment name": {
+        "f08y9w0a7x6uipsniostuo9a4i": "8",
+        "kvqfssr23c5zpt4n3114z33di": "8",
+        "kzpu90r87l1gc1s3dachm2t9": "8",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "8",
+        "thorf58arj24ek4trlll680k9": "8"
+      },
+      "General | Integration: Settings - General App: If user has two apps, deleting an app brings them to another app via a hard URL change": {
+        "f08y9w0a7x6uipsniostuo9a4i": "13",
+        "kzpu90r87l1gc1s3dachm2t9": "13"
+      },
+      "General | Integration: Component - App Switcher: it should show the add a new app button": {
+        "kvqfssr23c5zpt4n3114z33di": "3"
+      },
+      "General | Integration: Component - App Switcher: it should show the list of available apps": {
+        "kvqfssr23c5zpt4n3114z33di": "3"
+      },
+      "General | Integration | Component | pagination-component: when the content is smaller than the viewport": {
+        "kzpu90r87l1gc1s3dachm2t9": "1"
+      },
+      "General | Integration: Settings - General App: Company features are enabled and disabled on save of form": {
+        "kzpu90r87l1gc1s3dachm2t9": "13",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "13"
+      },
+      "General | Unit: Component – Color Edit Component: #isInvalidKeyCodePressed should return true when any letter other than [0-9][a-f][#][cut,copy,paste,delete] is pressed": {
+        "q27yx7lb4cdkp5mrl6tdfgvi": "43"
+      }
+    }
+  },
+  "growth": {
+    "failingTests": [
+      "Team Growth 2 | Acceptance: CDA Tool Test: \"Your List\" counter does not increment when adding only a CDA description",
+      "Team Growth 2 | Acceptance: CDA Tool Test: \"Your List\" counter increments when adding CDAs",
+      "Team Growth 2 | Acceptance: CDA Tool Test: Add attribute page first row has correct placeholder text and default values",
+      "Team Growth 2 | Acceptance: CDA Tool Test: Add attribute page second row has no placeholder text and correct default values",
+      "Team Growth 2 | Acceptance: CDA Tool Test: Add attributes page can add additional rows",
+      "Team Growth 2 | Acceptance: CDA Tool Test: CDA adding page has correct step indicators",
+      "Team Growth 2 | Acceptance: CDA Tool Test: CDA generate page has correct step indicators",
+      "Team Growth 2 | Acceptance: CDA Tool Test: CDA video shows correctly",
+      "Team Growth 2 | Acceptance: CDA Tool Test: Generate page shows correct snippet",
+      "Team Growth 2 | Acceptance: CDA Tool Test: Go to add attributes page",
+      "Team Growth 2 | Acceptance: CDA Tool Test: Go to the generate page",
+      "Team Growth 2 | Acceptance: CDA Tool Test: Landing page has correct step indicators",
+      "Team Growth 2 | Acceptance: CDA Tool Test: Next button is highlighted only when a CDA is added",
+      "Team Growth 2 | Acceptance: CDA Tool Test: Samples can be added and viewed by clicking \"Your List\" button",
+      "Team Growth 2 | Acceptance: CDA Tool Test: Samples can be added and viewed by clicking \"view\" button",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The eighth industry sector is highlighted when clicked on in the Sample Attributes",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The fifth industry sector is highlighted when clicked on in the Sample Attributes",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The fifth platform is selected when clicked on",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The first industry sector is highlighted when arriving on Sample Attributes",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The first industry sector is highlighted when clicked on in the Sample Attributes",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The first platform is selected on initial load",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The first platform is selected when clicked on",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The fourth industry sector is highlighted when clicked on in the Sample Attributes",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The fourth platform is selected when clicked on",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The second industry sector is highlighted when clicked on in the Sample Attributes",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The second platform is selected when clicked on",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The seventh industry sector is highlighted when clicked on in the Sample Attributes",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The sixth industry sector is highlighted when clicked on in the Sample Attributes",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The third industry sector is highlighted when clicked on in the Sample Attributes",
+      "Team Growth 2 | Acceptance: CDA Tool Test: The third platform is selected when clicked on"
+    ],
+    "testMeta": {
+      "Team Growth 2 | Acceptance: CDA Tool Test: The first platform is selected on initial load": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: CDA generate page has correct step indicators": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: Next button is highlighted only when a CDA is added": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The first industry sector is highlighted when clicked on in the Sample Attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The second platform is selected when clicked on": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: Landing page has correct step indicators": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The fourth platform is selected when clicked on": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The eighth industry sector is highlighted when clicked on in the Sample Attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The third industry sector is highlighted when clicked on in the Sample Attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: \"Your List\" counter does not increment when adding only a CDA description": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: Add attribute page second row has no placeholder text and correct default values": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: CDA adding page has correct step indicators": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The third platform is selected when clicked on": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The seventh industry sector is highlighted when clicked on in the Sample Attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The sixth industry sector is highlighted when clicked on in the Sample Attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: \"Your List\" counter increments when adding CDAs": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: Go to add attributes page": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The first industry sector is highlighted when arriving on Sample Attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: Samples can be added and viewed by clicking \"view\" button": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: CDA video shows correctly": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: Add attribute page first row has correct placeholder text and default values": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: Add attributes page can add additional rows": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: Go to the generate page": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The fifth platform is selected when clicked on": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The fourth industry sector is highlighted when clicked on in the Sample Attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The fifth industry sector is highlighted when clicked on in the Sample Attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: Samples can be added and viewed by clicking \"Your List\" button": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The first platform is selected when clicked on": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: Generate page shows correct snippet": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      },
+      "Team Growth 2 | Acceptance: CDA Tool Test: The second industry sector is highlighted when clicked on in the Sample Attributes": {
+        "c1kofdt06d4f4jg439xoe0zfr": "7",
+        "f08y9w0a7x6uipsniostuo9a4i": "7",
+        "fewnb0fvfqb1gg1a6kwn3cv7vi": "7",
+        "kvqfssr23c5zpt4n3114z33di": "7",
+        "kzpu90r87l1gc1s3dachm2t9": "7",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "7",
+        "thorf58arj24ek4trlll680k9": "7"
+      }
+    }
+  },
+  "dx": {
+    "failingTests": [
+      "Team DX | Acceptance | Integrations Hub: Visiting an unknown integration page",
+      "Team DX | Acceptance | Integrations | Slack: You should be able to add a new webhook once slack is integrated",
+      "Team DX | Acceptance | Integrations | Slack: You should be able to remove a webhook once slack is integrated",
+      "Team DX | Acceptance | Integrations | Slack: You should be able to remove the last webhook and this should remove the integration",
+      "Team DX | Acceptance | Integrations | Slack: this should remove the slack integration"
+    ],
+    "testMeta": {
+      "Team DX | Acceptance | Integrations Hub: Visiting an unknown integration page": {
+        "c1kofdt06d4f4jg439xoe0zfr": "27",
+        "f08y9w0a7x6uipsniostuo9a4i": "27",
+        "kvqfssr23c5zpt4n3114z33di": "27",
+        "kzpu90r87l1gc1s3dachm2t9": "27",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "27",
+        "thorf58arj24ek4trlll680k9": "27"
+      },
+      "Team DX | Acceptance | Integrations | Slack: this should remove the slack integration": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "kzpu90r87l1gc1s3dachm2t9": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team DX | Acceptance | Integrations | Slack: You should be able to remove a webhook once slack is integrated": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team DX | Acceptance | Integrations | Slack: You should be able to add a new webhook once slack is integrated": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      },
+      "Team DX | Acceptance | Integrations | Slack: You should be able to remove the last webhook and this should remove the integration": {
+        "c1kofdt06d4f4jg439xoe0zfr": "28",
+        "q27yx7lb4cdkp5mrl6tdfgvi": "28",
+        "thorf58arj24ek4trlll680k9": "28"
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 const MAIN_TEXT = `ok 30 Chrome 54.0 - Exam Partition #84 - Team Engage 1 | Integration: Messages - Message Editor - Content: Switching between A/B variations should update the composer with ember_engage_messenger_v3 enabled
+not ok 20 Chrome 54.0 - Global error: Uncaught TypeError: Cannot read property 'match' of undefined at http://localhost:7357/assets/embercom.js, line 25697
 not ok 31 Chrome 54.0 - Exam Partition #84 - Team Engage 1 | Integration: Messages - Message Editor - Content: Editing reactions from a live message shows a warning modal on the first edit only
 
     ---
@@ -112,7 +113,7 @@ describe('testParser', function() {
 });
 
 describe('TestFailures', function() {
-  it('should return the correct meta', function() {
+  it.only('should return the correct meta', function() {
     const FINAL_RESULT = {
       "engage": {
         "failingTests": [
@@ -124,7 +125,8 @@ describe('TestFailures', function() {
             "1234567ab": "84"
           },
           "Team Engage 1 | Unit: Controller – Apps / App / Settings / Messenger: parsed domains returns correct string": {
-            "1234567ab": "84"
+            "1234567ab": "84",
+            "4567890cd": "4"
           }
         }
       },
