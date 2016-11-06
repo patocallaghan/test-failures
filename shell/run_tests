@@ -1,0 +1,24 @@
+#!/bin/bash
+
+SEED=""
+PARTITION=1
+CONTAINERS=50
+ITERATIONS=20
+CURRENT=1
+
+rm tmp.txt
+while [ $CURRENT -le $ITERATIONS  ]; do
+  while [ $PARTITION -le $CONTAINERS ]; do
+    echo "CURRENT: $CURRENT SEED: $SEED PARTITION: $PARTITION"
+    node node_modules/ember-cli/bin/ember exam --split=$CONTAINERS --partition=$PARTITION --random=$SEED --path="dist" | tee -a tmp.txt
+    if [[ $(cat tmp.txt) =~ (seed: )([a-z0-9]+) ]]; then
+      SEED=${BASH_REMATCH[2]}
+      cat tmp.txt >> "seeds/$SEED.txt"
+      rm tmp.txt
+    fi
+    PARTITION=$((PARTITION+1))
+  done
+  CURRENT=$((CURRENT+1))
+  PARTITION=1
+  SEED=""
+done

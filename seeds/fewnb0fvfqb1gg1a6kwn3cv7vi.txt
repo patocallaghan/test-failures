@@ -1,0 +1,1861 @@
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #1 - Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: renders Android chome by default for an Android first message
+ok 2 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/notifications/folders/-message-removal.hbs: should pass TemplateLint
+ok 3 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: updatePresenceStatus sets isActive to true when Android timestamp < 1min ago
+ok 4 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/components/intercom-select-component.hbs: should pass TemplateLint
+not ok 5 Chrome 54.0 - Exam Partition #1 - Team Acquire | Integration: Messages - Visitor Auto Message List V2: Searching messages
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invoke (http://localhost:7357/assets/vendor.js:14890:16)
+        message: >
+            ReferenceError: visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 6 Chrome 54.0 - Exam Partition #1 - Team Support 2 | Unit: Component - Inbox - Nav List: adminInboxes excludes currentAdmins inbox, team inboxes and predefined inboxes
+ok 7 Chrome 54.0 - Exam Partition #1 - Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: When the app has two SDKs
+ok 8 Chrome 54.0 - Exam Partition #1 - Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: Switching to Android preview works
+not ok 9 Chrome 54.0 - Exam Partition #1 - Team Acquire | Integration: Messages - Visitor Auto Message List V2: Loading auto messages in the live message list
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invoke (http://localhost:7357/assets/vendor.js:14890:16)
+        message: >
+            ReferenceError: visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 10 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: isActive returns false when last_request_at is greater than 10 minutes ago
+ok 11 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: updatePresenceStatus notifies property change correctly when timestamp value has not changed
+ok 12 Chrome 54.0 - Exam Partition #1 - Team Support 2 | Unit: Component - Inbox - Nav List: inboxesToDisplay is set to adminInboxes sorted by count:desc and name:asc
+ok 13 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/apps/app/settings/tags.hbs: should pass TemplateLint
+ok 14 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: isActive returns false when last_request_at is undefined
+not ok 15 Chrome 54.0 - Exam Partition #1 - Team Acquire | Integration: Messages - Visitor Auto Message List V2: Loading auto messages in the paused message list
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invoke (http://localhost:7357/assets/vendor.js:14890:16)
+        message: >
+            ReferenceError: visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 16 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: updatePresenceStatus sets isActive to false when timestamp > 2min ago
+ok 17 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/components/simple-tag-component.hbs: should pass TemplateLint
+ok 18 Chrome 54.0 - Exam Partition #1 - Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: When the app only has an Android SDK
+ok 19 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: Dont display page activity when field isnt populated
+ok 20 Chrome 54.0 - Exam Partition #1 - Team Support 2 | Unit: Component - Inbox - Nav List: _getInboxesForSelectedGroupInbox returns team members inboxes when selectedGroupInbox is a team inbox
+ok 21 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/apps/app/import/csv.hbs: should pass TemplateLint
+ok 22 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: updatePresenceStatus uses last_request_at when it is more recent than timestamp from Nexus
+ok 23 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/apps/app/messages/partials/editor/-minimized-message-channel-editor.hbs: should pass TemplateLint
+ok 24 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: Display page activity when field is populated
+ok 25 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/components/guide/step-invite-link-popover-component.hbs: should pass TemplateLint
+ok 26 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: updatePresenceStatus sets isActive to true when timestamp < 1min ago
+ok 27 Chrome 54.0 - Exam Partition #1 - Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: renders the component
+ok 28 Chrome 54.0 - Exam Partition #1 - Team Support 2 | Unit: Component - Inbox - Nav List: _getInboxesForSelectedGroupInbox returns adminInboxes when selectedGroupInbox is not a team inbox
+ok 29 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/components/cursor-example-component.hbs: should pass TemplateLint
+ok 30 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/components/rules/actions/conversation-add-tag-component.hbs: should pass TemplateLint
+not ok 31 Chrome 54.0 - Exam Partition #1 - Team Acquire | Integration: Messages - Visitor Auto Message List V2: Acquire Standard customers can see the visitor auto message list and do not see the paywall icon for new messages
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invoke (http://localhost:7357/assets/vendor.js:14890:16)
+        message: >
+            ReferenceError: visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 32 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/components/messages/editor/in-app-editor.hbs: should pass TemplateLint
+ok 33 Chrome 54.0 - Exam Partition #1 - General | Unit: Helper - Ghost Text: With a string
+ok 34 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: updateDisplayableData notifies property change correctly when email value has not changed
+ok 35 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/components/attribute-date-component.hbs: should pass TemplateLint
+ok 36 Chrome 54.0 - Exam Partition #1 - Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: When the app only has a single SDK
+ok 37 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: updatePresenceStatus sets isActive to true when iOS timestamp < 1min ago
+ok 38 Chrome 54.0 - Exam Partition #1 - Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: Switching to iOS preview works
+ok 39 Chrome 54.0 - Exam Partition #1 - Team Observe | Unit: User Model: isActive returns true when last_request_at is less than 10 minutes ago
+ok 40 Chrome 54.0 - Exam Partition #1 - General | Unit: Helper - Ghost Text: With an integer
+ok 41 Chrome 54.0 - Exam Partition #1 - TemplateLint - embercom/templates/apps/app/cda-onboarding/generate.hbs: should pass TemplateLint
+
+1..41
+# tests 41
+# pass  37
+# skip  0
+# fail  4
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/components/invite-team-members-link-component.hbs: should pass TemplateLint
+ok 2 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/components/custom-data-attribute-tooltip-component.hbs: should pass TemplateLint
+ok 3 Chrome 54.0 - Exam Partition #2 - Team Engage 3 | Unit | Model | variation-stats: Pusher Translations for legacy Thumbs LWR
+ok 4 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/apps/app/import/csv/finish.hbs: should pass TemplateLint
+ok 5 Chrome 54.0 - Exam Partition #2 - Team Engage 1 | Integration: Messages - Manual Message Edit/Editor Routes: Visiting the manual message editor redirects to the show page for draft selection-based messages
+ok 6 Chrome 54.0 - Exam Partition #2 - Team DX | Unit | Component | Facebook Connect Button: has correct scope for app when messenger integration enabled
+ok 7 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/components/social-connect-component.hbs: should pass TemplateLint
+ok 8 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/partials/-ghost-avatar.hbs: should pass TemplateLint
+ok 9 Chrome 54.0 - Exam Partition #2 - Team Engage 1 | Integration: Messages - Manual Message Edit/Editor Routes: Visiting the manual message editor redirects to the single page message edit page for predicate-based messages
+ok 10 Chrome 54.0 - Exam Partition #2 - Team Engage 3 | Unit | Model | variation-stats: opened - multiple recipients
+ok 11 Chrome 54.0 - Exam Partition #2 - General | Unit: Helper - IC Stamp: it works
+ok 12 Chrome 54.0 - Exam Partition #2 - Team Acquire | Acceptance: Acquire Insights: Show no conversations initiated by VAM prompt if there hasn't been a conversation started in response to a VAM ever
+ok 13 Chrome 54.0 - Exam Partition #2 - Team Engage 3 | Unit | Model | variation-stats: opened and replied - single recipient
+ok 14 Chrome 54.0 - Exam Partition #2 - Team Engage 1 | Integration: Messages - Manual Message Edit/Editor Routes: Visiting the manual message editor redirects to the single page message edit page for live predicate-based messages
+ok 15 Chrome 54.0 - Exam Partition #2 - Team Engage 3 | Unit | Model | variation-stats: Pusher Translations for legacy Emotions LWR
+ok 16 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/components/attribute-manual-tag-component.hbs: should pass TemplateLint
+ok 17 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/components/messages/editor/message-channel-editor-component.hbs: should pass TemplateLint
+ok 18 Chrome 54.0 - Exam Partition #2 - General | Unit: Helper - IC Stamp: blank state returns an empty, unstyled span
+ok 19 Chrome 54.0 - Exam Partition #2 - Team Acquire | Acceptance: Acquire Insights: Show install prompt if there has not been an acquire ping
+ok 20 Chrome 54.0 - Exam Partition #2 - Team Engage 3 | Unit | Model | variation-stats: unopened - multiple recipients
+ok 21 Chrome 54.0 - Exam Partition #2 - Team Acquire | Acceptance: Acquire Insights: Show 28 day VAM prompt if there hasn't been a conversation started in response to a VAM
+ok 22 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/apps/app/cda-onboarding/index.hbs: should pass TemplateLint
+ok 23 Chrome 54.0 - Exam Partition #2 - Team Engage 3 | Unit | Model | variation-stats: Pusher Translations when everything is null makes the stats blank
+ok 24 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/components/guide/step-multipart-component.hbs: should pass TemplateLint
+ok 25 Chrome 54.0 - Exam Partition #2 - General | Unit: Helper - IC Stamp: with additional classes
+ok 26 Chrome 54.0 - Exam Partition #2 - Team Acquire | Acceptance: Acquire Insights: Show no live vams prompt if there has been a conversation in response to a vam but no live vams
+ok 27 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/apps/app/settings/team.hbs: should pass TemplateLint
+ok 28 Chrome 54.0 - Exam Partition #2 - Team DX | Unit | Component | Facebook Connect Button: has correct scope for app
+ok 29 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/apps/app/messages/partials/editor/-minimized-message-content-editor.hbs: should pass TemplateLint
+ok 30 Chrome 54.0 - Exam Partition #2 - Team Engage 3 | Unit | Model | variation-stats: opened - single recipient
+ok 31 Chrome 54.0 - Exam Partition #2 - Team Acquire | Acceptance: Acquire Insights: Show no conversation prompt if there hasn't been a conversation at all
+ok 32 Chrome 54.0 - Exam Partition #2 - TemplateLint - embercom/templates/components/rules/actions/conversation-assign-to-component.hbs: should pass TemplateLint
+ok 33 Chrome 54.0 - Exam Partition #2 - Team Engage 3 | Unit | Model | variation-stats: Pusher Translations when the last sent is zero
+ok 34 Chrome 54.0 - Exam Partition #2 - Team Engage 1 | Integration: Component - Message Editor Push Editor | Integration | Component | message-editor/content/push/editor: renders the component with the correct text
+ok 35 Chrome 54.0 - Exam Partition #2 - Team Engage 3 | Unit | Model | variation-stats: Pusher Translations
+ok 36 Chrome 54.0 - Exam Partition #2 - Team Engage 3 | Unit | Model | variation-stats: unopened - single recipient
+ok 37 Chrome 54.0 - Exam Partition #2 - Team Acquire | Acceptance: Acquire Insights: Loading insights with conversations and vams will display both
+
+1..37
+# tests 37
+# pass  37
+# skip  0
+# fail  0
+
+# ok
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/components/messages/editor/message-delivery-window-editor-component.hbs: should pass TemplateLint
+ok 2 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: #blocks alias json_blocks
+ok 3 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/components/guide/step-multipart-footer-component.hbs: should pass TemplateLint
+ok 4 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: #isAutoOrCampaignMessage
+ok 5 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/apps/app/messages/partials/editor/-minimized-message-delivery-window-editor.hbs: should pass TemplateLint
+ok 6 Chrome 54.0 - Exam Partition #3 - Team Engage 2 | Integration: Messages - Message Show Route: Showing an auto message redirects to the auto message show page
+ok 7 Chrome 54.0 - Exam Partition #3 - Team Engage 2 | Integration: Messages - Message Show Route: Showing an unknown message redirects to the manual message list
+ok 8 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/partials/-insights-per-variation-stats.hbs: should pass TemplateLint
+ok 9 Chrome 54.0 - Exam Partition #3 - Team Engage 1 | Integration: Component - Message Editor Variation Actions Component | Integration | Component | message-editor/content/variation-actions-component: does not render the buttons on non multivariant messages
+ok 10 Chrome 54.0 - Exam Partition #3 - Team Engage 1 | Integration: Component - Message Editor Variation Actions Component | Integration | Component | message-editor/content/variation-actions-component: displays deactivate button if message is live
+ok 11 Chrome 54.0 - Exam Partition #3 - General | Unit: Helper - Inflector: Raw helper
+ok 12 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: #styleLabel, #styleIcon, #messageStyle - with MV3
+ok 13 Chrome 54.0 - Exam Partition #3 - Team Engage 1 | Unit: Message Display Until Editor Component: component is initialized correctly with a display_until date set
+ok 14 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Acceptance | campaigns/campaign: setting a draft campaign live
+ok 15 Chrome 54.0 - Exam Partition #3 - General | Unit: Helper - Inflector: Render specific cases correctly
+ok 16 Chrome 54.0 - Exam Partition #3 - Team Engage 1 | Integration: Component - Message Editor Variation Actions Component | Integration | Component | message-editor/content/variation-actions-component: displays the delete variation button when multiple variations
+ok 17 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: #styleLabel, #styleIcon, #messageStyle
+ok 18 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/components/custom-data-attributes-component.hbs: should pass TemplateLint
+ok 19 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/components/rules/admin-dropdown-opener.hbs: should pass TemplateLint
+ok 20 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: #updateReplyType updates the reply type from text to reactions correctly
+ok 21 Chrome 54.0 - Exam Partition #3 - Team Engage 1 | Unit: Message Display Until Editor Component: component enabling and disabling
+ok 22 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Acceptance | campaigns/campaign: clicking a spacing editor guide
+ok 23 Chrome 54.0 - Exam Partition #3 - General | Unit: Helper - Inflector: Takes custom pluralForm
+ok 24 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Acceptance | campaigns/campaign: creating a new campaign
+ok 25 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: #inferredReplyTypeForMv3
+ok 26 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/apps/app/import/csv/index.hbs: should pass TemplateLint
+ok 27 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: #updateReplyType switches from reactions to text and back again and restores the original reactions
+ok 28 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: Invalid unsubscribe errors in Auto Messages
+ok 29 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/components/language-dropdown-component.hbs: should pass TemplateLint
+ok 30 Chrome 54.0 - Exam Partition #3 - Team Engage 1 | Unit: Message Display Until Editor Component: component is initialized correctly without a display_until date set
+ok 31 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/apps/app/companies.hbs: should pass TemplateLint
+ok 32 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/components/attribute-spend-component.hbs: should pass TemplateLint
+ok 33 Chrome 54.0 - Exam Partition #3 - Team Engage 2 | Integration: Messages - Message Show Route: Showing a manual message redirects to the manual message show page
+ok 34 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/apps/app/settings/web.hbs: should pass TemplateLint
+ok 35 Chrome 54.0 - Exam Partition #3 - General | Unit: Helper - Inflector: Don't add an 's' to a singular
+ok 36 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: #inferredReplyTypeForMv2
+ok 37 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Acceptance | campaigns/campaign: duplicating a campaign
+ok 38 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: #isReactionsThumbsLwr
+ok 39 Chrome 54.0 - Exam Partition #3 - TemplateLint - embercom/templates/components/social-connect-tooltip.hbs: should pass TemplateLint
+ok 40 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: Invalid unsubscribe errors in Manual Messages
+ok 41 Chrome 54.0 - Exam Partition #3 - Team Engage 1 | Integration: Component - Message Editor Variation Actions Component | Integration | Component | message-editor/content/variation-actions-component: displays activate button if message is not live
+ok 42 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: it checks for the presence of unsubscribe links in HTML Mode
+ok 43 Chrome 54.0 - Exam Partition #3 - General | Unit: Helper - Inflector: Add an 's' to a plural
+ok 44 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Unit - Model: Variation: #isReactionsEmotionsLwr
+ok 45 Chrome 54.0 - Exam Partition #3 - Team Engage 3 | Acceptance | campaigns/campaign: visiting a campaign
+
+1..45
+# tests 45
+# pass  45
+# skip  0
+# fail  0
+
+# ok
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/partials/campaigns/campaigns-secondary-nav.hbs: should pass TemplateLint
+not ok 2 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Show manual message stats page filters have correct paths
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:57482:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:57481:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 3 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Directly loading the sent stats page
+ok 4 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/components/rules/list-component.hbs: should pass TemplateLint
+ok 5 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Message stats panel buttons load correctly
+ok 6 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/components/date-select-component.hbs: should pass TemplateLint
+ok 7 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: it does not display message style or delivery option for push
+ok 8 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: displays the last sent time if it exists
+ok 9 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: displays the correct text for chat
+ok 10 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: displays the correct text for snippet
+ok 11 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: displays the correct text for badge
+ok 12 Chrome 54.0 - Exam Partition #4 - General | Unit: Route - Application: Transitioning after allowed time attempts a transition
+ok 13 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Message Show page has the correct buttons for draft filter manual messages
+ok 14 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Stats panel loads correctly and responds to select all
+ok 15 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: does not display last sent time when it is null
+ok 16 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/apps/app/import/csv/mapping.hbs: should pass TemplateLint
+not ok 17 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Show auto message stats page filters have correct paths
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:57492:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:57491:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 18 Chrome 54.0 - Exam Partition #4 - General | Unit: Route - Application: The last refreshed at time gets set on route activation
+ok 19 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Directly loading the clicked stats page
+ok 20 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Message Show page has the correct buttons for live selection manual messages
+ok 21 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: it does not display message style or delivery option for emails
+ok 22 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Stats panel loads correctly and responds to individual selection
+not ok 23 Chrome 54.0 - Exam Partition #4 - Team Acquire | Integration: Show page for visitor auto messages: Can update live/paused state
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:57520:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:57519:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 24 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/components/messages/editor/message-device-switch-component.hbs: should pass TemplateLint
+ok 25 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: displays the correct text for post
+ok 26 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: On a stats update, show that there are new users to load
+not ok 27 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Message Show page shows the delivery window panel and pending users count
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+                at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+                at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+                at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+                at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+                at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+                at http://localhost:7357/assets/vendor.js:54930:36
+                at r (https://gtm.intercomassets.com/94436f20a65ad436fc076fa480c95772dc3e3031-gtm.js:1:23001)
+        message: >
+            ReferenceError: assertDeliveryWindowStepVisibility is not defined
+        Log: |
+    ...
+ok 28 Chrome 54.0 - Exam Partition #4 - Team Engage 3 | Acceptance | campaigns redirects: visiting the campaign index page with no campaigns
+ok 29 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Unit: Component - Message Edit Delivery Window: both selects cannot be open together
+ok 30 Chrome 54.0 - Exam Partition #4 - General | Unit: Route - Application: Will refresh when expected
+ok 31 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Message Show page has the correct buttons for live selection manual messages with stopped manual message feature enabled
+ok 32 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Unit: Component - Message Edit Delivery Window: component form is disabled disables the components
+not ok 33 Chrome 54.0 - Exam Partition #4 - Team Engage 3 | Integration: Copy message to parent app: Messages have copy button on tests apps if feature is enabled
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:57560:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:57557:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 34 Chrome 54.0 - Exam Partition #4 - General | Unit: Route - Application: Only transitions to top level routes should trigger a refresh
+ok 35 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/apps/app/companies/company-not-found.hbs: should pass TemplateLint
+ok 36 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Tagging a user from the stats list
+ok 37 Chrome 54.0 - Exam Partition #4 - General | Unit: Route - Application: Is not an Inbox route
+ok 38 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/components/attributes/attribute.hbs: should pass TemplateLint
+ok 39 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: The bounced stats page allows tagging but not messaging
+ok 40 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: The user mismatch tooltip shows if the user list has less entries than the gross stat value
+ok 41 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Toggling message live state
+ok 42 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/components/sort-order-component.hbs: should pass TemplateLint
+ok 43 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: does not display went live for non-live messages
+ok 44 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/apps/app/settings/webhooks.hbs: should pass TemplateLint
+ok 45 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/components/length-monitoring-textarea-component.hbs: should pass TemplateLint
+ok 46 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: displays went live for live messages
+ok 47 Chrome 54.0 - Exam Partition #4 - General | Unit: Helper - Is Even: it is odd
+ok 48 Chrome 54.0 - Exam Partition #4 - General | Unit: Helper - Is Even: it is even
+not ok 49 Chrome 54.0 - Exam Partition #4 - Team Acquire | Integration: Show page for visitor auto messages: correct buttons are visible
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:57531:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:57530:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 50 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/components/guide/steps/acquire-auto-message-component.hbs: should pass TemplateLint
+ok 51 Chrome 54.0 - Exam Partition #4 - General | Unit: Route - Application: Transitioning within the allowed time does nothing
+ok 52 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Message Show page has the correct buttons for live filter based manual messages
+ok 53 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Messaging a user from the stats list
+ok 54 Chrome 54.0 - Exam Partition #4 - TemplateLint - embercom/templates/apps/app/messages/partials/editor/-minimized-message-goal-editor.hbs: should pass TemplateLint
+ok 55 Chrome 54.0 - Exam Partition #4 - General | Unit: Route - Application: Esc keypress is noop when no active modal
+ok 56 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Directly loading the goal stats page
+ok 57 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Unit: Component - Message Edit Delivery Window: component form is initialized correctly
+ok 58 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: displays the correct text for note
+ok 59 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Directly loading the replied stats page
+ok 60 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Live button is disabled for invalid messages
+ok 61 Chrome 54.0 - Exam Partition #4 - Team Engage 1 | Integration: Component - Message Editor Variation Details Component | Integration | Component | message-editor/content/variation-details-component: displays the correct text for full
+ok 62 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Message Show page has the correct buttons for draft selection manual messages
+ok 63 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Message Show page has the correct buttons for auto messages
+ok 64 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Directly loading the opened stats page
+ok 65 Chrome 54.0 - Exam Partition #4 - Team Engage 2 | Integration: Messages - Message Show Page: Admins without permission cannot go to the auto message show page
+not ok 66 Chrome 54.0 - Exam Partition #4 - Team Engage 3 | Integration: Copy message to parent app: Messages do not have copy button on test apps if feature is disabled
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:57574:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:57573:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 67 Chrome 54.0 - Exam Partition #4 - Team Engage 3 | Acceptance | campaigns redirects: visiting the campaign index page
+
+1..67
+# tests 67
+# pass  60
+# skip  0
+# fail  7
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/components/switch-button-component.hbs: should pass TemplateLint
+ok 2 Chrome 54.0 - Exam Partition #5 - Team Platform | Unit: Route - Apps / App / Admins / Admin: confirm dialog should not be called when controller doesn't have unsaved changes
+ok 3 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: In-app note icons
+ok 4 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/components/messages/editor/message-expand-switch-component.hbs: should pass TemplateLint
+ok 5 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for Push message with no goal
+ok 6 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/components/auto-resizing-textarea-component.hbs: should pass TemplateLint
+ok 7 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Integration: Component - Message Editor Variation Switcher Component | Integration | Component | message-editor/content/variation-switcher: Reactions are shown if the variation has them
+ok 8 Chrome 54.0 - Exam Partition #5 - Team Observe | Integration: App - Redirects: Going to "/apps" redirects to the Active segment
+ok 9 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Integration: Component - Message Editor Variation Switcher Component | Integration | Component | message-editor/content/variation-switcher: It sends a changeVersion action with the correct version
+ok 10 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Integration: Component - Message Editor Variation Switcher Component | Integration | Component | message-editor/content/variation-switcher: Clicking a stats button sends a changeView action with the correct view
+ok 11 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Integration: Component - Message Editor Variation Switcher Component | Integration | Component | message-editor/content/variation-switcher: The component shows the message editor for an in-app message when in the message tab
+ok 12 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for manual email message
+ok 13 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for manual push message
+ok 14 Chrome 54.0 - Exam Partition #5 - Team Observe | Integration: App - Redirects: Going to "/apps/tx2p130c" redirects to the Active segment
+ok 15 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/apps/app/companies/company.hbs: should pass TemplateLint
+ok 16 Chrome 54.0 - Exam Partition #5 - General | Unit: Helper - Mailto helper: is escapes user supplied values
+ok 17 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for email message with no goals
+ok 18 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Integration: Component - Message Editor Variation Switcher Component | Integration | Component | message-editor/content/variation-switcher: The component shows a no preview warning for an email or push message when in the message tab
+ok 19 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for Push message with goal
+ok 20 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/components/mailchimp-authorization-component.hbs: should pass TemplateLint
+ok 21 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/partials/conversation/controls/icon-highlight.hbs: should pass TemplateLint
+ok 22 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: push icons
+ok 23 Chrome 54.0 - Exam Partition #5 - Team Observe | Integration: App - Redirects: Going to "/apps/tx2p130c/users/segments" redirects to the Active segment
+ok 24 Chrome 54.0 - Exam Partition #5 - Team Engage 3 | Acceptance | Campaigns Unsaved Changes: Live Campaign: Exiting from unsaved changes and clicking confirm
+ok 25 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for email message with goals
+ok 26 Chrome 54.0 - Exam Partition #5 - Team Engage 3 | Acceptance | Campaigns Unsaved Changes: Draft Campaign: Exiting from unsaved changes with invalid predicates
+ok 27 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: email icons
+ok 28 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/apps/app/trial.hbs: should pass TemplateLint
+ok 29 Chrome 54.0 - Exam Partition #5 - Team Platform | Unit: Route - Apps / App / Admins / Admin: confirm dialog should be called when controller has unsaved changes
+ok 30 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: In-app chat icons
+ok 31 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for In-App message with goals
+ok 32 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/components/rules/partials/-debug.hbs: should pass TemplateLint
+ok 33 Chrome 54.0 - Exam Partition #5 - Team Observe | Integration: App - Redirects: Going to "/apps/tx2p130c/users" redirects to the Active segment
+ok 34 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/apps/app/messages/partials/editor/-minimized-message-review-editor.hbs: should pass TemplateLint
+ok 35 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/components/guide/steps/android-custom-data-component.hbs: should pass TemplateLint
+ok 36 Chrome 54.0 - Exam Partition #5 - Team Observe | Integration: App - Redirects: Going to / redirects to the Active segment
+ok 37 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/components/date-with-timezone-component.hbs: should pass TemplateLint
+ok 38 Chrome 54.0 - Exam Partition #5 - Team Observe | Integration: App - Redirects: Going to "/apps/tx2p130c/companies/54817843f154907623000002" redirects to the Company user list
+ok 39 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Some visitor auto message tabs are disabled
+ok 40 Chrome 54.0 - Exam Partition #5 - TemplateLint - embercom/templates/apps/app/import/csv/tag.hbs: should pass TemplateLint
+ok 41 Chrome 54.0 - Exam Partition #5 - General | Unit: Helper - Mailto helper: with all parameters
+ok 42 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Integration: Component - Message Editor Variation Switcher Component | Integration | Component | message-editor/content/variation-switcher: Variation buttons are not shown for message that only has a single variation
+ok 43 Chrome 54.0 - Exam Partition #5 - General | Unit: Helper - Mailto helper: without a class name
+ok 44 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for manual in-app message
+ok 45 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Integration: Component - Message Editor Variation Switcher Component | Integration | Component | message-editor/content/variation-switcher: The component initializes with the correct version
+ok 46 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for In-Apps message with no goals
+ok 47 Chrome 54.0 - Exam Partition #5 - Team Observe | Integration: App - Redirects: Going to "/apps/tx2p130c/users/segments/new" doesnt redirect
+ok 48 Chrome 54.0 - Exam Partition #5 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: In-app post icons
+ok 49 Chrome 54.0 - Exam Partition #5 - Team Platform | Unit: Route - Apps / App / Admins / Admin: transition should only be aborted if cancel is clicked on confirm box
+ok 50 Chrome 54.0 - Exam Partition #5 - Team Engage 3 | Acceptance | Campaigns Unsaved Changes: Live Campaign: Exiting from unsaved changes and clicking cancel
+
+1..50
+# tests 50
+# pass  50
+# skip  0
+# fail  0
+
+# ok
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/partials/inline-loading-indicator-tiny.hbs: should pass TemplateLint
+ok 2 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/components/rules/partials/-predicate-attribute-selector-list-item.hbs: should pass TemplateLint
+ok 3 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/components/deferred-render.hbs: should pass TemplateLint
+not ok 4 Chrome 54.0 - Exam Partition #6 - Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with a folder
+    ---
+        actual: >
+            null
+        stack: >
+            Error: [ember-cp-validations] Validator not found of type: presence.
+                at lookupValidator (http://localhost:7357/assets/vendor.js:144678:13)
+                at http://localhost:7357/assets/vendor.js:144504:92
+                at Array.map (native)
+                at getCPDependentKeysFor (http://localhost:7357/assets/vendor.js:144500:37)
+                at createCPValidationFor (http://localhost:7357/assets/vendor.js:144330:43)
+                at http://localhost:7357/assets/vendor.js:144310:22
+                at Array.forEach (native)
+                at createAttrsClass (http://localhost:7357/assets/vendor.js:144282:27)
+                at createValidationsClass (http://localhost:7357/assets/vendor.js:144156:22)
+                at Class.<anonymous> (http://localhost:7357/assets/vendor.js:144039:25)
+        message: >
+            Promise rejected after A message with a folder: [ember-cp-validations] Validator not found of type: presence.
+        Log: |
+    ...
+ok 5 Chrome 54.0 - Exam Partition #6 - General | Unit: Helper - Number Formatter: Add multiple commas to a number
+ok 6 Chrome 54.0 - Exam Partition #6 - Team Engage 1 | Integration: Component - Message Editor Delivery Window Main Component | Integration | Component | message-editor/delivery-window/main-component: it runs the correct transition
+ok 7 Chrome 54.0 - Exam Partition #6 - General | Integration: Serializer - Predicate: Serializer works correctly for both standard and logical predicates
+not ok 8 Chrome 54.0 - Exam Partition #6 - Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with no folder or campaign
+    ---
+        actual: >
+            null
+        stack: >
+            Error: [ember-cp-validations] Validator not found of type: presence.
+                at lookupValidator (http://localhost:7357/assets/vendor.js:144678:13)
+                at http://localhost:7357/assets/vendor.js:144504:92
+                at Array.map (native)
+                at getCPDependentKeysFor (http://localhost:7357/assets/vendor.js:144500:37)
+                at createCPValidationFor (http://localhost:7357/assets/vendor.js:144330:43)
+                at http://localhost:7357/assets/vendor.js:144310:22
+                at Array.forEach (native)
+                at createAttrsClass (http://localhost:7357/assets/vendor.js:144282:27)
+                at createValidationsClass (http://localhost:7357/assets/vendor.js:144156:22)
+                at Class.<anonymous> (http://localhost:7357/assets/vendor.js:144039:25)
+        message: >
+            Promise rejected after A message with no folder or campaign: [ember-cp-validations] Validator not found of type: presence.
+        Log: |
+    ...
+ok 9 Chrome 54.0 - Exam Partition #6 - General | Unit: Helper - Number Formatter: Does not add a comma to the number
+ok 10 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/apps/app/import/mailchimp.hbs: should pass TemplateLint
+not ok 11 Chrome 54.0 - Exam Partition #6 - Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with a campaign
+    ---
+        actual: >
+            0
+        expected: >
+            1
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:64853:12)
+                at Object.wrapper (http://localhost:7357/assets/test-support.js:6860:29)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+        message: >
+            A breadcrumb is returned for a message in a campaign
+        Log: |
+    ...
+ok 12 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/components/messages/editor/message-goal-editor-component.hbs: should pass TemplateLint
+ok 13 Chrome 54.0 - Exam Partition #6 - Team Engage 1 | Integration: Component - Message Editor Delivery Window Main Component | Integration | Component | message-editor/delivery-window/main-component: renders the component expanded
+ok 14 Chrome 54.0 - Exam Partition #6 - General | Unit: Helper - Number Formatter: Format null number
+ok 15 Chrome 54.0 - Exam Partition #6 - Team Engage 1 | Acceptance | campaigns/users: you can navigate to campaign users list
+ok 16 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/apps/app/companies/company/-company-note.hbs: should pass TemplateLint
+ok 17 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/components/auto-resizing-textarea-with-count-component.hbs: should pass TemplateLint
+ok 18 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/components/tag-or-segment-pill-component.hbs: should pass TemplateLint
+ok 19 Chrome 54.0 - Exam Partition #6 - General | Unit: Helper - Number Formatter: Format underfined number
+ok 20 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/apps/app/users-and-companies/filter-count-summary.hbs: should pass TemplateLint
+ok 21 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/components/mailchimp-list-selector-component.hbs: should pass TemplateLint
+ok 22 Chrome 54.0 - Exam Partition #6 - General | Unit: Helper - Number Formatter: Add single comma to a number
+ok 23 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/components/guide/steps/android-events-component.hbs: should pass TemplateLint
+ok 24 Chrome 54.0 - Exam Partition #6 - Team Engage 1 | Unit | Route | apps/app/engage/messages/auto/campaigns/campaign/index: real time stats should leave a campaign as dirty if there are other attributes dirty
+ok 25 Chrome 54.0 - Exam Partition #6 - TemplateLint - embercom/templates/apps/app/messages/partials/editor/-minimized-message-send-until-editor.hbs: should pass TemplateLint
+ok 26 Chrome 54.0 - Exam Partition #6 - Team Engage 1 | Integration: Component - Message Editor Delivery Window Main Component | Integration | Component | message-editor/delivery-window/main-component: renders the component collapsed
+ok 27 Chrome 54.0 - Exam Partition #6 - General | Integration: Serializer - Predicate: Serializer does not serialize the value description
+ok 28 Chrome 54.0 - Exam Partition #6 - Team Engage 1 | Unit | Route | apps/app/engage/messages/auto/campaigns/campaign/index: real time campaign stats should not make the campaign model dirty
+ok 29 Chrome 54.0 - Exam Partition #6 - Team Engage 1 | Acceptance | campaigns/users: visiting the campaign users page
+
+1..29
+# tests 29
+# pass  26
+# skip  0
+# fail  3
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+not ok 1 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The second industry sector is highlighted when clicked on in the Sample Attributes
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:718:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:717:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 2 Chrome 54.0 - Exam Partition #7 - Team Engage 1 | Unit: Component – HTML Editor: it correctly encodes attributes
+ok 3 Chrome 54.0 - Exam Partition #7 - Team Engage 1 | Integration: Component - Message Editor Delivery Window Title | Integration | Component | message-editor/delivery-window/title-component: renders the component with a delivery window
+not ok 4 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The first industry sector is highlighted when arriving on Sample Attributes
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:679:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:678:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 5 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/components/department-select-component.hbs: should pass TemplateLint
+not ok 6 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: Samples can be added and viewed by clicking "Your List" button
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:605:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:604:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 7 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: Go to the generate page
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:868:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:867:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 8 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The first platform is selected on initial load
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:906:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:905:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 9 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The fifth industry sector is highlighted when clicked on in the Sample Attributes
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:778:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:777:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 10 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The sixth industry sector is highlighted when clicked on in the Sample Attributes
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:798:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:797:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 11 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The eighth industry sector is highlighted when clicked on in the Sample Attributes
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:838:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:837:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 12 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/apps/app/import/mailchimp/finish.hbs: should pass TemplateLint
+ok 13 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/components/map-share-component.hbs: should pass TemplateLint
+not ok 14 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The first platform is selected when clicked on
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:912:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:911:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 15 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: Add attribute page second row has no placeholder text and correct default values
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:563:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:562:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 16 Chrome 54.0 - Exam Partition #7 - General | Unit: Helper - Numeric Formatter: Add single comma to a number
+ok 17 Chrome 54.0 - Exam Partition #7 - General | Integration: Serializer - Variation Stats: Reaction attribute keys are decamelized correctly
+not ok 18 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: CDA generate page has correct step indicators
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:980:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:979:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 19 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: Next button is highlighted only when a CDA is added
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:858:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:857:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 20 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/components/guide/steps/android-integration-component.hbs: should pass TemplateLint
+ok 21 Chrome 54.0 - Exam Partition #7 - General | Unit: Helper - Numeric Formatter: Add multiple commas to a number
+not ok 22 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: "Your List" counter does not increment when adding only a CDA description
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:666:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:665:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 23 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The third industry sector is highlighted when clicked on in the Sample Attributes
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:738:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:737:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 24 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/components/tag-with-tooltip-component.hbs: should pass TemplateLint
+not ok 25 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The third platform is selected when clicked on
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:941:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:940:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 26 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: Go to add attributes page
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:546:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:545:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 27 Chrome 54.0 - Exam Partition #7 - Team Engage 1 | Unit | Route | apps/app/engage/messages/auto/message/edit: Responding to campaign_message_preview pusher events for campaign messages - when we do not have the message in the store
+ok 28 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/apps/app/companies/company/-user-list-bulk-actions.hbs: should pass TemplateLint
+ok 29 Chrome 54.0 - Exam Partition #7 - General | Unit: Helper - Numeric Formatter: Format null number
+ok 30 Chrome 54.0 - Exam Partition #7 - General | Unit: Helper - Numeric Formatter: Format the number to the desired precision
+not ok 31 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: Add attribute page first row has correct placeholder text and default values
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:555:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:554:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 32 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/components/rules/partials/-rule-card-footer.hbs: should pass TemplateLint
+not ok 33 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: CDA adding page has correct step indicators
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:593:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:592:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 34 Chrome 54.0 - Exam Partition #7 - General | Integration: Serializer - Variation Stats: Non-reaction attribute keys are decamelized correctly
+ok 35 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/partials/loading-indicator-large.hbs: should pass TemplateLint
+ok 36 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/apps/app/users-and-companies/modals/export.hbs: should pass TemplateLint
+not ok 37 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The first industry sector is highlighted when clicked on in the Sample Attributes
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:695:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:694:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 38 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The second platform is selected when clicked on
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:928:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:927:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 39 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: Landing page has correct step indicators
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:581:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:580:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 40 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: "Your List" counter increments when adding CDAs
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:641:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:640:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 41 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: Generate page shows correct snippet
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:892:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:891:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 42 Chrome 54.0 - Exam Partition #7 - Team Engage 1 | Unit | Route | apps/app/engage/messages/auto/message/edit: Responding to campaign_message_preview pusher events for campaign messages - when we have the message in the store
+ok 43 Chrome 54.0 - Exam Partition #7 - General | Unit: Helper - Numeric Formatter: Doesn't add a comma to a small number and behaves nicely with maths
+not ok 44 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: Samples can be added and viewed by clicking "view" button
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:623:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:622:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+not ok 45 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The fifth platform is selected when clicked on
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:967:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:966:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 46 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/components/messages/editor/message-in-app-sidebar.hbs: should pass TemplateLint
+not ok 47 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: Add attributes page can add additional rows
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:571:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:570:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 48 Chrome 54.0 - Exam Partition #7 - Team Engage 1 | Integration: Component - Message Editor Delivery Window Title | Integration | Component | message-editor/delivery-window/title-component: it shows the completed tick with the correct transition
+ok 49 Chrome 54.0 - Exam Partition #7 - General | Unit: Helper - Numeric Formatter: Format underfined number
+not ok 50 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The fourth industry sector is highlighted when clicked on in the Sample Attributes
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:758:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:757:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 51 Chrome 54.0 - Exam Partition #7 - Team Engage 1 | Integration: Component - Message Editor Delivery Window Title | Integration | Component | message-editor/delivery-window/title-component: it hides the completed tick with the correct transition
+ok 52 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/components/avatar-emoji-selector-component.hbs: should pass TemplateLint
+not ok 53 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The seventh industry sector is highlighted when clicked on in the Sample Attributes
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:818:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:817:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 54 Chrome 54.0 - Exam Partition #7 - TemplateLint - embercom/templates/apps/app/messages/partials/show-page/message.hbs: should pass TemplateLint
+not ok 55 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: The fourth platform is selected when clicked on
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:954:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:953:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+ok 56 Chrome 54.0 - Exam Partition #7 - Team Engage 1 | Integration: Component - Message Editor Delivery Window Title | Integration | Component | message-editor/delivery-window/title-component: renders the component without a delivery window
+ok 57 Chrome 54.0 - Exam Partition #7 - Team Engage 1 | Unit: Component – HTML Editor: it correctly decodes attributes
+ok 58 Chrome 54.0 - Exam Partition #7 - General | Unit: Helper - Numeric Formatter: Format a negative number
+not ok 59 Chrome 54.0 - Exam Partition #7 - Team Growth 2 | Acceptance: CDA Tool Test: CDA video shows correctly
+    ---
+        actual: >
+            null
+        stack: >
+            ReferenceError: visitRouteAndThen is not defined
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:536:5)
+                at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+                at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+                at http://localhost:7357/assets/test-support.js:2843:11
+                at process (http://localhost:7357/assets/test-support.js:2502:24)
+                at begin (http://localhost:7357/assets/test-support.js:2484:2)
+                at http://localhost:7357/assets/test-support.js:2544:4
+        message: >
+            Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:535:19)
+                at Module.exports (http://localhost:7357/assets/vendor.js:132:32)
+                at requireModule (http://localhost:7357/assets/vendor.js:32:18)
+                at TestLoader.require (http://localhost:7357/assets/test-support.js:6648:7)
+                at http://localhost:7357/assets/test-support.js:6513:22
+                at Array.forEach (native)
+                at TestLoader._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6512:18): visitRouteAndThen is not defined
+        Log: |
+    ...
+
+1..59
+# tests 59
+# pass  29
+# skip  0
+# fail  30
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/partials/loading-indicator-small.hbs: should pass TemplateLint
+ok 2 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/components/rules/partials/-rule-card-header.hbs: should pass TemplateLint
+ok 3 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/components/deprecated-tooltip-component.hbs: should pass TemplateLint
+ok 4 Chrome 54.0 - Exam Partition #8 - Team Engage 1 | Unit: Component - Message Schedule Form Component: component button is initialized correctly for auto messages
+ok 5 Chrome 54.0 - Exam Partition #8 - Team Engage 1 | Unit: Component - Message Schedule Form Component: updating the scheduled date with an invalid date errors sends notifyError for auto messages
+ok 6 Chrome 54.0 - Exam Partition #8 - General | Integration: Settings - Company Segments: displays segment name
+ok 7 Chrome 54.0 - Exam Partition #8 - General | Integration: Settings - Company Segments: does not allow deletions of segments with dependent objects
+ok 8 Chrome 54.0 - Exam Partition #8 - Team Engage 1 | Unit: Component - Message Schedule Form Component: component fields are initialized correctly for manual messages
+ok 9 Chrome 54.0 - Exam Partition #8 - General | Unit: Helper - {{render-blocks}}: it renders empty block content
+ok 10 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/apps/app/import/mailchimp/index.hbs: should pass TemplateLint
+ok 11 Chrome 54.0 - Exam Partition #8 - Team Engage 1 | Unit: Component - Message Schedule Form Component: component fields are initialized correctly for auto messages
+ok 12 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/components/messages/editor/message-mobile-push-editor-component.hbs: should pass TemplateLint
+ok 13 Chrome 54.0 - Exam Partition #8 - Team Engage 1 | Integration: Component - Message Editor Expiry Component | Integration | Component | message-editor/expiry-component: renders the stop date for a message due to stop
+ok 14 Chrome 54.0 - Exam Partition #8 - Team Support 2 | Unit: Route - Inbox: Deeplink URLs are detected correctly
+ok 15 Chrome 54.0 - Exam Partition #8 - Team Support 2 | Acceptance: Educate article tests: Create draft article
+ok 16 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/apps/app/companies/company/account-info.hbs: should pass TemplateLint
+ok 17 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/components/billing-settings-invoice-notifications-toggle-component.hbs: should pass TemplateLint
+ok 18 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/components/tagging-component.hbs: should pass TemplateLint
+ok 19 Chrome 54.0 - Exam Partition #8 - General | Unit: Helper - {{render-blocks}}: it renders block content
+ok 20 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/apps/app/users-and-companies/modals/tag.hbs: should pass TemplateLint
+ok 21 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/components/message-audience-editor-component.hbs: should pass TemplateLint
+ok 22 Chrome 54.0 - Exam Partition #8 - Team Engage 1 | Unit: Component - Message Schedule Form Component: updating the scheduled date with a valid date sends saveAndScheduleMessage for auto messages
+ok 23 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/components/guide/steps/android-push-notifications-component.hbs: should pass TemplateLint
+ok 24 Chrome 54.0 - Exam Partition #8 - TemplateLint - embercom/templates/apps/app/messages/partials/show-page/stats.hbs: should pass TemplateLint
+ok 25 Chrome 54.0 - Exam Partition #8 - Team Engage 1 | Integration: Component - Message Editor Expiry Component | Integration | Component | message-editor/expiry-component: does not render a stop date for a message not due to stop
+ok 26 Chrome 54.0 - Exam Partition #8 - General | Integration: Settings - Company Segments: allows deletions of segments without dependent objects
+ok 27 Chrome 54.0 - Exam Partition #8 - Team Support 2 | Acceptance: Educate article tests: Create finished article
+
+1..27
+# tests 27
+# pass  27
+# skip  0
+# fail  0
+
+# ok
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #9 - Team Engage 1 | Integration: Component - Campaign Folder Inline Creator | Integration | Component | message-editor/campaign-and-folder-inline-creator: The input is focussed on render
+ok 2 Chrome 54.0 - Exam Partition #9 - Team Support 2 | Unit: Route - Conversations/Conversation: Sets the current conversation on the inbox service
+ok 3 Chrome 54.0 - Exam Partition #9 - Team Engage 1 | Unit: Component - messages/editor/in-app-editor: #unsubscribeLink
+ok 4 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/components/tags-or-segments-list-visibility-component.hbs: should pass TemplateLint
+ok 5 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: The "company list" column reflects the current display settings for company attributes in the company list
+ok 6 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/components/guide/steps/android-user-initiated-messages-component.hbs: should pass TemplateLint
+ok 7 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You can change the data-type of a user-defined people attribute that is not archived
+ok 8 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You cannot change the data-type of an archived people user-defined attribute
+ok 9 Chrome 54.0 - Exam Partition #9 - Team Engage 1 | Integration: Component - Campaign Folder Inline Creator | Integration | Component | message-editor/campaign-and-folder-inline-creator: Entering text and hitting return should create a folder
+ok 10 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You cannot archive or change the data-type of a predefined people attribute
+ok 11 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You can unarchive a user-defined people attribute by clicking "Unarchive"
+ok 12 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You cannot change the type of a company attribute that has objects dependent on it
+ok 13 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: If an attribute is selected in the "user list" column, and you try to select it in the "company list" column, it will become selected in the "company list" column and still stay selected in the "user list" column.
+ok 14 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: The "user list" column reflects the current display settings for people attributes in the user list
+ok 15 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/apps/app/messages/partials/table-cells/-message-created-at-cell.hbs: should pass TemplateLint
+ok 16 Chrome 54.0 - Exam Partition #9 - Team Support 2 | Unit: Route - Conversations/Conversation: Prefetches parts for next conversation
+ok 17 Chrome 54.0 - Exam Partition #9 - General | Unit: Helper - Sentence Case: null input
+ok 18 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You cannot archive a company attribute that has objects dependent on it
+ok 19 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You cannot archive a people attribute that has objects dependent on it
+ok 20 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: Clicking on a checkbox in the "company list" column of the company attribute settings immediately changes which columns are displayed in the company list
+ok 21 Chrome 54.0 - Exam Partition #9 - Team Support 2 | Unit: Route - Conversations/Conversation: Prefetches parts for previous conversation if next has already fetched
+ok 22 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/components/rules/predicate-anonymous-value-component.hbs: should pass TemplateLint
+ok 23 Chrome 54.0 - Exam Partition #9 - Team Engage 1 | Integration: Component - Campaign Folder Inline Creator | Integration | Component | message-editor/campaign-and-folder-inline-creator: Typing and hitting escape should not
+ok 24 Chrome 54.0 - Exam Partition #9 - Team Engage 1 | Unit: Component - messages/editor/in-app-editor: #composerPreset
+ok 25 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You cannot archive or change the data-type of a predefined company attribute
+ok 26 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/apps/app/companies/company/conversations.hbs: should pass TemplateLint
+ok 27 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You can change the data-type of a user-defined company attribute that is not archived
+ok 28 Chrome 54.0 - Exam Partition #9 - Team Support 2 | Unit: Route - Conversations/Conversation: Prefetches parts for the previous conversation
+ok 29 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/apps/app/import/mailchimp/lists.hbs: should pass TemplateLint
+ok 30 Chrome 54.0 - Exam Partition #9 - Team Engage 1 | Unit: Component - messages/editor/in-app-editor: #composerIsReadOnly
+ok 31 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/components/dialogs/custom/article-component.hbs: should pass TemplateLint
+ok 32 Chrome 54.0 - Exam Partition #9 - General | Unit: Helper - Sentence Case: An uppercase hyphenated string
+ok 33 Chrome 54.0 - Exam Partition #9 - Team Engage 1 | Unit: Component - messages/editor/in-app-editor: #templateInfo
+ok 34 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: The "user list" column reflects the current display settings for company attributes in the user list
+ok 35 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/partials/loading-indicator-tiny.hbs: should pass TemplateLint
+ok 36 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: Clicking on a checkbox in the "user list" column of the people attribute settings immediately changes which columns are displayed in the user list
+ok 37 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/components/billing-settings-sidebar-component.hbs: should pass TemplateLint
+ok 38 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/components/messages/editor/message-mobile-push-uris-component.hbs: should pass TemplateLint
+ok 39 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You cannot change the type of a people attribute that has objects dependent on it
+ok 40 Chrome 54.0 - Exam Partition #9 - Team Support 2 | Unit: Route - Conversations/Conversation: Does not prefetch if all adjacent have already fetched
+ok 41 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/components/message-display-until-editor-component.hbs: should pass TemplateLint
+ok 42 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You can unarchive a user-defined company attribute by clicking "Unarchive"
+ok 43 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: If an attribute is selected in the "company list" column, and you try to select it in the "user list" column, it will become selected in the "user list" column and still stay selected in the "company list" column.
+ok 44 Chrome 54.0 - Exam Partition #9 - TemplateLint - embercom/templates/apps/app/users-and-companies/modals/tagging.hbs: should pass TemplateLint
+skip 45 Chrome 54.0 - Exam Partition #9 - Team Engage 1 | Unit: Component - messages/editor/in-app-editor: #unsubscribeLink with localization - https://github.com/intercom/intercom/issues/40323
+ok 46 Chrome 54.0 - Exam Partition #9 - Team Support 2 | Unit: Route - Conversations/Conversation: Prefetches users for the previous conversation
+ok 47 Chrome 54.0 - Exam Partition #9 - Team Engage 1 | Integration: Component - Campaign Folder Inline Creator | Integration | Component | message-editor/campaign-and-folder-inline-creator: Entering text and hitting return should create a campaign
+ok 48 Chrome 54.0 - Exam Partition #9 - General | Unit: Helper - Sentence Case: A normal sentence
+ok 49 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: Clicking on a checkbox in the "user list" column of the company attribute settings immediately changes which columns are displayed in the user list
+ok 50 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You can archive a user-defined people attribute by clicking "Archive"
+ok 51 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You cannot change the data-type of an archived company user-defined attribute
+ok 52 Chrome 54.0 - Exam Partition #9 - General | Integration: Settings - Attributes: You can archive a user-defined company attribute by clicking "Archive"
+ok 53 Chrome 54.0 - Exam Partition #9 - Team Engage 1 | Unit: Component - messages/editor/in-app-editor: #footerVisibilityClass
+ok 54 Chrome 54.0 - Exam Partition #9 - Team Support 2 | Unit: Route - Conversations/Conversation: Sets the current conversation on the inbox service
+ok 55 Chrome 54.0 - Exam Partition #9 - Team Support 2 | Unit: Route - Conversations/Conversation: Prefetches users for next conversation
+ok 56 Chrome 54.0 - Exam Partition #9 - Team Support 2 | Acceptance: Educate collection tests: Create a new collection
+
+1..56
+# tests 56
+# pass  55
+# skip  1
+# fail  0
+
+# ok
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/components/messages/editor/message-title-editor-component.hbs: should pass TemplateLint
+ok 2 Chrome 54.0 - Exam Partition #10 - Team Support 2 | Unit: Route - Conversations: Does not respond to reachability if deactivated
+ok 3 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Explicitly Selected Android Channel
+ok 4 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/components/guide/steps/api-authenticated-request-component.hbs: should pass TemplateLint
+ok 5 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Push Message iOS SDK step if SDK invalid
+ok 6 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/apps/app/messages/partials/table-cells/-message-draggable-cell.hbs: should pass TemplateLint
+ok 7 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: Clicking the selected item again should close the dropdown
+ok 8 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: It should list all the folders passed in and show the correct selected item
+ok 9 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/partials/logo.hbs: should pass TemplateLint
+ok 10 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: The initial dropdown text with no folder or campaign selected
+ok 11 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: The initial dropdown text with a campaign selected
+ok 12 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: Creating a new campaign
+ok 13 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Push Message Android SDK step if Android invalid
+ok 14 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: It should list all the campaigns and show the correct selected item
+ok 15 Chrome 54.0 - Exam Partition #10 - Team Support 2 | Acceptance: Educate collection tests 2: Reorder collections in main view
+ok 16 Chrome 54.0 - Exam Partition #10 - General | Unit: Helper - Time from now: takes UNIX timestamps
+ok 17 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: Clearing the selected campaign should work
+ok 18 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: Clicking the dropdown in the init state will open it
+ok 19 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Push Message iOS SDK step if it has no certificate
+ok 20 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/components/dialogs/custom/article-picker.hbs: should pass TemplateLint
+ok 21 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/components/rules/predicate-attribute-selector-component.hbs: should pass TemplateLint
+ok 22 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Explicitly Selected iOS Channel with an invalid SDK
+ok 23 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: Selecting a folder or campaign should call the selectedItem action
+ok 24 Chrome 54.0 - Exam Partition #10 - Team Support 2 | Acceptance: Educate collection tests 2: Create a new chapter
+ok 25 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: Creating a new folder
+ok 26 Chrome 54.0 - Exam Partition #10 - Team Support 2 | Acceptance: Educate collection tests 2: Deletes a chapter
+ok 27 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Push Message Any Platform SDK step if Android invalid
+ok 28 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/apps/app/import/mailchimp/tag.hbs: should pass TemplateLint
+ok 29 Chrome 54.0 - Exam Partition #10 - General | Unit: Helper - Time from now: takes string timestamps
+ok 30 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Explicitly Selected iOS Channel with no certificate
+not ok 31 Chrome 54.0 - Exam Partition #10 - General | Integration: Settings - Email Template Editor: Making changes and navigating away discards the changes after modal confirmation
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+                at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+                at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+                at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+                at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+                at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+                at http://localhost:7357/assets/vendor.js:54930:36
+                at r (https://gtm.intercomassets.com/94436f20a65ad436fc076fa480c95772dc3e3031-gtm.js:1:23001)
+        message: >
+            ReferenceError: assertModalConfirmButtonLabel is not defined
+        Log: |
+    ...
+ok 32 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/components/message-dropdown-component.hbs: should pass TemplateLint
+ok 33 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: Selecting a folder or campaign should set it as the selected item
+ok 34 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/apps/app/companies/company/modals/company-delete.hbs: should pass TemplateLint
+ok 35 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/components/billing/price-estimator-component.hbs: should pass TemplateLint
+ok 36 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: Clicking anywhere outside the dropdown should close it
+ok 37 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/apps/app/users-and-companies/selected-count.hbs: should pass TemplateLint
+ok 38 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: Clearing the selected folder should work
+ok 39 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Push Message Android SDK step if it has no certificate
+ok 40 Chrome 54.0 - Exam Partition #10 - Team Support 2 | Acceptance: Educate collection tests 2: Clicking on collection title redirects to the collection view
+ok 41 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Explicitly Selected All Platforms Channel with no Android certificate
+ok 42 Chrome 54.0 - Exam Partition #10 - TemplateLint - embercom/templates/components/tags-or-segments-visibility-popover-component.hbs: should pass TemplateLint
+ok 43 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Page targeting is visible when the app has no SDK apps
+not ok 44 Chrome 54.0 - Exam Partition #10 - General | Integration: Settings - Email Template Editor: Deleting the template shows a warning and then removes the template from the list
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+                at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+                at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+                at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+                at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+                at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+                at http://localhost:7357/assets/vendor.js:54930:36
+                at r (https://gtm.intercomassets.com/94436f20a65ad436fc076fa480c95772dc3e3031-gtm.js:1:23001)
+        message: >
+            ReferenceError: assertModalConfirmButtonLabel is not defined
+        Log: |
+    ...
+ok 45 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: The initial dropdown text with a folder selected
+ok 46 Chrome 54.0 - Exam Partition #10 - General | Integration: Settings - Email Template Editor: Viewing and editing content
+ok 47 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Integration: Component - Folder and Campaign Mover | Integration | Component | message-editor/folder-and-campaign-mover: The remove button should not show if there is no folder or campaign initially
+ok 48 Chrome 54.0 - Exam Partition #10 - Team Engage 1 | Unit: Component - messages/editor/message-channel-editor-component: Explicitly Selected All Platforms Channel with an invalid Android SDK
+ok 49 Chrome 54.0 - Exam Partition #10 - Team Support 2 | Unit: Route - Conversations: Reloads inbox on network becoming available
+ok 50 Chrome 54.0 - Exam Partition #10 - Team Support 2 | Acceptance: Educate collection tests 2: Create a new collection
+
+1..50
+# tests 50
+# pass  48
+# skip  0
+# fail  2
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/apps/app/companies/company/modals/tag.hbs: should pass TemplateLint
+not ok 2 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: You cannot move a campaign with dependencies
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+                at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+                at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+                at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+                at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+                at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+                at http://localhost:7357/assets/vendor.js:54930:36
+                at r (https://gtm.intercomassets.com/94436f20a65ad436fc076fa480c95772dc3e3031-gtm.js:1:23001)
+        message: >
+            ReferenceError: isVisible is not defined
+        Log: |
+    ...
+ok 3 Chrome 54.0 - Exam Partition #11 - Team Engage 1 | Unit: Component - messages/editor/variation-content-editor: Setting the current device
+not ok 4 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Moving a message to a campaign
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+                at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+                at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+                at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+                at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+                at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+                at http://localhost:7357/assets/vendor.js:54930:36
+                at r (https://gtm.intercomassets.com/94436f20a65ad436fc076fa480c95772dc3e3031-gtm.js:1:23001)
+        message: >
+            ReferenceError: isVisible is not defined
+        Log: |
+    ...
+ok 5 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/components/messages/editor/message-variation-content-editor-legacy-component.hbs: should pass TemplateLint
+ok 6 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/components/team-members-selector-component.hbs: should pass TemplateLint
+ok 7 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/apps/app/users.hbs: should pass TemplateLint
+ok 8 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/components/bulk-action-select-component.hbs: should pass TemplateLint
+ok 9 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/components/guide/steps/customize-messenger-component.hbs: should pass TemplateLint
+not ok 10 Chrome 54.0 - Exam Partition #11 - General | Integration: Settings - Email Templates: Custom templates should be listed with previews and be clickable to edit
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+                at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+                at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+                at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+                at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+                at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+                at http://localhost:7357/assets/vendor.js:54930:36
+                at r (https://gtm.intercomassets.com/94436f20a65ad436fc076fa480c95772dc3e3031-gtm.js:1:23001)
+        message: >
+            ReferenceError: hasText is not defined
+        Log: |
+    ...
+ok 11 Chrome 54.0 - Exam Partition #11 - Team Observe | Unit: Route - User/Index: Has correct ActivityFeedItem options
+ok 12 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/partials/marketing-nav.hbs: should pass TemplateLint
+ok 13 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Deactivating a message
+ok 14 Chrome 54.0 - Exam Partition #11 - Team Engage 1 | Integration: Component - Message Editor Goal Title Component | Integration | Component | message-editor/goal/goal-title-component: renders the component with a goal in edit mode
+ok 15 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/components/message-edit-channel-expanding-container-component.hbs: should pass TemplateLint
+ok 16 Chrome 54.0 - Exam Partition #11 - General | Initializers : Intercom Preboot: it queues function calls
+not ok 17 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Removing a message from a folder
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+                at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+                at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+                at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+                at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+                at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+                at http://localhost:7357/assets/vendor.js:54930:36
+                at r (https://gtm.intercomassets.com/94436f20a65ad436fc076fa480c95772dc3e3031-gtm.js:1:23001)
+        message: >
+            ReferenceError: isVisible is not defined
+        Log: |
+    ...
+ok 18 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/apps/app/import/mixpanel.hbs: should pass TemplateLint
+ok 19 Chrome 54.0 - Exam Partition #11 - Team Engage 1 | Integration: Component - Message Editor Goal Title Component | Integration | Component | message-editor/goal/goal-title-component: renders the component in edit mode
+ok 20 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Activating a message without permission
+not ok 21 Chrome 54.0 - Exam Partition #11 - General | Integration: Settings - Email Templates: Check default template is correctly persisted on change and save
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+                at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+                at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+                at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+                at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+                at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+                at http://localhost:7357/assets/vendor.js:54930:36
+                at r (https://gtm.intercomassets.com/94436f20a65ad436fc076fa480c95772dc3e3031-gtm.js:1:23001)
+        message: >
+            ReferenceError: hasClass is not defined
+        Log: |
+    ...
+ok 22 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Activating a message without billing features
+ok 23 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Deleting a message with dependencies
+ok 24 Chrome 54.0 - Exam Partition #11 - General | Integration: Settings - Email Templates: Clicking copy template link opens select template page
+ok 25 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Stopping a live manual message
+ok 26 Chrome 54.0 - Exam Partition #11 - Team Engage 1 | Integration: Component - Message Editor Goal Title Component | Integration | Component | message-editor/goal/goal-title-component: renders the component with a goal
+ok 27 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Deleting a message with no dependencies
+not ok 28 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Removing a message from a campaign
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+                at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+                at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+                at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+                at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+                at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+                at http://localhost:7357/assets/vendor.js:54930:36
+                at r (https://gtm.intercomassets.com/94436f20a65ad436fc076fa480c95772dc3e3031-gtm.js:1:23001)
+        message: >
+            ReferenceError: isVisible is not defined
+        Log: |
+    ...
+ok 29 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/components/rules/predicate-browser-locale-value-component.hbs: should pass TemplateLint
+not ok 30 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Moving a message to a folder
+    ---
+        actual: >
+            false
+        expected: >
+            true
+        stack: >
+                at http://localhost:7357/assets/test-support.js:4067:12
+                at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+                at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+                at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+                at http://localhost:7357/assets/vendor.js:70259:40
+                at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+                at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+                at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+                at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+                at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+                at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+                at http://localhost:7357/assets/vendor.js:54930:36
+                at r (https://gtm.intercomassets.com/94436f20a65ad436fc076fa480c95772dc3e3031-gtm.js:1:23001)
+        message: >
+            ReferenceError: isVisible is not defined
+        Log: |
+    ...
+ok 31 Chrome 54.0 - Exam Partition #11 - Team Engage 1 | Integration: Component - Message Editor Goal Title Component | Integration | Component | message-editor/goal/goal-title-component: renders the component without a goal in edit mode
+ok 32 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Deactivating a message without permission
+ok 33 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/apps/app/messages/partials/table-cells/-message-from-cell.hbs: should pass TemplateLint
+ok 34 Chrome 54.0 - Exam Partition #11 - General | Integration: Settings - Email Templates: Selecting a template to copy should open editor
+ok 35 Chrome 54.0 - Exam Partition #11 - TemplateLint - embercom/templates/components/dialogs/opener-component.hbs: should pass TemplateLint
+ok 36 Chrome 54.0 - Exam Partition #11 - General | Integration: Settings - Email Templates: Creating a custom template transitions correctly
+ok 37 Chrome 54.0 - Exam Partition #11 - Team Engage 1 | Integration: Component - Message Editor Goal Title Component | Integration | Component | message-editor/goal/goal-title-component: renders the component with a user-event based goal
+ok 38 Chrome 54.0 - Exam Partition #11 - Team Engage 3 | Acceptance | message-view-and-edit/message-actions: Activating a message
+
+1..38
+# tests 38
+# pass  31
+# skip  0
+# fail  7
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it renders the tick/index in edit mode
+ok 2 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/components/team-membership-list-component.hbs: should pass TemplateLint
+ok 3 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/components/guide/steps/engage-auto-message-component.hbs: should pass TemplateLint
+ok 4 Chrome 54.0 - Exam Partition #12 - General | Integration: Settings - Events: You can unarchive an archived event by clicking "Unarchive"
+ok 5 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Unit: Component - Message Goals - Attribute Selector Component: It does not blow up if there are no user or company attributes
+ok 6 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it renders the tick when complete
+ok 7 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it renders the index when not complete
+ok 8 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it hides the tick/index with the correct transition
+ok 9 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Unit: Component - Message Goals - Attribute Selector Component: It sorts user and company attributes
+ok 10 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/apps/app/messages/partials/table-cells/-message-selection-cell.hbs: should pass TemplateLint
+ok 11 Chrome 54.0 - Exam Partition #12 - General | Integration: Settings - Events: You can archive an event by clicking "Archive"
+ok 12 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/components/rules/predicate-company-tag-value-component.hbs: should pass TemplateLint
+ok 13 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it does not render the tick/index in show mode
+ok 14 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Unit | Serializer | messages/recipient: it normalizes the recipient correctly
+ok 15 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/apps/app/companies/company/modals/tagging.hbs: should pass TemplateLint
+ok 16 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/apps/app/import/mixpanel/finish.hbs: should pass TemplateLint
+ok 17 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/components/displayed-attributes-dropdown-component.hbs: should pass TemplateLint
+ok 18 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/partials/messages/show-page/-copy-to-production-button.hbs: should pass TemplateLint
+ok 19 Chrome 54.0 - Exam Partition #12 - General | Initializers : jQuery Ajax Prefilter: _shouldRedirectToSignIn
+ok 20 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/components/bulk-tag-progress-component.hbs: should pass TemplateLint
+ok 21 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/components/messages/editor/message-variation-editor-component.hbs: should pass TemplateLint
+ok 22 Chrome 54.0 - Exam Partition #12 - General | Integration: Settings - Events: You cannot archive an event that has objects dependent on it
+ok 23 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/components/message-edit-content-expanding-container-component.hbs: should pass TemplateLint
+ok 24 Chrome 54.0 - Exam Partition #12 - TemplateLint - embercom/templates/apps/app/users/segments.hbs: should pass TemplateLint
+ok 25 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it does not render the tick/index for non draft messages
+ok 26 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it shows the tick/index with the correct transition
+ok 27 Chrome 54.0 - Exam Partition #12 - Team Engage 1 | Unit | Serializer | messages/recipient: when no explicit ID is provided
+ok 28 Chrome 54.0 - Exam Partition #12 - Team Engage 3 | Acceptance | message-view-and-edit/message-reload: Entering the route with the message in the store
+
+1..28
+# tests 28
+# pass  28
+# skip  0
+# fail  0
+
+# ok
+[?25hWARNING: Node v7.0.0 has currently not been tested against Ember CLI and may result in unexpected behaviour.
+[?25hRandomizing test with seed: fewnb0fvfqb1gg1a6kwn3cv7vi
+ok 1 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/apps/app/import/mixpanel/index.hbs: should pass TemplateLint
+ok 2 Chrome 54.0 - Exam Partition #13 - General | Library: Admin Ping Service: start does not start polling for disabled app
+ok 3 Chrome 54.0 - Exam Partition #13 - Team Observe | Library: AttributeService: assignment rules message attributes are set up correctly
+ok 4 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work with reactions
+ok 5 Chrome 54.0 - Exam Partition #13 - Team Engage 1 | Unit: Component - message-filter-editor-component: Predicates Validity on OR filtering
+ok 6 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Paging works
+ok 7 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/components/rules/predicate-comparison-selector-component.hbs: should pass TemplateLint
+ok 8 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/partials/messages/show-page/-delete-button.hbs: should pass TemplateLint
+ok 9 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/components/bulk-user-delete-progress-component.hbs: should pass TemplateLint
+ok 10 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/components/dropdown-component.hbs: should pass TemplateLint
+ok 11 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/components/message-edit-delivery-window-component.hbs: should pass TemplateLint
+ok 12 Chrome 54.0 - Exam Partition #13 - Team Engage 1 | Unit: Component - message-filter-editor-component: Broken predicates are removed on init
+ok 13 Chrome 54.0 - Exam Partition #13 - Team Observe | Library: AttributeService: displayed user attributes returns the correct list
+ok 14 Chrome 54.0 - Exam Partition #13 - Team Engage 1 | Integration: Component - Message Editor Message Debugger | Integration | Component | message-editor/message-debugger: it does not render the pill if we are not on the intercomrades or dev pages
+ok 15 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Switching between conversations and replied should work
+ok 16 Chrome 54.0 - Exam Partition #13 - General | Library: Admin Ping Service: start sets app and admin
+ok 17 Chrome 54.0 - Exam Partition #13 - General | Library: Admin Ping Service: pingPeriodically sets next pingPeriodically call
+ok 18 Chrome 54.0 - Exam Partition #13 - General | Integration: Settings - General App: If user cancels an app deletion, the app is not deleted
+ok 19 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/components/messages/editor/push-message-channel-tooltip.hbs: should pass TemplateLint
+ok 20 Chrome 54.0 - Exam Partition #13 - Team Engage 1 | Unit: Component - message-filter-editor-component: Predicates Validity
+ok 21 Chrome 54.0 - Exam Partition #13 - General | Library: Admin Ping Service: stop stops polling
+ok 22 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work with reactions
+ok 23 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/apps/app/messages/partials/table-cells/-message-to.hbs: should pass TemplateLint
+ok 24 Chrome 54.0 - Exam Partition #13 - Team Observe | Library: AttributeService: inboxAttributes are set up correctly for users
+ok 25 Chrome 54.0 - Exam Partition #13 - General | Integration: Settings - General App: Company features are enabled and disabled on save of form
+ok 26 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Engage Manual: Switching to the inverse of a stat works
+ok 27 Chrome 54.0 - Exam Partition #13 - General | Integration: Settings - General App: If user has two apps, deleting an app brings them to another app via a hard URL change
+ok 28 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Acquire: Switching to opened stat should not work
+ok 29 Chrome 54.0 - Exam Partition #13 - Team Observe | Library: AttributeService: displayed campaign goal attributes returns the correct list
+ok 30 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: clicking between variations should always default to the content tab
+ok 31 Chrome 54.0 - Exam Partition #13 - General | Library: Admin Ping Service: _defer calls Em.run.later
+ok 32 Chrome 54.0 - Exam Partition #13 - Team Observe | Library: AttributeService: inboxAttributes are set up correctly for companies
+ok 33 Chrome 54.0 - Exam Partition #13 - Team Engage 1 | Unit: Component - message-filter-editor-component: Removing one filter does not remove other filters of that type
+ok 34 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/apps/app/companies/company/modals/user-delete.hbs: should pass TemplateLint
+ok 35 Chrome 54.0 - Exam Partition #13 - Team Engage 1 | Integration: Component - Message Editor Message Debugger | Integration | Component | message-editor/message-debugger: it renders the pill and clicking toggles the panel if we are on the intercomrades or dev pages
+not ok 36 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: clicking a stat tab should not have the stat inverted by default
+    ---
+        actual: >
+            null
+        message: >
+            Test timed out
+        Log: |
+    ...
+not ok 37 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work
+    ---
+        actual: >
+            null
+        message: >
+            Test timed out
+        Log: |
+    ...
+ok 38 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/components/textarea-attribute-selector-component.hbs: should pass TemplateLint
+ok 39 Chrome 54.0 - Exam Partition #13 - General | Library: Admin Ping Service: stop sets app and admin to null
+not ok 40 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work
+    ---
+        actual: >
+            null
+        message: >
+            Test timed out
+        Log: |
+    ...
+not ok 41 Chrome 54.0 - Exam Partition #13 - General | Integration: Settings - General App: Test app ID is shown on toggle if a test app is present
+    ---
+        actual: >
+            null
+        message: >
+            Test timed out
+        Log: |
+    ...
+ok 42 Chrome 54.0 - Exam Partition #13 - Team Observe | Library: AttributeService: displayed company attributes returns the correct list
+not ok 43 Chrome 54.0 - Exam Partition #13 - Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Switching to different reactions stats should work
+    ---
+        actual: >
+            null
+        message: >
+            Test timed out
+        Log: |
+    ...
+ok 44 Chrome 54.0 - Exam Partition #13 - Team Observe | Library: AttributeService: visitor messaging attributes retrieves the correct list
+ok 45 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/apps/app/users/segments/segment.hbs: should pass TemplateLint
+ok 46 Chrome 54.0 - Exam Partition #13 - General | Library: Admin Ping Service: pingPeriodically calls _ping
+ok 47 Chrome 54.0 - Exam Partition #13 - Team Engage 1 | Unit: Component - message-filter-editor-component: User targeting predicates are automatically added at the top level
+ok 48 Chrome 54.0 - Exam Partition #13 - TemplateLint - embercom/templates/components/guide/steps/engage-campaign-component.hbs: should pass TemplateLint
+ok 49 Chrome 54.0 - Exam Partition #13 - Team Engage 1 | Unit: Component - message-filter-editor-component: Broken OR predicates are removed on init
