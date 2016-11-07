@@ -1,6 +1,5 @@
 const lineMetaGenerator = require('./line-meta-generator.js');
 const testParser = require('./test-parser.js');
-const processTests = require('./test-parser.js');
 
 function processTestsMeta(testsMeta, finalOutput) {
   testsMeta.forEach((meta) => {

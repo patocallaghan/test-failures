@@ -64,7 +64,7 @@ var TestFailures = {
     let output = {};
     let filenames = fs.readdirSync(directory);
     filenames.forEach(function(filename) {
-      let seed = filename.replace('.txt', '');
+      let seed = filename.replace(/(\-\d+)?\.txt/, '');
       let content = fs.readFileSync(`${directory }/${filename}`, 'utf-8');
       output = generateOutput(seed, content, output);
     });

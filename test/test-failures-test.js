@@ -113,7 +113,7 @@ describe('testParser', function() {
 });
 
 describe('TestFailures', function() {
-  it.only('should return the correct meta', function() {
+  it('should return the correct meta', function() {
     const FINAL_RESULT = {
       "engage": {
         "failingTests": [
