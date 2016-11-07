@@ -1,6 +1,9 @@
 const fs = require('fs');
+
 const TestFailures = require('./lib/test-failures');
-let results = TestFailures.run('seeds');
+var args = process.argv.slice(2);
+console.log('params: ', args[0]);
+let results = TestFailures.run(args[0]);
 fs.writeFile("failed-tests.txt", JSON.stringify(results, null, 2), function(err) {
   if(err) {
     return console.log(err);
