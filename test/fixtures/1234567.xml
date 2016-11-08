@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testem Tests" tests="358" skipped="0" failures="9" timestamp="Tue Nov 08 2016 01:01:00 GMT+0000 (GMT)" time="80.360">
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it does not render the tick/index in show mode" time="1.569" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Growth 1 | Unit: Model - product: activePlan returns plan that is active" time="0.148" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Observe | Integration: Component - Segment Filter Float Predicate: clicking known shows no input" time="1.822" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Component - Conversation Card: When the conversation changes and the card is expanded" time="0.898" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: email icons" time="0.169">
+    <error message="Died on test #1     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at Module.callback (http://localhost:7357/assets/tests.js:65175:24)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)     at http://localhost:7357/assets/test-support.js:6519:22: No model was found for 'common/blocks/paragraph'"><![CDATA[Error: No model was found for 'common/blocks/paragraph'
+    at EmberError (http://localhost:7357/assets/vendor.js:31129:21)
+    at Class.modelFor (http://localhost:7357/assets/vendor.js:160407:15)
+    at Class.createFragment (http://localhost:7357/assets/vendor.js:199890:23)
+    at http://localhost:7357/assets/tests.js:34747:47
+    at Array.forEach (native)
+    at http://localhost:7357/assets/tests.js:34746:19
+    at Backburner.run (http://localhost:7357/assets/vendor.js:15235:25)
+    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)
+    at exports.default (http://localhost:7357/assets/tests.js:34744:10)
+    at ModelDefinition.afterMake (http://localhost:7357/assets/tests.js:16887:58)]]></error>
+  </testcase>
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Observe | Integration: Component - Segment Filter Float Predicate: shows number predicate options" time="0.193">
+    <error message="Promise rejected before shows number predicate options: Assertion Failed: You cannot use the same root element (#ember-testing) multiple times in an Ember.Application"><![CDATA[Error: Assertion Failed: You cannot use the same root element (#ember-testing) multiple times in an Ember.Application
+    at EmberError (http://localhost:7357/assets/vendor.js:31129:21)
+    at assert (http://localhost:7357/assets/vendor.js:20939:13)
+    at Object.assert (http://localhost:7357/assets/vendor.js:30893:34)
+    at Class.setup (http://localhost:7357/assets/vendor.js:59161:24)
+    at Klass.setupComponentUnitTest (http://localhost:7357/assets/test-support.js:7477:26)
+    at http://localhost:7357/assets/test-support.js:7098:26
+    at Object.initializePromise (http://localhost:7357/assets/vendor.js:68390:7)
+    at new Promise (http://localhost:7357/assets/vendor.js:70240:21)
+    at nextStep (http://localhost:7357/assets/test-support.js:7097:18)
+    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)]]></error>
+  </testcase>
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Component – Conversation Card Stream: #componentPath returns correct component for admin reply" time="0.128">
+    <error message="Promise rejected before #componentPath returns correct component for admin reply: Assertion Failed: You cannot use the same root element (#ember-testing) multiple times in an Ember.Application"><![CDATA[Error: Assertion Failed: You cannot use the same root element (#ember-testing) multiple times in an Ember.Application
+    at EmberError (http://localhost:7357/assets/vendor.js:31129:21)
+    at assert (http://localhost:7357/assets/vendor.js:20939:13)
+    at Object.assert (http://localhost:7357/assets/vendor.js:30893:34)
+    at Class.setup (http://localhost:7357/assets/vendor.js:59161:24)
+    at Klass.setupComponentUnitTest (http://localhost:7357/assets/test-support.js:7477:26)
+    at http://localhost:7357/assets/test-support.js:7098:26
+    at Object.initializePromise (http://localhost:7357/assets/vendor.js:68390:7)
+    at new Promise (http://localhost:7357/assets/vendor.js:70240:21)
+    at nextStep (http://localhost:7357/assets/test-support.js:7097:18)
+    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)]]></error>
+  </testcase>
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/messages/message-from-name-with-avatar.hbs: should pass TemplateLint" time="0.076" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: The &amp;quot;user list&amp;quot; column reflects the current display settings for people attributes in the user list" time="0.336">
+    <error message="Error: Assertion Failed: You cannot use the same root element (#ember-testing) multiple times in an Ember.Application"><![CDATA[at http://localhost:7357/assets/test-support.js:4067:12
+    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+    at http://localhost:7357/assets/vendor.js:70259:40
+    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+    at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+    at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+    at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+    at http://localhost:7357/assets/vendor.js:15683:18]]></error>
+  </testcase>
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: With existing predicates in edit mode" time="1.131" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Model - Rule: hasValidName is false when name is null" time="0.190" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/rules/predicate-url-visit-string-value-component.hbs: should pass TemplateLint" time="0.066" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last part is an admin action - close" time="0.258" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/attribute-company-tag-component.hbs: should pass TemplateLint" time="0.064" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - String Editor | Integration | Component | predicates/value-editors/string-editor: changing from has any value back to equal" time="0.515" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/conversation/stream/partials/-auto-response.hbs: should pass TemplateLint" time="0.101" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Integration: Settings - Email Template Editor: Viewing and editing content" time="5.218" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Observe | Integration: Component - Segment Filter Integer Predicate: clicking the first element shows a number input" time="0.592" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Integration: Settings - Company Segments: allows deletions of segments without dependent objects" time="4.464" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Unit: SdkApp Model: platform isIOS" time="0.134" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/rules/predicates-list-summary-component.hbs: should pass TemplateLint" time="0.110" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: RuleActions without a command are invalid" time="0.326" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/conversation/stream/partials/-lightweight-reply.hbs: should pass TemplateLint" time="0.106" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Component - Social Connect: #url returns the current window url" time="0.124" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/guide/custom-user-data-and-events.hbs: should pass TemplateLint" time="0.094" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Support 2 | Unit: Component - Conversation Controls: only submit a sticker once" time="0.933" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/tooltips/color-picker-overlay.hbs: should pass TemplateLint" time="0.066" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/apps/app/acquire/messages/paused.hbs: should pass TemplateLint" time="0.061" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: Rendering empty and actual users" time="0.522" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: title for a draft message" time="0.214" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Support 2 | Unit: Component - Conversation Controls: Creating a part should tell the composer to remove focus" time="0.285" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Support 2 | Unit: Component - Conversation Controls: typeForNewPart" time="0.250" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: There should be a link to the rules page from the Support section" time="4.796" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: Users stats should not be visible" time="0.667" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: title" time="0.804" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: Preview user requests are not made for invalid predicateGroups" time="0.680" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/guide/steps/stripe-integration-component.hbs: should pass TemplateLint" time="0.172" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - String Editor | Integration | Component | predicates/value-editors/string-editor: changing from unknown back to equal" time="0.687" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Message Editor Review  Title | Integration | Component | message-editor/review/title-component: renders the component" time="0.933" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it renders the index when not complete" time="0.369" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/rules/predicate-tag-value-component.hbs: should pass TemplateLint" time="0.076" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: Rendering actual users" time="0.757" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: exit stats for leads" time="0.766" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: User type header" time="0.552" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: title with leads" time="0.546" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it does not render the tick/index for non draft messages" time="0.258" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last comment is a user reply to an assigned conversation" time="0.186" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: exit stats" time="0.435" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 1 | Acceptance: Inbox - Routing: Transitioning to index does not work if there are items in the list" time="10.842" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: With existing predicates in non-edit mode" time="0.456" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last part is an admin action - assign" time="0.251" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: it does not send maximise action in summary mode" time="0.535" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/users/profile/note-composer-textarea-component.hbs: should pass TemplateLint" time="0.082" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: Or/And predicates" time="0.572" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last comment is an admin reply" time="0.237" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 1 | Acceptance: Inbox - Keyboard Shortcuts: &amp;quot;n&amp;quot; switches to the note tab" time="9.606" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Integration: Component - Campaigns Goal Editor | Integration | Component | campaigns/setup/campaign-goal-editor: Existing predicates in edit mode" time="0.613" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/message-editor/delivery-window/main-component.hbs: should pass TemplateLint" time="0.060" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Integration: Settings - Email Template Editor: Making changes and navigating away discards the changes after modal confirmation" time="5.608" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Component - Social Connect: failureAction is called when socialConnectFailure is triggered" time="0.152" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Unit: Component - Tag Filter URL: it correctly encodes an inbox tag URL" time="0.066" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You cannot change the data-type of an archived people user-defined attribute" time="2.708" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Unit: Component - Message Edit Delivery Window: component form is initialized correctly" time="0.251" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Model - Rule: hasValidName is false when name is longer than 100 characters" time="0.150" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/tooltips/backwards-compat.hbs: should pass TemplateLint" time="0.060" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Model - Rule: hasValidName is true when name is less than or equal to 100 characters" time="0.119" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: Rules page displays the correct elements when there are rules" time="2.433" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/account/account-admin-avatar-component.hbs: should pass TemplateLint" time="0.084" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/message-stat-component.hbs: should pass TemplateLint" time="0.067" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/apps/app/settings/web.hbs: should pass TemplateLint" time="0.076" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last part is an admin action - open" time="0.197" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Integration: Component - Message Editor Message Debugger | Integration | Component | message-editor/message-debugger: it does not render the pill if we are not on the intercomrades or dev pages" time="0.563" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: Switching between campaigns should re-render the users" time="1.100" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last part is a rule assignment" time="0.218" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Observe | Integration: Component - Segment Filter Integer Predicate: shows number predicate options" time="0.355" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: in non-edit state" time="0.300" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Library: User Agent Detector: IE 10/11 Detection" time="0.091" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: Preview user requests are not made for empty predicateGroups" time="0.301" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Unit: Helper - IC Stamp: with additional classes" time="0.067" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/apps/app/companies/segments/segment/-company-logo-and-name.hbs: should pass TemplateLint" time="0.059" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/predicates/goal-value-editors/user-event-editor.hbs: should pass TemplateLint" time="0.068" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: title for a live/stopped message" time="0.328" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/messages/message-list-row.hbs: should pass TemplateLint" time="0.062" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Unit: SdkApp Model: platform isAndroid" time="0.126" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Library: User Agent Detector: Firefox Detection" time="0.116" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Integration: Settings - Company Segments: displays segment name" time="1.539">
+    <error message="Error: Element .test__segments-table tbody tr .test__segment-editable-text:eq(0) .btn not found."><![CDATA[at http://localhost:7357/assets/test-support.js:4067:12
+    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+    at http://localhost:7357/assets/vendor.js:70259:40
+    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+    at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+    at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+    at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+    at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+    at http://localhost:7357/assets/vendor.js:54930:36
+    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)]]></error>
+  </testcase>
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You can unarchive a user-defined people attribute by clicking &amp;quot;Unarchive&amp;quot;" time="2.284" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Integration: Component - Campaigns Goal Editor | Integration | Component | campaigns/setup/campaign-goal-editor: Adding predicates" time="0.746" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: Rendering users when there are more than can be shown" time="0.437" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/acquisition/added-tags-component.hbs: should pass TemplateLint" time="0.071" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/apps/app/engage/messages/auto/folders/folder.hbs: should pass TemplateLint" time="0.085" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/apps/app/messages/partials/table-cells/-message-draggable-cell.hbs: should pass TemplateLint" time="0.096" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: goal stats visibility" time="0.573" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Component - Conversation Card: When the conversation changes, we have previously loaded all the parts, and the card is expanded" time="0.172" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Helper - Url parser: hash" time="0.083" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Unit: Helper - Truncate URl: do truncate" time="0.110" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Support 2 | Unit: Component - Conversation Controls: The isUploading flag gets set when the composer starts uploading" time="0.280" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/message-editor/expiry-component.hbs: should pass TemplateLint" time="0.080" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: it sends a didMinimise action" time="0.277" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: it does not display if it should not" time="0.368" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with no folder or campaign" time="0.224" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/apps/app/users-and-companies/filter-count-summary.hbs: should pass TemplateLint" time="0.072" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/apps/app/import/mixpanel/instructions.hbs: should pass TemplateLint" time="0.058" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/guide/header-component.hbs: should pass TemplateLint" time="0.060" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Integration: Component - Campaigns Goal Editor | Integration | Component | campaigns/setup/campaign-goal-editor: Removing predicates" time="0.635" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Model - Rule: isDirty is true when any of the rule actions are dirty" time="0.136" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Support 2 | Unit: Component - Conversation Controls: It should show/hide the knowledgebase action button correctly" time="0.300" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/conversation/stream/user-comment-component.hbs: should pass TemplateLint" time="0.075" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/message-variation-email-sender-component.hbs: should pass TemplateLint" time="0.067" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: it sends a minimise action with the correct panel identifier" time="0.272" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: Changing state shows notification" time="3.153" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Observe | Integration: Component - Segment Filter Integer Predicate: clicking unknown shows no input" time="0.380" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: When getting preview users the overlay displays" time="0.594" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Integration: Settings - Company Segments: does not allow deletions of segments with dependent objects" time="1.521">
+    <error message="undefined"><![CDATA[at http://localhost:7357/assets/tests.js:33738:16
+    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)
+    at http://localhost:7357/assets/vendor.js:55598:19
+    at isolate (http://localhost:7357/assets/vendor.js:55799:13)
+    at http://localhost:7357/assets/vendor.js:55783:14
+    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)
+    at Object.invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)
+    at http://localhost:7357/assets/vendor.js:70481:25
+    at http://localhost:7357/assets/vendor.js:46631:7
+    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+    at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+    at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+    at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+    at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+    at http://localhost:7357/assets/vendor.js:54930:36
+    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)]]></error>
+  </testcase>
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Unit: SdkApp Model: platform isChromeDesktopNotifications" time="0.103" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/attribute-manual-tag-component.hbs: should pass TemplateLint" time="0.068" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: Setting assignee sets the assignee_id in data and marks the model as dirty" time="0.129" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Support 2 | Unit: Component - Conversation Controls: changing pane should load that item from the pane cache into the composer" time="0.238" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: User stat calculations and visibility" time="0.363" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Integration: Component - Message Editor Message Debugger | Integration | Component | message-editor/message-debugger: it renders the pill and clicking toggles the panel if we are on the intercomrades or dev pages" time="0.516" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: Rules page displays the default assignee rule" time="1.794" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: Getting assignee returns the admin when assignee_id is set in data" time="0.177" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: title for a live/stopped message in edit mode with leads" time="0.368" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You cannot archive or change the data-type of a predefined people attribute" time="2.152" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Observe | Integration: Component - Segment Filter Integer Predicate: clicking known shows no input" time="0.365" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/integrations-hub/connect-button.hbs: should pass TemplateLint" time="0.058" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: Rendering only empty users" time="0.293" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: title for a draft message with leads" time="0.466" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/settings/appearance/widget-selector-component.hbs: should pass TemplateLint" time="0.119" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Library: User Agent Detector: Chrome Detection" time="0.082" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: Creating a rule adds a new rule card to the page which is removed when cancelled" time="2.014" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: title for a draft message " time="0.591" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it shows the tick/index with the correct transition" time="0.279" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Support 2 | Unit: Component - Conversation Controls: It should show/hide the correct action buttons" time="0.250" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - General | Unit: Helper - full-relative-time-ago-helper: 2 mins" time="0.089" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/apps/app/messages/partials/show-page/message.hbs: should pass TemplateLint" time="0.060" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - String Editor | Integration | Component | predicates/value-editors/string-editor: changing the comparator changes the predicate comparator" time="0.335" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You cannot change the type of a company attribute that has objects dependent on it" time="2.656" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Support 2 | Unit: Component - Conversation Controls: Should not send a sticker if block is sticker and has uploads" time="0.271" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/partials/messages/show-page/-start-ab-test-button.hbs: should pass TemplateLint" time="0.063" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/guide/steps/tutorials-component.hbs: should pass TemplateLint" time="0.075" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/users/profile/notes-component.hbs: should pass TemplateLint" time="0.073" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/expanding-textarea-component.hbs: should pass TemplateLint" time="0.086" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Unit: Message Display Until Editor Component: component enabling and disabling" time="0.360" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: toggleSelf sends maximise action if minimised" time="0.362" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with a folder" time="0.245" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Support 2 | Unit: Component - Conversation Controls: When a sendVideoReply action is received, call VideoRecorder.add_video_reply_part" time="0.224" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: it shows with the correct transition" time="0.274" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Library: User Agent Detector: Safari Detection" time="0.081" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: Lead stats" time="0.434" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Library: User Agent Detector: Edge Detection" time="0.069">
+    <error message="should not be detected as Safari"><![CDATA[at Object.<anonymous> (http://localhost:7357/assets/tests.js:74999:12)
+    at runTest (http://localhost:7357/assets/test-support.js:2716:28)
+    at Test.run (http://localhost:7357/assets/test-support.js:2701:4)
+    at http://localhost:7357/assets/test-support.js:2843:11
+    at process (http://localhost:7357/assets/test-support.js:2502:24)
+    at begin (http://localhost:7357/assets/test-support.js:2484:2)
+    at http://localhost:7357/assets/test-support.js:2544:4]]></error>
+  </testcase>
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with a campaign" time="0.224" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/apps/app/resolve/rules/index.hbs: should pass TemplateLint" time="0.045" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 1 | Acceptance: Inbox - Keyboard Shortcuts: &amp;quot;a&amp;quot; opens the assignee selector dropdown" time="4.985" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/common/breadcrumbs-component.hbs: should pass TemplateLint" time="0.098" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/predicates/goal-list-editor-component.hbs: should pass TemplateLint" time="0.096" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/attribute-data-row-component.hbs: should pass TemplateLint" time="0.067" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: RuleActions with an unsupported command are invalid" time="0.138" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: componentPath returns the correct component" time="0.097" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: The &amp;quot;company list&amp;quot; column reflects the current display settings for company attributes in the company list" time="2.111" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: it sends a didMaximise action" time="0.279" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Integration: Component - Campaigns Goal Editor | Integration | Component | campaigns/setup/campaign-goal-editor: User type header" time="0.479" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: Save and set live shows notification" time="3.579" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Integration: Settings - Email Template Editor: Deleting the template shows a warning and then removes the template from the list" time="2.459" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Unit: Helper - IC Stamp: it works" time="0.063" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Unit: SdkApp Model: platform isFirefoxDesktopNotifications" time="0.149" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: Users stats should be visible" time="0.425" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/apps/app/messages/modals/email-sender.hbs: should pass TemplateLint" time="0.062" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - General | Unit: Helper - IC Stamp: blank state returns an empty, unstyled span" time="0.081" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: The &amp;quot;user list&amp;quot; column reflects the current display settings for company attributes in the user list" time="1.833" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - Team Engage 1 | Integration: Component - Campaigns User Preview | Integration | Component | campaigns/setup/user-preview: title for a live/stopped message in edit mode" time="0.309" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #24 - TemplateLint - embercom/templates/components/company-table-row-component.hbs: should pass TemplateLint" time="0.104" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: Expanding a rule card updates the URL" time="1.920" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/apps/app/engage/messages/auto/campaigns/modals/spacing-editor-guide.hbs: should pass TemplateLint" time="0.068" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - String Editor | Integration | Component | predicates/value-editors/string-editor: changing the value changes the predicate value" time="0.219" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/apps/app/acquire/messages/message/show/index.hbs: should pass TemplateLint" time="0.068" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - General | Unit: Helper - full-relative-time-ago-helper: null with fallback" time="0.066" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - General | Unit: Helper - Truncate String: it truncates html" time="0.064" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/apps/app/resolve/about.hbs: should pass TemplateLint" time="0.068" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: Removing predicates" time="0.350" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Campaigns Exit Editor | Integration | Component | campaigns/setup/campaign-exit-editor: Adding predicates" time="0.445" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 1 | Acceptance: Inbox - Keyboard Shortcuts: &amp;quot;T&amp;quot; opens tag comment modal" time="4.066" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last part has a lightweight response" time="0.178" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: Deleting a rule shows a confirmation and removes the card when confirmed" time="1.910" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Growth 1 | Unit: Model - product: hasStandard returns true if lite is active but only one plan" time="0.152" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Acquire | Unit: Component - Team - Team Edit Component: should not show delete button if team is an app team" time="0.152" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - String Editor | Integration | Component | predicates/value-editors/string-editor: it shows the correct options in the dropdown" time="0.254" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Growth 1 | Unit: Model - product: active returns false if no plan is active" time="0.128" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/tooltips/auto-response-expected-delay.hbs: should pass TemplateLint" time="0.053" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/predicates/description-text.hbs: should pass TemplateLint" time="0.065" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it renders the tick/index in edit mode" time="0.206" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/apps/app/messages/index.hbs: should pass TemplateLint" time="0.051" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - General | Unit: Helper - Truncate String: it does not truncate a shoter string" time="0.050" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/partials/messages/show-page/-go-live-button.hbs: should pass TemplateLint" time="0.056" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/message-editor/delivery-window/delivery-window-wrapper.hbs: should pass TemplateLint" time="0.068" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/code-example-component.hbs: should pass TemplateLint" time="0.046" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last part is an admin action - reply &amp; open" time="0.216" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/insights/variation-stats-header-cell-component.hbs: should pass TemplateLint" time="0.064" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 1 | Acceptance: Inbox - Keyboard Shortcuts: &amp;quot;x&amp;quot; selects the current conversation" time="3.425" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - String Editor | Integration | Component | predicates/value-editors/string-editor: hovering over delete button shows and hides highlight" time="0.240" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 1 | Acceptance: Inbox - Routing: Clickin on your own inbox prunes conversations and transitions you to next" time="6.168" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/message-variation-assignee-component.hbs: should pass TemplateLint" time="0.071" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it hides the tick/index with the correct transition" time="0.225" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/guide/copy-paste-value-component.hbs: should pass TemplateLint" time="0.060" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/apps/app/import/mixpanel.hbs: should pass TemplateLint" time="0.059" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Unit: Message Display Until Editor Component: component is initialized correctly without a display_until date set" time="0.151" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/educate/site/nav-folders-list-component.hbs: should pass TemplateLint" time="0.058" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/apps/app/companies/segments/segment.hbs: should pass TemplateLint" time="0.054" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: is in stopped mode" time="0.476" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/message-editor/delivery-window/title-component.hbs: should pass TemplateLint" time="0.089" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - General | Integration: Serializer - Variation Stats: Non-reaction attribute keys are decamelized correctly" time="0.297" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Component – Conversation Card Stream: #componentPath returns correct component for admin note" time="0.129" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - String Editor | Integration | Component | predicates/value-editors/string-editor: delete button is present and functional for all comparison types" time="0.444" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last part is an admin action - reply &amp; close" time="0.341" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/users/profile/note-component.hbs: should pass TemplateLint" time="0.080" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last part is an admin action - reflexive assignment from another admin" time="0.167" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - General | Integration: Serializer - Variation Stats: Reaction attribute keys are decamelized correctly" time="0.228" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: If an attribute is selected in the &amp;quot;user list&amp;quot; column, and you try to select it in the &amp;quot;company list&amp;quot; column, it will become selected in the &amp;quot;company list&amp;quot; column and still stay selected in the &amp;quot;user list&amp;quot; column." time="1.938" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: Editing a rule displays a confirmation modal on cancel whent the rule is dirty" time="0.724">
+    <error message="Error: Element .test__rule-card:eq(0) .m__rule-card__header not found."><![CDATA[at http://localhost:7357/assets/test-support.js:4067:12
+    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+    at http://localhost:7357/assets/vendor.js:70259:40
+    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+    at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+    at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+    at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+    at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+    at http://localhost:7357/assets/vendor.js:54930:36
+    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)]]></error>
+  </testcase>
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Acquire | Unit: Component - Team - Team Edit Component: should show delete button if team is not an app team" time="0.246" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - General | Unit: Helper - full-relative-time-ago-helper: 2 mins with fallback" time="0.074" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Integration: Component - Message Editor index completed component | Integration | Component | message-editor/index-completed-component: it renders the tick when complete" time="0.187" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: toggleSelf sends minimise action if maximised" time="0.249" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last comment is a user reply to an unassigned conversation" time="0.150" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/apps/app/resolve/rules.hbs: should pass TemplateLint" time="0.065" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/apps/app/acquire/messages/new.hbs: should pass TemplateLint" time="0.068" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/apps/app/import/mixpanel/index.hbs: should pass TemplateLint" time="0.074" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last part has a pending message" time="0.150" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/settings/appearance/widget-appearance-android-component.hbs: should pass TemplateLint" time="0.053" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Growth 1 | Unit: Model - product: hasLite returns true if lite is active" time="0.193" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Acquire | Unit: Component - Team - Team Edit Component: should show save/cancel buttons if model is dirty" time="0.108" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 1 | Acceptance: Inbox - Keyboard Shortcuts: when composer is focused, &amp;quot;j&amp;quot; and &amp;quot;k&amp;quot; do not move conversation" time="4.804" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Unit: Component - Message Edit Delivery Window: component form is disabled disables the components" time="0.160" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/apps/app/settings/webhooks.hbs: should pass TemplateLint" time="0.058" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Helper - Url parser: port" time="0.054" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: Collapsing a rule card updates the URL" time="0.880">
+    <error message="Error: Element .test__rule-card:eq(0) .m__rule-card__header not found."><![CDATA[at http://localhost:7357/assets/test-support.js:4067:12
+    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)
+    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)
+    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)
+    at http://localhost:7357/assets/vendor.js:70259:40
+    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)
+    at Queue.flush (http://localhost:7357/assets/vendor.js:14954:11)
+    at DeferredActionQueues.flush (http://localhost:7357/assets/vendor.js:14762:17)
+    at Backburner.end (http://localhost:7357/assets/vendor.js:15117:25)
+    at Backburner.run (http://localhost:7357/assets/vendor.js:15230:18)
+    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)
+    at http://localhost:7357/assets/vendor.js:54930:36
+    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)]]></error>
+  </testcase>
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Growth 1 | Unit: Model - product: hasStandard returns true if standard plan is active" time="0.137" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Growth 1 | Unit: Model - product: active returns true if one plan is active" time="0.100" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You cannot archive a people attribute that has objects dependent on it" time="1.856" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Engage 1 | Unit: Message Display Until Editor Component: component is initialized correctly with a display_until date set" time="0.134" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for manual email message" time="0.274" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/guide/steps/turn-on-help-center-component.hbs: should pass TemplateLint" time="0.058" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Unit: Component - Conversation Card Action Statement: Last comment is an admin note" time="0.151" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - General | Unit: Helper - Truncate String: it truncates a longer string" time="0.061" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - TemplateLint - embercom/templates/components/messages/goals/attribute-selector-component.hbs: should pass TemplateLint" time="0.053" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #21 - Team Support 2 | Acceptance: Assignment Rules: Creating a rule is disabled when the max number of rules has been reached" time="0.946" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You can unarchive a user-defined company attribute by clicking &amp;quot;Unarchive&amp;quot;" time="1.573" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Component – Conversation Card Stream: #componentPath returns correct component for admin link" time="0.114" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/apps/app/messages/partials/table-cells/-message-created-at-cell.hbs: should pass TemplateLint" time="0.058" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Unit: Helper - Truncate URl: remove file extension from path" time="0.056" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Model - Rule: Setting isLive updates the status of the rule correctly" time="0.120" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/apps/app/companies/segments/segment/-company-list-heading-count.hbs: should pass TemplateLint" time="0.051" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/conversation/stream/partials/-user-meta.hbs: should pass TemplateLint" time="0.052" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 1 | Acceptance: Inbox - Keyboard Shortcuts: &amp;quot;/&amp;quot; opens the search box" time="3.461" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You can archive a user-defined company attribute by clicking &amp;quot;Archive&amp;quot;" time="1.264" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/attribute-date-component.hbs: should pass TemplateLint" time="0.049" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Unit: Helper - Truncate URl: dont truncate" time="0.048" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Unit: Helper - Ghost Text: With a string" time="0.049" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for In-App message with goals" time="0.207" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for Push message with goal" time="0.163" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/integrations-hub/breadcrumbs-component.hbs: should pass TemplateLint" time="0.049" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Model - Rule: hasValidPredicates is false when there are no activePredicates" time="0.090" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Observe | Integration: Component - Segment Filter Float Predicate: clicking the first element shows a number input" time="0.262" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: it displays if it should" time="0.149" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Component – Conversation Card Stream: #componentPath returns correct component for admin action - open" time="0.100" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/apps/app/trial.hbs: should pass TemplateLint" time="0.057" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: In-app chat icons" time="0.176" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Component – Conversation Card Stream: #componentPath returns correct component for stickers in Facebook conversations" time="0.093" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You cannot change the type of a people attribute that has objects dependent on it" time="1.106" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 1 | Acceptance: Inbox - Keyboard Shortcuts: &amp;quot;j&amp;quot; moves to the next conversation" time="3.189" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/apps/app/messages/loading.hbs: should pass TemplateLint" time="0.051" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Helper - Url parser: search" time="0.048" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/apps/app/engage/messages/auto/draft.hbs: should pass TemplateLint" time="0.048" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/acquire-prompt-component.hbs: should pass TemplateLint" time="0.047" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Some visitor auto message tabs are disabled" time="0.188" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Component - Conversation Card: Refetching conversation parts" time="0.153" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: it renders minimised" time="0.164" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Observe | Integration: Component - Segment Filter Boolean Predicate: displays boolean predicate options" time="0.205" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: is in non-edit mode" time="0.211" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: RuleActions with invalid data are invalid" time="0.084" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/apps/app/acquire/messages/message/show/stats.hbs: should pass TemplateLint" time="0.055" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Component - Social Connect: successAction is called when socialConnectSuccess is triggered" time="0.109" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/partials/messages/show-page/-pause-button.hbs: should pass TemplateLint" time="0.049" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/settings/appearance/widget-appearance-ios-component.hbs: should pass TemplateLint" time="0.046" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Observe | Integration: Component - Segment Filter Float Predicate: clicking unknown shows no input" time="0.286" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/guide/edit-step-group-component.hbs: should pass TemplateLint" time="0.051" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Component - Conversation Card: When the conversation changes and the card is collapsed" time="0.103" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/apps/app/resolve/insights.hbs: should pass TemplateLint" time="0.054" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for manual in-app message" time="0.196" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: it sends a maximise action with the correct panel identifier in edit mode" time="0.249" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Integration: Component - Campaigns Goal Editor | Integration | Component | campaigns/setup/campaign-goal-editor: Existing predicates in non-edit mode" time="0.245" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/messages/goals/predicate-component.hbs: should pass TemplateLint" time="0.068" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/emoji-popover-component.hbs: should pass TemplateLint" time="0.064" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: In-app post icons" time="0.242" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: New RuleActions without a rule_id are valid" time="0.112" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/message-variation-admin-dropdown-component.hbs: should pass TemplateLint" time="0.057" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Helper - Url parser: protocol" time="0.056" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Unit: Component - Message Edit Delivery Window: both selects cannot be open together" time="0.239" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/integrate-platform-component.hbs: should pass TemplateLint" time="0.053" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/apps/app/messages/partials/show-page/stats.hbs: should pass TemplateLint" time="0.053" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: is in draft editing mode" time="0.373" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/predicates/goal-value-editors/date-editor.hbs: should pass TemplateLint" time="0.046" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Component – Conversation Card Stream: #componentPath returns correct component for user reply" time="0.120" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: isDataValid for Conversation::AddTag RuleActions ensures data.tag and data.creator_id are set" time="0.105" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/partials/messages/show-page/-set-both-versions-live-button.hbs: should pass TemplateLint" time="0.052" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/guide/steps/teams-setup-component.hbs: should pass TemplateLint" time="0.058" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/apps/app/import/mixpanel/finish.hbs: should pass TemplateLint" time="0.054" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Helper - Url parser: pathname" time="0.049" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Helper - full-relative-time-helper: 2 mins" time="0.068" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: Persisted RuleActions without a rule_id are invalid" time="0.104" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Engage 1 | Integration: Component - Campaigns Goal Editor | Integration | Component | campaigns/setup/campaign-goal-editor: with no predicates" time="0.203" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: Setting assignee does not mark the model as dirty when the assignee_id hasnt changed" time="0.088" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Helper - Url parser: hostname" time="0.048" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You cannot archive or change the data-type of a predefined company attribute" time="1.051" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You can change the data-type of a user-defined people attribute that is not archived" time="1.239" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/tooltips/campaign-membership-dates.hbs: should pass TemplateLint" time="0.050" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/event-row-component.hbs: should pass TemplateLint" time="0.044" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Component – Conversation Card Stream: #componentPath returns correct component for admin notification channels" time="0.103" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/settings/appearance/widget-appearance-web-component.hbs: should pass TemplateLint" time="0.042" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/company-size-select-component.hbs: should pass TemplateLint" time="0.052" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Model - Rule: hasValidActions is false when not all actions are valid" time="0.084" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 1 | Acceptance: Inbox - Keyboard Shortcuts: &amp;quot;t&amp;quot; opens the user tagging modal" time="2.406" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Component - Conversation Card: When the conversation changes article insertion stats are hidden" time="0.120" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - General | Unit: Helper - Url parser: host" time="0.044" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: RuleActions with a rule_id, command and valid data are valid" time="0.084" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/users/profile/note-composer-component.hbs: should pass TemplateLint" time="0.047" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You can change the data-type of a user-defined company attribute that is not archived" time="1.175" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: Clicking on a checkbox in the &amp;quot;user list&amp;quot; column of the people attribute settings immediately changes which columns are displayed in the user list" time="1.725" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: If an attribute is selected in the &amp;quot;company list&amp;quot; column, and you try to select it in the &amp;quot;user list&amp;quot; column, it will become selected in the &amp;quot;user list&amp;quot; column and still stay selected in the &amp;quot;company list&amp;quot; column." time="1.213" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Message Editor Panel Component | Integration | Component | message-editor/panel-component: it renders maximised" time="0.217" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 1 | Acceptance: Inbox - Keyboard Shortcuts: &amp;quot;k&amp;quot; moves to the previous conversation" time="4.130" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: isDataValid for Conversation::AssignTo RuleActions ensures data.assignee_id is set" time="0.089" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - Team Support 2 | Unit: Model - Rule Action: Getting assignee returns undefined when assignee_id is not set in data" time="0.082" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/components/rules/predicate-url-visit-integer-value-component.hbs: should pass TemplateLint" time="0.049" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #22 - TemplateLint - embercom/templates/apps/app/companies/segments/segment/-company-list-header.hbs: should pass TemplateLint" time="0.044" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: Clicking on a checkbox in the &amp;quot;company list&amp;quot; column of the company attribute settings immediately changes which columns are displayed in the company list" time="1.435" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You cannot archive a company attribute that has objects dependent on it" time="0.984" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/apps/app/messages/modals/dependencies.hbs: should pass TemplateLint" time="0.046" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for email message with no goals" time="0.164" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for In-Apps message with no goals" time="0.147" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You can archive a user-defined people attribute by clicking &amp;quot;Archive&amp;quot;" time="1.082" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: You cannot change the data-type of an archived company user-defined attribute" time="0.810" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Component – Conversation Card Stream: #componentPath returns correct component for admin action - close" time="0.100" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Model - Rule: hasValidPredicates is true when there are activePredicates" time="0.088" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: goal stats text" time="0.299" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: In-app note icons" time="0.166" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for email message with goals" time="0.159" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/apps/app/engage/messages/auto/edit-loading.hbs: should pass TemplateLint" time="0.045" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Unit: Component – Sortable List Component: Reordering works correctly" time="0.096" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: push icons" time="0.163" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for manual push message" time="0.150" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Component – Conversation Card Stream: #componentPath returns correct component for admin action - explicit assignment" time="0.093" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Support 2 | Unit: Model - Rule: hasValidActions is true when all actions are valid" time="0.084" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Integration: Settings - Attributes: Clicking on a checkbox in the &amp;quot;user list&amp;quot; column of the company attribute settings immediately changes which columns are displayed in the user list" time="1.057" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - General | Unit: Helper - Ghost Text: With an integer" time="0.044" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Unit: Component - Message Editor - Content Stats Tabs Component: Getting tabs for Push message with no goal" time="0.161" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - Team Engage 1 | Integration: Component - Campaign Setup | Integration | Component | campaigns/setup/campaign-setup: is in live mode" time="0.346" />
+  <testcase classname="Chrome 54.0" name="Exam Partition #23 - TemplateLint - embercom/templates/components/acquisition/add-user-source-button-component.hbs: should pass TemplateLint" time="0.049" />
+</testsuite>

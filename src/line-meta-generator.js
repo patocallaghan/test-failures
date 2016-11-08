@@ -18,11 +18,13 @@ function getTestTitle(line) {
   return TEST_TITLE_REGEX.exec(line)[1];
 }
 
-module.exports = (seed, lines) => {
-  return lines.map((line) => ({
+module.exports = (seed, totalPartitions, tests) => {
+  return tests.map((test) => ({
     seed: seed,
-    team: getTeam(line),
-    partition: getPartition(line),
-    testName: getTestTitle(line)
+    totalPartitions: totalPartitions,
+    team: getTeam(test.name),
+    partition: getPartition(test.name),
+    testName: getTestTitle(test.name),
+    error: test.error
   }));
 }

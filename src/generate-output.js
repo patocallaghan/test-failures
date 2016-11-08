@@ -5,31 +5,27 @@ function processTestsMeta(testsMeta, finalOutput) {
   testsMeta.forEach((meta) => {
     if (!finalOutput[meta.team]) {
       let testMeta = {};
-      let testSeedInfo = {};
-      testSeedInfo[meta.seed] = meta.partition;
-      testMeta[meta.testName] = testSeedInfo;
+      testMeta[meta.testName] = [meta];
       finalOutput[meta.team] = {
         failingTests: [meta.testName],
         testMeta: testMeta
       };
     } else {
-      let testSeedInfo = {};
       let team = finalOutput[meta.team];
       if (!team.failingTests.includes(meta.testName)) {
         team.failingTests.push(meta.testName);
         team.failingTests.sort();
-        testSeedInfo[meta.seed] = meta.partition;
-        team.testMeta[meta.testName] = testSeedInfo;
+        team.testMeta[meta.testName] = [meta];
       } else {
-        team.testMeta[meta.testName][meta.seed] = meta.partition;
+        team.testMeta[meta.testName].push(meta);
       }
     }
   });
   return finalOutput;
 }
 
-module.exports = (seed, text, output = {}) => {
+module.exports = (seed, totalPartitions, text, output = {}) => {
   let failedTests = testParser(text);
-  let failedTestsMeta = lineMetaGenerator(seed, failedTests);
+  let failedTestsMeta = lineMetaGenerator(seed, totalPartitions, failedTests);
   return processTestsMeta(failedTestsMeta, output);
 }
