@@ -7,7 +7,8 @@ var TestFailures = {
     let output = {};
     let filenames = fs.readdirSync(directory);
     filenames.forEach(function(filename) {
-      let seed = filename.replace(/(\-\d+)?\.xml/, '');
+      let fileWithoutJunit = filename.substring(filename.indexOf('-junit-') + 7);
+      let seed = fileWithoutJunit.replace(/(\-\d+)?\.xml/, '');
       let content = fs.readFileSync(`${directory}/${filename}`, 'utf-8');
       results = generateOutput(seed, totalPartitions, content, output);
     });
