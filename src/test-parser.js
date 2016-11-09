@@ -6,6 +6,10 @@ function keepLine(line) {
 
 module.exports = (testsXml) => {
   let testsObj = JSON.parse(parser.toJson(testsXml));
-  return testsObj.testsuite.testcase.filter(test => test.error);
+  if (testsObj.testsuite) {
+    return testsObj.testsuite.testcase.filter(test => test.error);
+  } else {
+    return [];
+  }
 }
 
