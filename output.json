@@ -20,10 +20,11 @@
       "General | Integration: Changes Pages: Loading the Changes page": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "1",
           "testName": "General | Integration: Changes Pages: Loading the Changes page",
+          "command": "ember exam --split=60 --partition=1 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "There are two changes",
             "$t": "at http://localhost:7357/assets/tests.js:37053:14\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -33,10 +34,11 @@
       "General | Integration: Settings - Email Template Editor: Making changes and navigating away discards the changes after modal confirmation": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "36",
           "testName": "General | Integration: Settings - Email Template Editor: Making changes and navigating away discards the changes after modal confirmation",
+          "command": "ember exam --split=60 --partition=36 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Cannot read property 'hasRoute' of undefined",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -44,10 +46,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "36",
           "testName": "General | Integration: Settings - Email Template Editor: Making changes and navigating away discards the changes after modal confirmation",
+          "command": "ember exam --split=60 --partition=36 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "TypeError: Cannot read property 'hasRoute' of undefined",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -57,10 +60,11 @@
       "General | Integration: Settings - People Segments: does not allow deletions of segments with dependent objects": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "40",
           "testName": "General | Integration: Settings - People Segments: does not allow deletions of segments with dependent objects",
+          "command": "ember exam --split=60 --partition=40 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:33729:16\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at Object.invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at http://localhost:7357/assets/vendor.js:70481:25\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -70,10 +74,11 @@
       "General | Integration: Settings - Email Template Editor: Deleting the template shows a warning and then removes the template from the list": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "36",
           "testName": "General | Integration: Settings - Email Template Editor: Deleting the template shows a warning and then removes the template from the list",
+          "command": "ember exam --split=60 --partition=36 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Cannot read property 'findBy' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -81,10 +86,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "36",
           "testName": "General | Integration: Settings - Email Template Editor: Deleting the template shows a warning and then removes the template from the list",
+          "command": "ember exam --split=60 --partition=36 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "TypeError: Cannot read property 'findBy' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -94,10 +100,11 @@
       "General | Integration: Settings - Email Template Editor: Viewing and editing content": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "36",
           "testName": "General | Integration: Settings - Email Template Editor: Viewing and editing content",
+          "command": "ember exam --split=60 --partition=36 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Cannot read property 'get' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -105,10 +112,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "36",
           "testName": "General | Integration: Settings - Email Template Editor: Viewing and editing content",
+          "command": "ember exam --split=60 --partition=36 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "TypeError: Cannot read property 'get' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at wrapped (http://localhost:7357/assets/vendor.js:71659:29)"
@@ -118,10 +126,11 @@
       "General | Integration: Settings - Tags: displays tag name": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "41",
           "testName": "General | Integration: Settings - Tags: displays tag name",
+          "command": "ember exam --split=60 --partition=41 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -130,10 +139,11 @@
       "General | Integration: Settings - Tags: allows deletions of tags with no dependent objects": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "41",
           "testName": "General | Integration: Settings - Tags: allows deletions of tags with no dependent objects",
+          "command": "ember exam --split=60 --partition=41 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -142,10 +152,11 @@
       "General | Integration: Settings - Tags: does not allow deletions of tags with dependent objects": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "41",
           "testName": "General | Integration: Settings - Tags: does not allow deletions of tags with dependent objects",
+          "command": "ember exam --split=60 --partition=41 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Died on test #1     at Module.callback (http://localhost:7357/assets/tests.js:58951:19)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)     at http://localhost:7357/assets/test-support.js:6519:22     at Array.forEach (native)     at Object._loadSplitModules [as loadModules] (http://localhost:7357/assets/test-support.js:6518:18): Attempted to wrap deleteRecord which is already spied on",
             "$t": "TypeError: Attempted to wrap deleteRecord which is already spied on\n    at Object.wrapMethod (http://localhost:7357/assets/sinon.js:698:25)\n    at Object.stub (http://localhost:7357/assets/sinon.js:2236:22)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:58952:21)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4\n--------------\nError: Stack Trace for original\n    at Object.wrapMethod (http://localhost:7357/assets/sinon.js:715:30)\n    at Object.stub (http://localhost:7357/assets/sinon.js:2236:22)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:58973:21)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -155,10 +166,11 @@
       "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup does not nest anonymous predicate when isAnonymousPredicateRestrictedToAndJoin is true": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "24",
           "testName": "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup does not nest anonymous predicate when isAnonymousPredicateRestrictedToAndJoin is true",
+          "command": "ember exam --split=60 --partition=24 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:66427:12)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -168,10 +180,11 @@
       "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup does not nest role predicate when isAnonymousPredicateRestrictedToAndJoin is true": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "24",
           "testName": "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup does not nest role predicate when isAnonymousPredicateRestrictedToAndJoin is true",
+          "command": "ember exam --split=60 --partition=24 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:66437:12)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -181,10 +194,11 @@
       "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup nests AND predicates correctly": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "24",
           "testName": "General | Unit: Predicate Manager Component Mixin: loadIntoNestedGroup nests AND predicates correctly",
+          "command": "ember exam --split=60 --partition=24 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:66417:12)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -194,10 +208,11 @@
       "General | Integration: Settings - Company Segments: does not allow deletions of segments with dependent objects": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "34",
           "testName": "General | Integration: Settings - Company Segments: does not allow deletions of segments with dependent objects",
+          "command": "ember exam --split=60 --partition=34 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:33729:16\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at Object.invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at http://localhost:7357/assets/vendor.js:70481:25\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -207,10 +222,11 @@
       "General | Integration: Settings - Company Segments: displays segment name": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "34",
           "testName": "General | Integration: Settings - Company Segments: displays segment name",
+          "command": "ember exam --split=60 --partition=34 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Error: Element .test__segments-table tbody tr .test__segment-editable-text:eq(0) .btn not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -220,10 +236,11 @@
       "General | Integration: Settings - People Segments: displays segment name": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "general",
           "partition": "40",
           "testName": "General | Integration: Settings - People Segments: displays segment name",
+          "command": "ember exam --split=60 --partition=40 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Error: Element .test__segments-table tbody tr .test__segment-editable-text:eq(0) .btn not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -266,10 +283,11 @@
       "Team Support 2 | Integration: Inbox - Conversation Header: Clicking close should add a closing statement and lock the thread": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "1",
           "testName": "Team Support 2 | Integration: Inbox - Conversation Header: Clicking close should add a closing statement and lock the thread",
+          "command": "ember exam --split=60 --partition=1 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Conversation has locker overlay",
             "$t": "at http://localhost:7357/assets/tests.js:31329:16\n    at Class.andThenIgnoreTimers (http://localhost:7357/assets/tests.js:36453:36)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at run (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/tests.js:36495:11\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -279,10 +297,11 @@
       "Team Support 2 | Integration: Inbox - Saved Replies Modal: Editing an existing saved reply": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "4",
           "testName": "Team Support 2 | Integration: Inbox - Saved Replies Modal: Editing an existing saved reply",
+          "command": "ember exam --split=60 --partition=4 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:31762:16\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at Object.invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at http://localhost:7357/assets/vendor.js:70481:25\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -292,10 +311,11 @@
       "Team Support 2 | Unit: Component - Camera Popover: It should request a MediaStream on open": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "19",
           "testName": "Team Support 2 | Unit: Component - Camera Popover: It should request a MediaStream on open",
+          "command": "ember exam --split=60 --partition=19 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "failed, expected argument to be truthy, was: false",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:61956:12)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:36375:10)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -305,10 +325,11 @@
       "Team Support 1 | Integration: Component - Controls Component | Integration | Component | conversation/controls/controls-component: Article insertion button is higlighted if the teammate has never clicked it": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "20",
           "testName": "Team Support 1 | Integration: Component - Controls Component | Integration | Component | conversation/controls/controls-component: Article insertion button is higlighted if the teammate has never clicked it",
+          "command": "ember exam --split=60 --partition=20 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Clicked flag should not be set",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:42339:18)\n    at http://localhost:7357/assets/tests.js:34937:29\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/test-support.js:8337:27\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -318,10 +339,11 @@
       "Team Support 2 | Acceptance: Assignment Rules: Editing a rule displays a confirmation modal on cancel whent the rule is dirty": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "21",
           "testName": "Team Support 2 | Acceptance: Assignment Rules: Editing a rule displays a confirmation modal on cancel whent the rule is dirty",
+          "command": "ember exam --split=60 --partition=21 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Error: Element .test__rule-card:eq(0) .m__rule-card__header not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://store.intercomassets.com/c58253884f58519bb541190b1f662892df330481-product-store.js:31:31918)"
@@ -329,10 +351,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "21",
           "testName": "Team Support 2 | Acceptance: Assignment Rules: Editing a rule displays a confirmation modal on cancel whent the rule is dirty",
+          "command": "ember exam --split=60 --partition=21 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Error: Element .test__rule-card:eq(0) .m__rule-card__header not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://store.intercomassets.com/c58253884f58519bb541190b1f662892df330481-product-store.js:31:31918)"
@@ -342,10 +365,11 @@
       "Team Support 2 | Acceptance: Assignment Rules: Collapsing a rule card updates the URL": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "21",
           "testName": "Team Support 2 | Acceptance: Assignment Rules: Collapsing a rule card updates the URL",
+          "command": "ember exam --split=60 --partition=21 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Error: Element .test__rule-card:eq(0) .m__rule-card__header not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://store.intercomassets.com/c58253884f58519bb541190b1f662892df330481-product-store.js:31:31918)"
@@ -353,10 +377,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "21",
           "testName": "Team Support 2 | Acceptance: Assignment Rules: Collapsing a rule card updates the URL",
+          "command": "ember exam --split=60 --partition=21 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Error: Element .test__rule-card:eq(0) .m__rule-card__header not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -366,10 +391,11 @@
       "Team Support 2 | Acceptance: Assignment Rules: Creating a rule adds a new rule card to the page which is removed when cancelled": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "21",
           "testName": "Team Support 2 | Acceptance: Assignment Rules: Creating a rule adds a new rule card to the page which is removed when cancelled",
+          "command": "ember exam --split=60 --partition=21 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Error: Element .test__routing-rules__create-button not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://store.intercomassets.com/c58253884f58519bb541190b1f662892df330481-product-store.js:31:31918)"
@@ -377,10 +403,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "21",
           "testName": "Team Support 2 | Acceptance: Assignment Rules: Creating a rule adds a new rule card to the page which is removed when cancelled",
+          "command": "ember exam --split=60 --partition=21 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Error: Element .test__routing-rules__create-button not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -390,10 +417,11 @@
       "Team Support 2 | Acceptance: Assignment Rules: Rules page displays the correct elements when there are rules": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "21",
           "testName": "Team Support 2 | Acceptance: Assignment Rules: Rules page displays the correct elements when there are rules",
+          "command": "ember exam --split=60 --partition=21 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Error: Element .test__routing-rules__create-button not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://store.intercomassets.com/c58253884f58519bb541190b1f662892df330481-product-store.js:31:31918)"
@@ -403,10 +431,11 @@
       "Team Support 2 | Acceptance: Assignment Rules: Changing state shows notification": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "21",
           "testName": "Team Support 2 | Acceptance: Assignment Rules: Changing state shows notification",
+          "command": "ember exam --split=60 --partition=21 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Should wrap property of object",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://store.intercomassets.com/c58253884f58519bb541190b1f662892df330481-product-store.js:31:31918)"
@@ -414,10 +443,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "21",
           "testName": "Team Support 2 | Acceptance: Assignment Rules: Changing state shows notification",
+          "command": "ember exam --split=60 --partition=21 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "TypeError: Should wrap property of object",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://store.intercomassets.com/c58253884f58519bb541190b1f662892df330481-product-store.js:31:31918)"
@@ -427,10 +457,11 @@
       "Team Support 2 | Acceptance: Assignment Rules: Expanding a rule card updates the URL": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "21",
           "testName": "Team Support 2 | Acceptance: Assignment Rules: Expanding a rule card updates the URL",
+          "command": "ember exam --split=60 --partition=21 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Error: Element .test__rule-card:eq(0) .m__rule-card__header not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://store.intercomassets.com/c58253884f58519bb541190b1f662892df330481-product-store.js:31:31918)"
@@ -440,10 +471,11 @@
       "Team Support 2 | Integration: Component - Inbox User Profile Component | Integration | Component | inbox/user-profile-component: Segment visibility changer is visible": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "33",
           "testName": "Team Support 2 | Integration: Component - Inbox User Profile Component | Integration | Component | inbox/user-profile-component: Segment visibility changer is visible",
+          "command": "ember exam --split=60 --partition=33 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Segment visibility popover is shown",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:44675:14)\n    at http://localhost:7357/assets/tests.js:34937:29\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/test-support.js:8337:27\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -451,10 +483,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "33",
           "testName": "Team Support 2 | Integration: Component - Inbox User Profile Component | Integration | Component | inbox/user-profile-component: Segment visibility changer is visible",
+          "command": "ember exam --split=60 --partition=33 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Segment visibility popover is shown",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:44675:14)\n    at http://localhost:7357/assets/tests.js:34937:29\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7"
@@ -464,10 +497,11 @@
       "Team Support 2 | Integration: Component - Inbox User Profile Component | Integration | Component | inbox/user-profile-component: It can toggle extra companies on": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "33",
           "testName": "Team Support 2 | Integration: Component - Inbox User Profile Component | Integration | Component | inbox/user-profile-component: It can toggle extra companies on",
+          "command": "ember exam --split=60 --partition=33 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Only 10 companies are shown",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:44648:14)\n    at http://localhost:7357/assets/tests.js:34937:29\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/test-support.js:8337:27\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -475,10 +509,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "33",
           "testName": "Team Support 2 | Integration: Component - Inbox User Profile Component | Integration | Component | inbox/user-profile-component: It can toggle extra companies on",
+          "command": "ember exam --split=60 --partition=33 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Only 10 companies are shown",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:44648:14)\n    at http://localhost:7357/assets/tests.js:34937:29\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7"
@@ -488,10 +523,11 @@
       "Team Support 2 | Integration: Component - Inbox User Profile Component | Integration | Component | inbox/user-profile-component: There is no toggle if the user has < 10 companies": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "33",
           "testName": "Team Support 2 | Integration: Component - Inbox User Profile Component | Integration | Component | inbox/user-profile-component: There is no toggle if the user has < 10 companies",
+          "command": "ember exam --split=60 --partition=33 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "1 Company is shown",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:44664:14)\n    at http://localhost:7357/assets/tests.js:34937:29\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/test-support.js:8337:27\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -501,10 +537,11 @@
       "Team Support 1 | Service: Inbox Service: Adding a closing part from realtime bus while in search inbox": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Adding a closing part from realtime bus while in search inbox",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -513,10 +550,11 @@
       "Team Support 1 | Service: Inbox Service: Closing conversation while in a search inbox": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Closing conversation while in a search inbox",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -525,10 +563,11 @@
       "Team Support 1 | Service: Inbox Service: Assigning then replying to a conversation": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Assigning then replying to a conversation",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -537,10 +576,11 @@
       "Team Support 1 | Service: Inbox Service: Closing a conversation that is not current": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Closing a conversation that is not current",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -549,10 +589,11 @@
       "Team Support 1 | Service: Inbox Service: Assigning the current conversation locks but does not transition": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Assigning the current conversation locks but does not transition",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -561,10 +602,11 @@
       "Team Support 1 | Service: Inbox Service: Removing a part that was added": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Removing a part that was added",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -573,10 +615,11 @@
       "Team Support 1 | Service: Inbox Service: Closing a conversation pages in a new page if we dip below the page size": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Closing a conversation pages in a new page if we dip below the page size",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -585,10 +628,11 @@
       "Team Support 1 | Service: Inbox Service: When tutorial is active it loads tutorial conversations": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: When tutorial is active it loads tutorial conversations",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -597,10 +641,11 @@
       "Team Support 1 | Service: Inbox Service: Adding a closing part from realtime bus": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Adding a closing part from realtime bus",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -609,10 +654,11 @@
       "Team Support 1 | Service: Inbox Service: Realtime update received while removing part task is running": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Realtime update received while removing part task is running",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -621,10 +667,11 @@
       "Team Support 1 | Service: Inbox Service: Local update while removing part task is running": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Local update while removing part task is running",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -633,10 +680,11 @@
       "Team Support 1 | Service: Inbox Service: Tasks are properly cancelled on reload": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Tasks are properly cancelled on reload",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -645,10 +693,11 @@
       "Team Support 1 | Service: Inbox Service: Assigning then reassigning a conversation": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Assigning then reassigning a conversation",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -657,10 +706,11 @@
       "Team Support 1 | Service: Inbox Service: Adding a closing part to the current convo from realtime bus": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "support",
           "partition": "46",
           "testName": "Team Support 1 | Service: Inbox Service: Adding a closing part to the current convo from realtime bus",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -712,10 +762,11 @@
       "Team Engage 3 | Acceptance | campaigns/campaign: creating a new campaign": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "3",
           "testName": "Team Engage 3 | Acceptance | campaigns/campaign: creating a new campaign",
+          "command": "ember exam --split=60 --partition=3 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "{readyState: 4, getResponseHeader: function() { ... }, getAllResponseHeaders: function() { ... }, setRequestHeader: function() { ... }, overrideMimeType: function() { ... }, statusCode: function() { ... }, abort: function() { ... }, state: function() { ... }, always: function() { ... }, then: function() { ... }, promise: function() { ... }, pipe: function() { ... }, done: function() { ... }, fail: function() { ... }, progress: function() { ... }, complete: function() { ... }, success: function() { ... }, error: function() { ... }, responseText: Not found: /ember/segments/5322ee7089b4e604bc00000d.json, status: 404, statusText: Not Found}",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/embercom.js:63409:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at publishRejection (http://localhost:7357/assets/vendor.js:68258:5)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:94928:15\n    at options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at Object.options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at fire (http://localhost:7357/assets/vendor.js:7907:31)\n    at Object.fireWith [as rejectWith] (http://localhost:7357/assets/vendor.js:8037:7)\n    at done (http://localhost:7357/assets/vendor.js:13484:14)\n    at XMLHttpRequest.<anonymous> (http://localhost:7357/assets/vendor.js:13848:9)\n    at XMLHttpRequest.r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -723,10 +774,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "3",
           "testName": "Team Engage 3 | Acceptance | campaigns/campaign: creating a new campaign",
+          "command": "ember exam --split=60 --partition=3 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "{readyState: 4, getResponseHeader: function() { ... }, getAllResponseHeaders: function() { ... }, setRequestHeader: function() { ... }, overrideMimeType: function() { ... }, statusCode: function() { ... }, abort: function() { ... }, state: function() { ... }, always: function() { ... }, then: function() { ... }, promise: function() { ... }, pipe: function() { ... }, done: function() { ... }, fail: function() { ... }, progress: function() { ... }, complete: function() { ... }, success: function() { ... }, error: function() { ... }, responseText: Not found: /ember/segments/5322ee7089b4e604bc00000d.json, status: 404, statusText: Not Found}",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/embercom.js:63409:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at publishRejection (http://localhost:7357/assets/vendor.js:68258:5)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:94928:15\n    at options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at Object.options.error (http://localhost:7357/assets/embercom.js:53634:22)\n    at fire (http://localhost:7357/assets/vendor.js:7907:31)\n    at Object.fireWith [as rejectWith] (http://localhost:7357/assets/vendor.js:8037:7)\n    at done (http://localhost:7357/assets/vendor.js:13484:14)\n    at XMLHttpRequest.<anonymous> (http://localhost:7357/assets/vendor.js:13848:9)\n    at XMLHttpRequest.r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -736,10 +788,11 @@
       "Team Engage 1 | Unit: Component - messages/editor/in-app-editor: #templateInfo": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "15",
           "testName": "Team Engage 1 | Unit: Component - messages/editor/in-app-editor: #templateInfo",
+          "command": "ember exam --split=60 --partition=15 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Died on test #1     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at Module.callback (http://localhost:7357/assets/tests.js:65544:24)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)     at http://localhost:7357/assets/test-support.js:6519:22: No model was found for 'common/blocks/paragraph'",
             "$t": "Error: No model was found for 'common/blocks/paragraph'\n    at new Error (native)\n    at Error.EmberError (http://localhost:7357/assets/vendor.js:31129:21)\n    at Class.modelFor (http://localhost:7357/assets/vendor.js:160407:15)\n    at Class.createFragment (http://localhost:7357/assets/vendor.js:199890:23)\n    at http://localhost:7357/assets/tests.js:34738:47\n    at Array.forEach (native)\n    at http://localhost:7357/assets/tests.js:34737:19\n    at Object.run (http://localhost:7357/assets/vendor.js:15235:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at exports.default (http://localhost:7357/assets/tests.js:34735:10)"
@@ -749,10 +802,11 @@
       "Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with a folder": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "12",
           "testName": "Team Engage 1 | Unit: Component - Message Editor - Title Header Component: A message with a folder",
+          "command": "ember exam --split=60 --partition=12 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Died on test #1     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at Module.callback (http://localhost:7357/assets/tests.js:65365:24)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)     at http://localhost:7357/assets/test-support.js:6519:22: No model was found for 'common/blocks/paragraph'",
             "$t": "Error: No model was found for 'common/blocks/paragraph'\n    at new Error (native)\n    at Error.EmberError (http://localhost:7357/assets/vendor.js:31129:21)\n    at Class.modelFor (http://localhost:7357/assets/vendor.js:160407:15)\n    at Class.createFragment (http://localhost:7357/assets/vendor.js:199890:23)\n    at http://localhost:7357/assets/tests.js:34738:47\n    at Array.forEach (native)\n    at http://localhost:7357/assets/tests.js:34737:19\n    at Object.run (http://localhost:7357/assets/vendor.js:15235:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at exports.default (http://localhost:7357/assets/tests.js:34735:10)"
@@ -762,10 +816,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Sender resets from team to currentAdmin when selecting push-message as team sender": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Sender resets from team to currentAdmin when selecting push-message as team sender",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Cannot read property 'forEach' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -773,10 +828,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Sender resets from team to currentAdmin when selecting push-message as team sender",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "TypeError: Cannot read property 'forEach' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -786,10 +842,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Campaign behaviour predicates work correctly": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Campaign behaviour predicates work correctly",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Cannot read property 'get' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -797,10 +854,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Campaign behaviour predicates work correctly",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "TypeError: Cannot read property 'get' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -810,10 +868,11 @@
       "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -821,10 +880,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -834,10 +894,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Implicit filtering message is displayed when message type is set to push notification or email": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Implicit filtering message is displayed when message type is set to push notification or email",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -847,10 +908,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Audience anonymous predicates work": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Audience anonymous predicates work",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Cannot read property 'comparison' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -858,10 +920,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Audience anonymous predicates work",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -871,10 +934,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Activate auto message success text": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Activate auto message success text",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Cannot read property 'set' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -882,10 +946,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Activate auto message success text",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "TypeError: Cannot read property 'set' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -895,10 +960,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for in apps": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for in apps",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "The message should be an in-app",
             "$t": "at http://localhost:7357/assets/tests.js:55877:16\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -908,10 +974,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Leads option is disabled if audience editor when message is in-app": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Leads option is disabled if audience editor when message is in-app",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:55860:14\n    at http://localhost:7357/assets/tests.js:30796:9\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -921,10 +988,11 @@
       "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work with reactions": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work with reactions",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -932,10 +1000,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Tagging users should work with reactions",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -945,10 +1014,11 @@
       "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work with reactions": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work with reactions",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -956,10 +1026,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work with reactions",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -969,10 +1040,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Event predicates in the audience editor work correctly": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Event predicates in the audience editor work correctly",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -980,10 +1052,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Event predicates in the audience editor work correctly",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -993,10 +1066,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Activate manual message success text": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Activate manual message success text",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Cannot read property 'set' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1004,10 +1078,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Activate manual message success text",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "TypeError: Cannot read property 'set' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1017,10 +1092,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for Emails": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for Emails",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "The message should be an email",
             "$t": "at http://localhost:7357/assets/tests.js:55892:16\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1028,10 +1104,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for Emails",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "The message should be an email",
             "$t": "at http://localhost:7357/assets/tests.js:55892:16\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1041,10 +1118,11 @@
       "Team Engage 1 | Unit: Component - Message Schedule Form Component: updating the scheduled date with a valid date sends saveAndScheduleMessage for auto messages": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "14",
           "testName": "Team Engage 1 | Unit: Component - Message Schedule Form Component: updating the scheduled date with a valid date sends saveAndScheduleMessage for auto messages",
+          "command": "ember exam --split=60 --partition=14 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Died on test #1     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at Module.callback (http://localhost:7357/assets/tests.js:65477:24)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)     at http://localhost:7357/assets/test-support.js:6519:22: Assertion Failed: calling set on destroyed object",
             "$t": "Error: Assertion Failed: calling set on destroyed object\n    at new Error (native)\n    at Error.EmberError (http://localhost:7357/assets/vendor.js:31129:21)\n    at assert (http://localhost:7357/assets/vendor.js:20939:13)\n    at Object.assert (http://localhost:7357/assets/vendor.js:30893:34)\n    at Object.set (http://localhost:7357/assets/vendor.js:35524:22)\n    at Class.set (http://localhost:7357/assets/vendor.js:50026:38)\n    at Class.<anonymous> (http://localhost:7357/assets/embercom.js:39964:18)\n    at HTMLBodyElement.dispatch (http://localhost:7357/assets/vendor.js:9457:27)\n    at HTMLBodyElement.elemData.handle (http://localhost:7357/assets/vendor.js:9269:28)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:12516:12)\n    at HTMLSpanElement.<anonymous> (http://localhost:7357/assets/vendor.js:12600:17)\n    at Function.each (http://localhost:7357/assets/vendor.js:5085:19)\n    at jQuery.each (http://localhost:7357/assets/vendor.js:4862:17)\n    at jQuery.trigger (http://localhost:7357/assets/vendor.js:12599:15)\n    at jQuery.fn.(anonymous function) [as click] (http://localhost:7357/assets/vendor.js:12621:9)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:65480:45)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:36375:10)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1052,10 +1130,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "14",
           "testName": "Team Engage 1 | Unit: Component - Message Schedule Form Component: updating the scheduled date with a valid date sends saveAndScheduleMessage for auto messages",
+          "command": "ember exam --split=60 --partition=14 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Died on test #1     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at Module.callback (http://localhost:7357/assets/tests.js:65477:24)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)     at http://localhost:7357/assets/test-support.js:6519:22: Property set failed: object in path \"stepGroupController\" could not be found or was destroyed.",
             "$t": "Error: Property set failed: object in path \"stepGroupController\" could not be found or was destroyed.\n    at new Error (native)\n    at Error.EmberError (http://localhost:7357/assets/vendor.js:31129:21)\n    at setPath (http://localhost:7357/assets/vendor.js:35595:15)\n    at Object.set (http://localhost:7357/assets/vendor.js:35521:14)\n    at Class.set (http://localhost:7357/assets/vendor.js:50026:38)\n    at HTMLBodyElement.<anonymous> (http://localhost:7357/assets/embercom.js:39919:25)\n    at HTMLBodyElement.dispatch (http://localhost:7357/assets/vendor.js:9457:27)\n    at HTMLBodyElement.elemData.handle (http://localhost:7357/assets/vendor.js:9269:28)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:12516:12)\n    at HTMLSpanElement.<anonymous> (http://localhost:7357/assets/vendor.js:12600:17)\n    at Function.each (http://localhost:7357/assets/vendor.js:5085:19)\n    at jQuery.each (http://localhost:7357/assets/vendor.js:4862:17)\n    at jQuery.trigger (http://localhost:7357/assets/vendor.js:12599:15)\n    at jQuery.fn.(anonymous function) [as click] (http://localhost:7357/assets/vendor.js:12621:9)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:65480:45)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:36375:10)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1065,10 +1144,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for in apps with ember_engage_messenger_v3 enabled": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for in apps with ember_engage_messenger_v3 enabled",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "The message should be an in-app",
             "$t": "at http://localhost:7357/assets/tests.js:55877:16\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1076,10 +1156,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: \"Message from\" selection works for in apps with ember_engage_messenger_v3 enabled",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "The message should be an in-app",
             "$t": "at http://localhost:7357/assets/tests.js:55877:16\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1089,10 +1170,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: A manual message without an audience is invalid": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: A manual message without an audience is invalid",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Error: Property set failed: object in path \"message.variationA\" could not be found or was destroyed.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1100,10 +1182,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: A manual message without an audience is invalid",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Error: Property set failed: object in path \"message.variationA\" could not be found or was destroyed.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1113,10 +1196,11 @@
       "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -1124,10 +1208,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Acceptance | message-view-and-edit/summary stats: Bulk Messaging users should work",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -1137,10 +1222,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Audience editor works correctly": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Audience editor works correctly",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Cannot read property '_predicatesHaveBecomeDirty' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1148,10 +1234,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Audience editor works correctly",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "TypeError: Cannot read property '_predicatesHaveBecomeDirty' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1161,10 +1248,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Implicit filtering adds correct predicates when message type is set to email": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Implicit filtering adds correct predicates when message type is set to email",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Uncaught Error: Assertion Failed: calling set on destroyed object",
             "$t": "http://localhost:7357/assets/vendor.js:20939"
@@ -1174,10 +1262,11 @@
       "Team Engage 3 | Integration: Messages - Message Editor: Modal fires when selecting email as a team sender": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Modal fires when selecting email as a team sender",
+          "command": "ember exam --split=60 --partition=13 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "TypeError: Cannot read property 'forEach' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1185,10 +1274,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "13",
           "testName": "Team Engage 3 | Integration: Messages - Message Editor: Modal fires when selecting email as a team sender",
+          "command": "ember exam --split=60 --partition=13 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "TypeError: Cannot read property 'forEach' of null",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1198,10 +1288,11 @@
       "Team Engage 1 | Integration: Messages - Message Editor - Stop Date: Stop date panel is visible for visitor auto messages": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "20",
           "testName": "Team Engage 1 | Integration: Messages - Message Editor - Stop Date: Stop date panel is visible for visitor auto messages",
+          "command": "ember exam --split=60 --partition=20 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Error: Property set failed: object in path \"message.variationA\" could not be found or was destroyed.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1209,10 +1300,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "20",
           "testName": "Team Engage 1 | Integration: Messages - Message Editor - Stop Date: Stop date panel is visible for visitor auto messages",
+          "command": "ember exam --split=60 --partition=20 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Error: Property set failed: object in path \"message.variationA\" could not be found or was destroyed.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1222,10 +1314,11 @@
       "Team Engage 1 | Integration: Messages - Message Editor - Stop Date: Stop date panel is not visible for manual messages": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "20",
           "testName": "Team Engage 1 | Integration: Messages - Message Editor - Stop Date: Stop date panel is not visible for manual messages",
+          "command": "ember exam --split=60 --partition=20 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Error: Property set failed: object in path \"message.variationA\" could not be found or was destroyed.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1233,10 +1326,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "20",
           "testName": "Team Engage 1 | Integration: Messages - Message Editor - Stop Date: Stop date panel is not visible for manual messages",
+          "command": "ember exam --split=60 --partition=20 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Error: Property set failed: object in path \"message.variationA\" could not be found or was destroyed.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1246,10 +1340,11 @@
       "Team Engage 1 | Unit: NewMessage Model: saving does not clobber the local copy of the message - Really a test of RestAdapter(WithReload)": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "18",
           "testName": "Team Engage 1 | Unit: NewMessage Model: saving does not clobber the local copy of the message - Really a test of RestAdapter(WithReload)",
+          "command": "ember exam --split=60 --partition=18 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Died on test #3     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at Module.callback (http://localhost:7357/assets/tests.js:80480:24)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)     at http://localhost:7357/assets/test-support.js:6519:22: Cannot read property '__container__' of undefined",
             "$t": "TypeError: Cannot read property '__container__' of undefined\n    at getContainer (http://localhost:7357/assets/embercom.js:55128:23)\n    at containerLookup (http://localhost:7357/assets/embercom.js:55132:12)\n    at tutorialIsActive (http://localhost:7357/assets/embercom.js:55148:12)\n    at Class.save (http://localhost:7357/assets/embercom.js:72051:84)\n    at Class.superWrapper [as save] (http://localhost:7357/assets/vendor.js:37718:22)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:80491:13)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1257,10 +1352,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "18",
           "testName": "Team Engage 1 | Unit: NewMessage Model: saving does not clobber the local copy of the message - Really a test of RestAdapter(WithReload)",
+          "command": "ember exam --split=60 --partition=18 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Died on test #3     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at Module.callback (http://localhost:7357/assets/tests.js:80480:24)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)     at http://localhost:7357/assets/test-support.js:6519:22: Cannot read property '__container__' of undefined",
             "$t": "TypeError: Cannot read property '__container__' of undefined\n    at getContainer (http://localhost:7357/assets/embercom.js:55128:23)\n    at containerLookup (http://localhost:7357/assets/embercom.js:55132:12)\n    at tutorialIsActive (http://localhost:7357/assets/embercom.js:55148:12)\n    at Class.save (http://localhost:7357/assets/embercom.js:72051:84)\n    at Class.superWrapper [as save] (http://localhost:7357/assets/vendor.js:37718:22)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:80491:13)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1270,10 +1366,11 @@
       "Team Engage 1 | Integration: Component - Message In-App Sidebar | Integration | Component | messages/editor/message-in-app-sidebar: Selecting reactions sets a default reaction set of four reactions": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "28",
           "testName": "Team Engage 1 | Integration: Component - Message In-App Sidebar | Integration | Component | messages/editor/message-in-app-sidebar: Selecting reactions sets a default reaction set of four reactions",
+          "command": "ember exam --split=60 --partition=28 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:49913:12)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1281,10 +1378,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "28",
           "testName": "Team Engage 1 | Integration: Component - Message In-App Sidebar | Integration | Component | messages/editor/message-in-app-sidebar: Selecting reactions sets a default reaction set of four reactions",
+          "command": "ember exam --split=60 --partition=28 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:49913:12)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1294,10 +1392,11 @@
       "Team Engage 3 | Integration: Component - Message View and Edit Component | Integration | Component | messages/message-view-and-edit-component: clicking stop on a live manual message results in the relevant task action being performed": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "33",
           "testName": "Team Engage 3 | Integration: Component - Message View and Edit Component | Integration | Component | messages/message-view-and-edit-component: clicking stop on a live manual message results in the relevant task action being performed",
+          "command": "ember exam --split=60 --partition=33 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Died on test #1     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at test (http://localhost:7357/assets/tests.js:34777:29)     at Module.callback (http://localhost:7357/assets/tests.js:50607:61)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7): Cannot set read-only property \"json_blocks\" on object: <embercom@model:message-variation::ember2301:1>",
             "$t": "Error: Cannot set read-only property \"json_blocks\" on object: <embercom@model:message-variation::ember2301:1>\n    at new Error (native)\n    at Error.EmberError (http://localhost:7357/assets/vendor.js:31129:21)\n    at Descriptor.computedPropertyThrowReadOnlyError [as _throwReadOnlyError] (http://localhost:7357/assets/vendor.js:29794:11)\n    at Descriptor.computedPropertySetEntry [as set] (http://localhost:7357/assets/vendor.js:29779:12)\n    at Object.set (http://localhost:7357/assets/vendor.js:35527:12)\n    at Object.setValue (http://localhost:7357/assets/vendor.js:125499:33)\n    at Object.setValue (http://localhost:7357/assets/vendor.js:37376:14)\n    at Dependency.setValue (http://localhost:7357/assets/vendor.js:36466:38)\n    at Object.setValue (http://localhost:7357/assets/vendor.js:36585:22)\n    at Object.update (http://localhost:7357/assets/vendor.js:24991:18)"
@@ -1307,10 +1406,11 @@
       "Team Engage 3 | Integration: Component - Message View and Edit Component | Integration | Component | messages/message-view-and-edit-component: clicking duplicate on a message results in the relevant task action being performed": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "33",
           "testName": "Team Engage 3 | Integration: Component - Message View and Edit Component | Integration | Component | messages/message-view-and-edit-component: clicking duplicate on a message results in the relevant task action being performed",
+          "command": "ember exam --split=60 --partition=33 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Expected 1 assertions, but 0 were run",
             "$t": "at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)\n    at test (http://localhost:7357/assets/test-support.js:6921:39)\n    at test (http://localhost:7357/assets/tests.js:34777:29)\n    at Module.callback (http://localhost:7357/assets/tests.js:50669:61)\n    at Module.exports (http://localhost:7357/assets/vendor.js:132:32)\n    at requireModule (http://localhost:7357/assets/vendor.js:32:18)\n    at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)"
@@ -1318,10 +1418,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "33",
           "testName": "Team Engage 3 | Integration: Component - Message View and Edit Component | Integration | Component | messages/message-view-and-edit-component: clicking duplicate on a message results in the relevant task action being performed",
+          "command": "ember exam --split=60 --partition=33 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Expected 1 assertions, but 0 were run",
             "$t": "at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)\n    at test (http://localhost:7357/assets/test-support.js:6921:39)\n    at test (http://localhost:7357/assets/tests.js:34777:29)\n    at Module.callback (http://localhost:7357/assets/tests.js:50669:61)\n    at Module.exports (http://localhost:7357/assets/vendor.js:132:32)\n    at requireModule (http://localhost:7357/assets/vendor.js:32:18)\n    at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)"
@@ -1331,10 +1432,11 @@
       "Team Engage 3 | Integration: Component - Message View and Edit Component | Integration | Component | messages/message-view-and-edit-component: clicking delete on a message results in the relevant task action being performed": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "33",
           "testName": "Team Engage 3 | Integration: Component - Message View and Edit Component | Integration | Component | messages/message-view-and-edit-component: clicking delete on a message results in the relevant task action being performed",
+          "command": "ember exam --split=60 --partition=33 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Expected 1 assertions, but 0 were run",
             "$t": "at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)\n    at test (http://localhost:7357/assets/test-support.js:6921:39)\n    at test (http://localhost:7357/assets/tests.js:34777:29)\n    at Module.callback (http://localhost:7357/assets/tests.js:50638:61)\n    at Module.exports (http://localhost:7357/assets/vendor.js:132:32)\n    at requireModule (http://localhost:7357/assets/vendor.js:32:18)\n    at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)"
@@ -1342,10 +1444,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "33",
           "testName": "Team Engage 3 | Integration: Component - Message View and Edit Component | Integration | Component | messages/message-view-and-edit-component: clicking delete on a message results in the relevant task action being performed",
+          "command": "ember exam --split=60 --partition=33 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Expected 1 assertions, but 0 were run",
             "$t": "at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)\n    at test (http://localhost:7357/assets/test-support.js:6921:39)\n    at test (http://localhost:7357/assets/tests.js:34777:29)\n    at Module.callback (http://localhost:7357/assets/tests.js:50638:61)\n    at Module.exports (http://localhost:7357/assets/vendor.js:132:32)\n    at requireModule (http://localhost:7357/assets/vendor.js:32:18)\n    at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)"
@@ -1355,10 +1458,11 @@
       "Team Engage 1 | Integration: Component - Message Editor Sample Recipients Component | Integration | Component | message-editor/audience/sample-recipients: renders the component with no sample recipients": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "42",
           "testName": "Team Engage 1 | Integration: Component - Message Editor Sample Recipients Component | Integration | Component | message-editor/audience/sample-recipients: renders the component with no sample recipients",
+          "command": "ember exam --split=60 --partition=42 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Died on test #1     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at test (http://localhost:7357/assets/tests.js:34777:29)     at Module.callback (http://localhost:7357/assets/tests.js:45229:61)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7): variation.store.createFragment is not a function",
             "$t": "TypeError: variation.store.createFragment is not a function\n    at http://localhost:7357/assets/tests.js:34738:47\n    at Array.forEach (native)\n    at http://localhost:7357/assets/tests.js:34737:19\n    at Object.run (http://localhost:7357/assets/vendor.js:15235:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at exports.default (http://localhost:7357/assets/tests.js:34735:10)\n    at http://localhost:7357/assets/tests.js:17033:67\n    at Class.forEach (http://localhost:7357/assets/vendor.js:48405:18)\n    at ModelDefinition.afterMake (http://localhost:7357/assets/tests.js:17032:33)\n    at ModelDefinition.applyAfterMake (http://localhost:7357/assets/vendor.js:150295:16)"
@@ -1368,10 +1472,11 @@
       "Team Engage 1 | Unit: Component - Message Schedule Form Component: updating the scheduled date with an invalid date errors sends notifyError for auto messages": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "14",
           "testName": "Team Engage 1 | Unit: Component - Message Schedule Form Component: updating the scheduled date with an invalid date errors sends notifyError for auto messages",
+          "command": "ember exam --split=60 --partition=14 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Died on test #1     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at Module.callback (http://localhost:7357/assets/tests.js:65484:24)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7)     at http://localhost:7357/assets/test-support.js:6519:22: Property set failed: object in path \"stepGroupController\" could not be found or was destroyed.",
             "$t": "Error: Property set failed: object in path \"stepGroupController\" could not be found or was destroyed.\n    at new Error (native)\n    at Error.EmberError (http://localhost:7357/assets/vendor.js:31129:21)\n    at setPath (http://localhost:7357/assets/vendor.js:35595:15)\n    at Object.set (http://localhost:7357/assets/vendor.js:35521:14)\n    at Class.set (http://localhost:7357/assets/vendor.js:50026:38)\n    at HTMLBodyElement.<anonymous> (http://localhost:7357/assets/embercom.js:39919:25)\n    at HTMLBodyElement.dispatch (http://localhost:7357/assets/vendor.js:9457:27)\n    at HTMLBodyElement.elemData.handle (http://localhost:7357/assets/vendor.js:9269:28)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:12516:12)\n    at HTMLSpanElement.<anonymous> (http://localhost:7357/assets/vendor.js:12600:17)\n    at Function.each (http://localhost:7357/assets/vendor.js:5085:19)\n    at jQuery.each (http://localhost:7357/assets/vendor.js:4862:17)\n    at jQuery.trigger (http://localhost:7357/assets/vendor.js:12599:15)\n    at jQuery.fn.(anonymous function) [as click] (http://localhost:7357/assets/vendor.js:12621:9)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:65487:45)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:36375:10)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1381,10 +1486,11 @@
       "Team Engage 1 | Unit: Component - Campaigns - Campaign Spacing Editor: Changing the spacing value works": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "16",
           "testName": "Team Engage 1 | Unit: Component - Campaigns - Campaign Spacing Editor: Changing the spacing value works",
+          "command": "ember exam --split=60 --partition=16 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "It should call save immediately",
             "$t": "at http://localhost:7357/assets/tests.js:61817:14\n    at Object.run (http://localhost:7357/assets/vendor.js:15224:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:61813:15)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:36375:10)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1394,10 +1500,11 @@
       "Team Engage 1 | Acceptance | messages/analyze: searching on Analyze": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "30",
           "testName": "Team Engage 1 | Acceptance | messages/analyze: searching on Analyze",
+          "command": "ember exam --split=60 --partition=30 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Error: Assertion Failed: Unable to add 'ember-application' class to rootElement. Make sure you set rootElement to the body or an element in the body.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at http://localhost:7357/assets/vendor.js:15683:18"
@@ -1407,10 +1514,11 @@
       "Team Engage 3 | Integration: Component - Message View and Edit Component | Integration | Component | messages/message-view-and-edit-component: We render the correct email from address when it is custom": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "33",
           "testName": "Team Engage 3 | Integration: Component - Message View and Edit Component | Integration | Component | messages/message-view-and-edit-component: We render the correct email from address when it is custom",
+          "command": "ember exam --split=60 --partition=33 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Died on test #1     at testWrapper (http://localhost:7357/assets/test-support.js:6907:11)     at test (http://localhost:7357/assets/test-support.js:6921:39)     at test (http://localhost:7357/assets/tests.js:34777:29)     at Module.callback (http://localhost:7357/assets/tests.js:50822:61)     at Module.exports (http://localhost:7357/assets/vendor.js:132:32)     at requireModule (http://localhost:7357/assets/vendor.js:32:18)     at Object.TestLoader.require (http://localhost:7357/assets/test-support.js:6666:7): Cannot set read-only property \"json_blocks\" on object: <embercom@model:message-variation::ember2545:1>",
             "$t": "Error: Cannot set read-only property \"json_blocks\" on object: <embercom@model:message-variation::ember2545:1>\n    at new Error (native)\n    at Error.EmberError (http://localhost:7357/assets/vendor.js:31129:21)\n    at Descriptor.computedPropertyThrowReadOnlyError [as _throwReadOnlyError] (http://localhost:7357/assets/vendor.js:29794:11)\n    at Descriptor.computedPropertySetEntry [as set] (http://localhost:7357/assets/vendor.js:29779:12)\n    at Object.set (http://localhost:7357/assets/vendor.js:35527:12)\n    at Object.setValue (http://localhost:7357/assets/vendor.js:125499:33)\n    at Object.setValue (http://localhost:7357/assets/vendor.js:37376:14)\n    at Dependency.setValue (http://localhost:7357/assets/vendor.js:36466:38)\n    at Object.setValue (http://localhost:7357/assets/vendor.js:36585:22)\n    at Object.update (http://localhost:7357/assets/vendor.js:24991:18)"
@@ -1420,10 +1528,11 @@
       "Team Engage 1 | Integration: Component - Boolean Editor | Integration | Component | predicates/value-editors/boolean-editor: hovering over delete button shows and hides highlight": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "42",
           "testName": "Team Engage 1 | Integration: Component - Boolean Editor | Integration | Component | predicates/value-editors/boolean-editor: hovering over delete button shows and hides highlight",
+          "command": "ember exam --split=60 --partition=42 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Promise rejected before hovering over delete button shows and hides highlight: store.createFragment is not a function",
             "$t": "TypeError: store.createFragment is not a function\n    at createFragment (http://localhost:7357/assets/vendor.js:200389:26)\n    at setupFragment (http://localhost:7357/assets/vendor.js:199563:67)\n    at Class.get (http://localhost:7357/assets/vendor.js:199725:24)\n    at Descriptor.ComputedPropertyPrototype.get (http://localhost:7357/assets/vendor.js:29761:28)\n    at get (http://localhost:7357/assets/vendor.js:35372:19)\n    at _getPath (http://localhost:7357/assets/vendor.js:35449:14)\n    at Object.get (http://localhost:7357/assets/vendor.js:35368:14)\n    at Class.get (http://localhost:7357/assets/vendor.js:49965:38)\n    at Object.beforeEach (http://localhost:7357/assets/tests.js:51823:38)\n    at Object.callbacks.beforeEach (http://localhost:7357/assets/tests.js:52524:26)"
@@ -1433,10 +1542,11 @@
       "Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: renders the component": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "engage",
           "partition": "46",
           "testName": "Team Engage 1 | Integration: Component - Message Editor Push Chrome | Integration | Component | message-editor/content/push/chrome: renders the component",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "It renders iOS chrome by default",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:45832:12)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)"
@@ -1457,10 +1567,11 @@
       "Team Growth 2 | Acceptance: CDA Tool Test: Samples can be added and viewed by clicking \"view\" button": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "growth",
           "partition": "7",
           "testName": "Team Growth 2 | Acceptance: CDA Tool Test: Samples can be added and viewed by clicking \"view\" button",
+          "command": "ember exam --split=60 --partition=7 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Sample CDA name correctly added",
             "$t": "at http://localhost:7357/assets/tests.js:634:14\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1468,10 +1579,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "growth",
           "partition": "7",
           "testName": "Team Growth 2 | Acceptance: CDA Tool Test: Samples can be added and viewed by clicking \"view\" button",
+          "command": "ember exam --split=60 --partition=7 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Sample CDA name correctly added",
             "$t": "at http://localhost:7357/assets/tests.js:634:14\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1481,10 +1593,11 @@
       "Team Growth 2 | Integration: Tutorial: AcquireVisitorQuestion tutorial": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "growth",
           "partition": "56",
           "testName": "Team Growth 2 | Integration: Tutorial: AcquireVisitorQuestion tutorial",
+          "command": "ember exam --split=60 --partition=56 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1493,10 +1606,11 @@
       "Team Growth 2 | Integration: Tutorial: ResolveCustomerQuestion tutorial": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "growth",
           "partition": "56",
           "testName": "Team Growth 2 | Integration: Tutorial: ResolveCustomerQuestion tutorial",
+          "command": "ember exam --split=60 --partition=56 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1505,10 +1619,11 @@
       "Team Growth 2 | Integration: Tutorial: EngageSmartCampaign tutorial": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "growth",
           "partition": "56",
           "testName": "Team Growth 2 | Integration: Tutorial: EngageSmartCampaign tutorial",
+          "command": "ember exam --split=60 --partition=56 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1517,10 +1632,11 @@
       "Team Growth 2 | Integration: Tutorial: EngageAutoMessage tutorial": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "growth",
           "partition": "56",
           "testName": "Team Growth 2 | Integration: Tutorial: EngageAutoMessage tutorial",
+          "command": "ember exam --split=60 --partition=56 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1540,10 +1656,11 @@
       "Team Acquire | Unit: Component - Team - Pending Invite Component: clicking on revoke invitation button and confirming the modal should call deleteRecord on admin model": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "acquire",
           "partition": "56",
           "testName": "Team Acquire | Unit: Component - Team - Pending Invite Component: clicking on revoke invitation button and confirming the modal should call deleteRecord on admin model",
+          "command": "ember exam --split=60 --partition=56 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:68718:12)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1551,10 +1668,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "acquire",
           "partition": "56",
           "testName": "Team Acquire | Unit: Component - Team - Pending Invite Component: clicking on revoke invitation button and confirming the modal should call deleteRecord on admin model",
+          "command": "ember exam --split=60 --partition=56 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:68718:12)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1564,10 +1682,11 @@
       "Team Acquire | Unit: Component - Team - Pending Invite Component: clicking on resend invitation button should call resend on admin model": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "acquire",
           "partition": "56",
           "testName": "Team Acquire | Unit: Component - Team - Pending Invite Component: clicking on resend invitation button should call resend on admin model",
+          "command": "ember exam --split=60 --partition=56 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:68709:12)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1575,10 +1694,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "acquire",
           "partition": "56",
           "testName": "Team Acquire | Unit: Component - Team - Pending Invite Component: clicking on resend invitation button should call resend on admin model",
+          "command": "ember exam --split=60 --partition=56 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:68709:12)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1588,10 +1708,11 @@
       "Team Acquire | Acceptance | Teammate Settings: Changing permissions for an invite": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "acquire",
           "partition": "38",
           "testName": "Team Acquire | Acceptance | Teammate Settings: Changing permissions for an invite",
+          "command": "ember exam --split=60 --partition=38 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Error: Element .test__settings__teammate__pending-invite__admin-email:contains(cormac+jx@intercom.io) not found.",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1601,10 +1722,11 @@
       "Team Acquire | Integration: Component - Team - Member Component: should display avatars of all teams that the admin belongs to": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "acquire",
           "partition": "42",
           "testName": "Team Acquire | Integration: Component - Team - Member Component: should display avatars of all teams that the admin belongs to",
+          "command": "ember exam --split=60 --partition=42 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:59099:12)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)"
@@ -1612,10 +1734,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "acquire",
           "partition": "42",
           "testName": "Team Acquire | Integration: Component - Team - Member Component: should display avatars of all teams that the admin belongs to",
+          "command": "ember exam --split=60 --partition=42 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at Object.<anonymous> (http://localhost:7357/assets/tests.js:59099:12)\n    at Object.wrapper (http://localhost:7357/assets/test-support.js:6878:29)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)"
@@ -1625,10 +1748,11 @@
       "Team Acquire | Acceptance | Teammate Settings: Inviting a member to the app": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "acquire",
           "partition": "38",
           "testName": "Team Acquire | Acceptance | Teammate Settings: Inviting a member to the app",
+          "command": "ember exam --split=60 --partition=38 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:33888:16\n    at Class.andThen (http://localhost:7357/assets/vendor.js:54895:33)\n    at http://localhost:7357/assets/vendor.js:55598:19\n    at isolate (http://localhost:7357/assets/vendor.js:55799:13)\n    at http://localhost:7357/assets/vendor.js:55783:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at Object.invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at http://localhost:7357/assets/vendor.js:70481:25\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run [as default] (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/vendor.js:54930:36\n    at r (https://gtm.intercomassets.com/2b567471678d53c05e74e7de0afe217e162d298a-gtm.js:1:23001)"
@@ -1657,10 +1781,11 @@
       "Team Observe | Integration: Admin Profile: You can edit the admin name": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "56",
           "testName": "Team Observe | Integration: Admin Profile: You can edit the admin name",
+          "command": "ember exam --split=60 --partition=56 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1669,10 +1794,11 @@
       "Team Observe | Integration: Admin Profile: Admin Profile loads conversations route": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "56",
           "testName": "Team Observe | Integration: Admin Profile: Admin Profile loads conversations route",
+          "command": "ember exam --split=60 --partition=56 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1681,10 +1807,11 @@
       "Team Observe | Integration: User List - List/Map View Selector: it should allow you to change to the map": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "56",
           "testName": "Team Observe | Integration: User List - List/Map View Selector: it should allow you to change to the map",
+          "command": "ember exam --split=60 --partition=56 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1693,10 +1820,11 @@
       "Team Observe | Integration: User List - List/Map View Selector: it should change highlighting as appropriate": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "56",
           "testName": "Team Observe | Integration: User List - List/Map View Selector: it should change highlighting as appropriate",
+          "command": "ember exam --split=60 --partition=56 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1705,10 +1833,11 @@
       "model:selection-state - company selection state to user selection state: Converting company selection to user selection with a select all and deselected ids": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "26",
           "testName": "model:selection-state - company selection state to user selection state: Converting company selection to user selection with a select all and deselected ids",
+          "command": "ember exam --split=60 --partition=26 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:81443:16\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invoke (http://localhost:7357/assets/vendor.js:14890:16)"
@@ -1716,10 +1845,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "26",
           "testName": "model:selection-state - company selection state to user selection state: Converting company selection to user selection with a select all and deselected ids",
+          "command": "ember exam --split=60 --partition=26 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:81443:16\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:81441:8)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1729,10 +1859,11 @@
       "model:selection-state - company selection state to user selection state: Converting company selection ids to user selection predicates": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "26",
           "testName": "model:selection-state - company selection state to user selection state: Converting company selection ids to user selection predicates",
+          "command": "ember exam --split=60 --partition=26 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:81349:16\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:81347:8)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at next (http://localhost:7357/assets/test-support.js:2489:3)"
@@ -1740,10 +1871,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "26",
           "testName": "model:selection-state - company selection state to user selection state: Converting company selection ids to user selection predicates",
+          "command": "ember exam --split=60 --partition=26 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:81349:16\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:81347:8)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1753,10 +1885,11 @@
       "model:selection-state - company selection state to user selection state: Converting company selection to user selection with a search term and deselected ids": [
         {
           "seed": "c73ee973c3e791e1c6de17b477f58885b3a6028f45336",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "26",
           "testName": "model:selection-state - company selection state to user selection state: Converting company selection to user selection with a search term and deselected ids",
+          "command": "ember exam --split=60 --partition=26 --random=c73ee973c3e791e1c6de17b477f58885b3a6028f45336 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:81397:16\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:81395:8)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1764,10 +1897,11 @@
         },
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "26",
           "testName": "model:selection-state - company selection state to user selection state: Converting company selection to user selection with a search term and deselected ids",
+          "command": "ember exam --split=60 --partition=26 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "undefined",
             "$t": "at http://localhost:7357/assets/tests.js:81397:16\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at Object.<anonymous> (http://localhost:7357/assets/tests.js:81395:8)\n    at runTest (http://localhost:7357/assets/test-support.js:2716:28)\n    at Object.run (http://localhost:7357/assets/test-support.js:2701:4)\n    at http://localhost:7357/assets/test-support.js:2843:11\n    at process (http://localhost:7357/assets/test-support.js:2502:24)\n    at begin (http://localhost:7357/assets/test-support.js:2484:2)\n    at http://localhost:7357/assets/test-support.js:2544:4"
@@ -1777,10 +1911,11 @@
       "Team Observe | Integration: Admin Profile: Admin Profile loads activity stream data": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "56",
           "testName": "Team Observe | Integration: Admin Profile: Admin Profile loads activity stream data",
+          "command": "ember exam --split=60 --partition=56 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1789,10 +1924,11 @@
       "Team Observe | Integration: User List - Bulk Actions - messaging: The messaging modal opens on click": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "46",
           "testName": "Team Observe | Integration: User List - Bulk Actions - messaging: The messaging modal opens on click",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1801,10 +1937,11 @@
       "Team Observe | Integration: User List - Bulk Actions - messaging: The messaging modal closes when dismissed": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "46",
           "testName": "Team Observe | Integration: User List - Bulk Actions - messaging: The messaging modal closes when dismissed",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1813,10 +1950,11 @@
       "Team Observe | Integration: User List - Bulk Actions - messaging: Sending a message from search": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "46",
           "testName": "Team Observe | Integration: User List - Bulk Actions - messaging: Sending a message from search",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1825,10 +1963,11 @@
       "Team Observe | Integration: User List - Bulk Actions - messaging: Shows reduced options when no results returned": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "46",
           "testName": "Team Observe | Integration: User List - Bulk Actions - messaging: Shows reduced options when no results returned",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1837,10 +1976,11 @@
       "Team Observe | Integration: User List - Bulk Actions - messaging: Sending a message": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "observe",
           "partition": "46",
           "testName": "Team Observe | Integration: User List - Bulk Actions - messaging: Sending a message",
+          "command": "ember exam --split=60 --partition=46 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "Test timed out"
           }
@@ -1856,10 +1996,11 @@
       "TemplateLint - embercom/templates/components/tooltips/standard-tooltip.hbs: should pass TemplateLint": [
         {
           "seed": "0ef2825e71434e1a0830d4361dc1348b6db22a9445342",
-          "totalPartitions": "48",
+          "totalPartitions": "60",
           "team": "",
           "partition": "1",
           "testName": "TemplateLint - embercom/templates/components/tooltips/standard-tooltip.hbs: should pass TemplateLint",
+          "command": "ember exam --split=60 --partition=1 --random=0ef2825e71434e1a0830d4361dc1348b6db22a9445342 --server",
           "error": {
             "message": "544fbc45c1474223cc00000c",
             "$t": "at http://localhost:7357/assets/test-support.js:4067:12\n    at Class.exception (http://localhost:7357/assets/vendor.js:54715:7)\n    at onerrorDefault (http://localhost:7357/assets/vendor.js:46665:24)\n    at Object.trigger (http://localhost:7357/assets/vendor.js:69010:11)\n    at http://localhost:7357/assets/vendor.js:70259:40\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object.run (http://localhost:7357/assets/vendor.js:35751:27)\n    at http://localhost:7357/assets/embercom.js:63407:14\n    at tryCatch (http://localhost:7357/assets/vendor.js:68340:14)\n    at invokeCallback (http://localhost:7357/assets/vendor.js:68355:15)\n    at publish (http://localhost:7357/assets/vendor.js:68323:9)\n    at http://localhost:7357/assets/vendor.js:46631:7\n    at invokeWithOnError (http://localhost:7357/assets/vendor.js:14899:18)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14954:11)\n    at Object.flush (http://localhost:7357/assets/vendor.js:14762:17)\n    at Object.end (http://localhost:7357/assets/vendor.js:15117:25)\n    at Object.run (http://localhost:7357/assets/vendor.js:15230:18)\n    at Object._runExpiredTimers (http://localhost:7357/assets/vendor.js:15626:12)\n    at Backburner._boundRunExpiredTimers (http://localhost:7357/assets/vendor.js:15086:13)\n    at wrapped (http://localhost:7357/assets/vendor.js:71659:29)"

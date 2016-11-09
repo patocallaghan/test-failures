@@ -28,6 +28,8 @@ module.exports = (seed, totalPartitions, tests) => {
     team: getTeam(test.name),
     partition: getPartition(test.name),
     testName: getTestTitle(test.name),
+    command: `ember exam --split=${totalPartitions} --partition=${getPartition(test.name)} --random=${seed} --server`,
+    gitCommit: seed,
     error: test.error
   }));
 }
