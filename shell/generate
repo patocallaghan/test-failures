@@ -1,0 +1,4 @@
+#!/bin/bash
+
+node shell/get-tests.js $1
+./node_modules/.bin/babel src -d lib && node index.js "seeds" "output.json" 65

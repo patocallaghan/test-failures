@@ -2,3 +2,6 @@ node_modules
 .DS_Store
 .vscode
 .failed-tests.txt
+seeds/
+seeds-old/
+seeds-older/
